@@ -22,13 +22,9 @@ Un pack de kits incluant :
   
 - Un profil de clerc : le Croisé de Garagos.
   
-- Un profil de clerc (nain) : le Chantre de la pierre.
-  
 - Un profil de voleur : l'Arpenteur d'ombres.
   
 - Un profil de voleur (gnome) : l'Ombremage.
-  
-- Un profil d'ensorceleur : le Sorcelier. (Accessible par script pour les éditions non-EE)
   
 - Un profil de mage : le Savant Artilleur. (remplace l'invocateur)
   
@@ -52,13 +48,9 @@ A pack of kits including :
   
 - A cleric kit: the Garagos crusader.
   
-- A cleric (dwarf) kit: the Chanter of the Stone.
-  
 - A thief kit: the Shadow Walker.
   
 - A thief (gnome) kit: the Shadowmage.
-  
-- A wizard kit: the Sorcerer. (accessible by script for non-EE editions)
   
 - A mage (replacing the conjurer) kit: the Savant Artilleryman.
   
