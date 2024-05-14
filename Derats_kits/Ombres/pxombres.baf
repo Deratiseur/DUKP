@@ -4,7 +4,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv1",Myself)
 END
 IF
@@ -13,7 +13,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv2",Myself)
 END
 IF
@@ -22,7 +22,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv3",Myself)
 END
 IF
@@ -31,7 +31,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv4",Myself)
 END
 IF
@@ -40,7 +40,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv5",Myself)
 END
 IF
@@ -49,7 +49,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv6",Myself)
 END
 IF
@@ -58,7 +58,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv7",Myself)
 END
 IF
@@ -67,7 +67,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv8",Myself)
 END
 IF
@@ -76,7 +76,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv9",Myself)
 END
 IF
@@ -85,7 +85,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv10",Myself)
 END
 IF
@@ -94,7 +94,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv11",Myself)
 END
 IF
@@ -103,7 +103,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv12",Myself)
 END
 IF
@@ -112,7 +112,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv13",Myself)
 END
 IF
@@ -121,7 +121,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv14",Myself)
 END
 IF
@@ -130,7 +130,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv15",Myself)
 END
 IF
@@ -139,7 +139,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv16",Myself)
 END
 IF
@@ -148,7 +148,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv17",Myself)
 END
 IF
@@ -157,7 +157,7 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv18",Myself)
 END
 IF
@@ -166,6 +166,6 @@ IF
 	ActionListEmpty()
 THEN
 	RESPONSE #100
-		Wait(6)
+		Wait(5)
 		ApplySpellRES("pxoinv19",Myself)
 END
