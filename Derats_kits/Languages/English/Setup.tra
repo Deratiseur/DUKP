@@ -2,16 +2,17 @@
 @10 = ~Ranger Kit : Hunter of Vermin~
 @20 = ~Cleric Kit : Preacher of Flames~
 @30 = ~Fighter (half-orc) Kit : Hatred Carrier~
-@40 = ~Thief (gnome) Kit : Shadowmage~
+@40 = ~Profil de voleur (gnome) : Ombremage (not translated)~
 @50 = ~Druid Kit : Master of the Swarm~
 @60 = ~Multi-Class Cleric/Mage (human) Kit : Theurgical Explorer~
 @70 = ~Dual-Class Fighter -> Mage Kit : Warlord~
 @80 = ~Multi-Class Fighter/Mage (elf) Kit : Bladesinger~
 @90 = ~Mage Kit (it replaces the summoner) : Savant Artilleryman~
+@100 = ~~
 @110 = ~Wizard Kit : Sorcerer~
 @120 = ~Thief Kit : Shadow Walker~
-@130 = ~Cleric Kit (dwarf) : Chanter of the Stone~
-@140 = ~Cleric Kit : Garagos crusader~
+@130 = ~~
+@140 = ~Cleric Kit : Goragos Crusaders~
 @150 = ~Multi-Class Thief/Necromancer : Anatomist~
 
 
@@ -78,7 +79,7 @@ Life Points: +40
 Special: It grants an extra attack per round
 
 Weight: 5
-Requires: 15 Strength and Dexterity
+Requires: 17 Strength and Dexterity
 Only Usable By:
  Sorcerer~
 
