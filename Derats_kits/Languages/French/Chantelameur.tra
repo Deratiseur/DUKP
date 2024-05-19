@@ -8,23 +8,16 @@ Il sait aussi attirer le flux de la magie environnante et la convertir à son ava
 Défenseur inébranlable de la foi elfique, non seulement le chantelameur doit en toute circonstance se consacrer à faire avancer la cause elfique, mais il doit de plus porter assistance à tout elfe dans le besoin. A moins qu'il ne soit prouvé que cet elfe soit un ennemi de la foi elfique, le chantelameur doit tout faire pour le sauver, y compris si cela nécessite de donner sa vie.
 
 Avantages :
-- Utilisation instinctive des meilleurs placements : +1 au facteur de vitesse, +1 tous les 4 niveaux ensuite.
-- Maîtrise supérieure de son arme : il peut progresser librement dans les compétences d'armes longues à une main, et lorsqu'il en devient grand maître (5 étoiles), il gagne un bonus exceptionnel de +1 au toucher et aux dégâts.
-- Utilisation défensive des flux de magie : bonus à la CA égal à la moitié de son niveau +1. Ce bonus ne s'applique pas contre les missiles.
-- Formation au combat : il peut porter une armure sans que cela ne l'empêche de lancer des sorts.
+- Il peut atteindre la grande maîtrise avec les lames longues à une main.
+- Il peut porter une armure sans que cela ne l'empêche de lancer des sorts.
+- +1 au facteur de vitesse, +1 tous les 4 niveaux ensuite.
+- Il gagne un bonus à la CA égal à la moitié de son niveau de guerrier  +1. Ce bonus ne s'applique pas contre les missiles.
+- Au niveau 10 il gagne +1 au toucher et aux dégâts.
 
 Désavantages : 
-- Apprentissage focalisé sur un type d'arme : ce ne peut être que les lames longues à une main.
-- Apprentissage focalisé sur le combat au corps à corps : il ne se sert pas d'armes à projectiles.
-- Apprentissage focalisé sur le combat à une main : s'il tient un bouclier ou une deuxième arme, il perd son bonus de maîtrise exceptionnelle et ne peut pas lancer de sorts. (version RP seulement)
-- Magie prioritairement défensive : s'il tient une arme, il souffre d'une pénalité de -2 au temps d'incantation. Cette pénalité disparaît s'il a les mains libres. (version RP seulement)
-- Style de combat requérant de la souplesse : il ne porte jamais d'armure plus lourde que celle de cuir clouté.
+- Il n'utilise pas d'autres armes que les lames longues à une main.
+- Il ne se sert pas d'armes à projectiles.
+- Il ne porte jamais d'armure plus lourde que celle de cuir clouté.
+- Il n'apprend pas les styles de combat à deux armes et à deux mains.
 
 Spécial : après la création du personnage, le chantelameur devient automatiquement un multiclassé guerrier/mage.~
-
-@83 = ~J'ai besoin de cette main pour manipuler les flux de magie.~
-@84 = ~Incanter avec une seule main prend plus de temps.~
-@85 = ~Plus de temps pour les armes. Place à la magie !~
-@86 = ~Plus le temps pour la magie. Au combat !~
-@87 = ~Force et magie. La vraie puissance.~
-@89 = ~Standardiser le Chantelameur (plus de malus RP au temps d'incantation et bonus de maitrise +1+1 automatique au niveau 9)~
