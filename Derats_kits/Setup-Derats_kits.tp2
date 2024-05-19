@@ -1,7 +1,7 @@
 BACKUP ~Derats_kits/backup~
 AUTHOR ~Deratiseur[at]gmail.com
 		Forum : http://www.baldursgateworld.fr/lacouronne/derats-unused-kits-pack/~
-VERSION ~v18~
+VERSION ~v18.1~
 
 ALWAYS
 
@@ -65,12 +65,10 @@ ALWAYS
 		"Warlord - lumens"
 		"Ombres"
 		"Ombres - hlas"
-		"Sorcelier"
 		"Projectile"
 		"Theurge"
 		"Ombremage"
 		"Anatomiste"
-		"Pierre"
 		"Garagos"
 		END
 		ACTION_DEFINE_ARRAY px_noconvert BEGIN END // Fichiers qu'il ne faut pas convertir : aucun ici
@@ -119,20 +117,17 @@ LANGUAGE ~Francais~
 	~Derats_kits/Languages/French/Warlord - lumens.tra~
 	~Derats_kits/Languages/French/Ombres.tra~
 	~Derats_kits/Languages/French/Ombres - hlas.tra~
-	~Derats_kits/Languages/French/Sorcelier.tra~
 	~Derats_kits/Languages/French/Projectile.tra~
 	~Derats_kits/Languages/French/Theurge.tra~
 	~Derats_kits/Languages/French/Ombremage.tra~
 	~Derats_kits/Languages/French/Anatomiste.tra~
-	~Derats_kits/Languages/French/Pierre.tra~
 	~Derats_kits/Languages/French/Garagos.tra~
 
-LANGUAGE ~English (partial, by Nightfarer)~
+LANGUAGE ~English (8 olds by Nightfarer, 3 news by deratiseur)~
 	~English~
 	~Derats_kits/Languages/English/Setup.tra~
 	~Derats_kits/Languages/English/Vermine.tra~
 	~Derats_kits/Languages/English/Haine.tra~
-	~Derats_kits/Languages/English/Tempete.tra~
 	~Derats_kits/Languages/English/Flammes.tra~
 	~Derats_kits/Languages/English/Flammes - lvl 1.tra~
 	~Derats_kits/Languages/English/Flammes - lvl 2.tra~
@@ -162,12 +157,10 @@ LANGUAGE ~English (partial, by Nightfarer)~
 	~Derats_kits/Languages/English/Warlord - lumens.tra~
 	~Derats_kits/Languages/English/Ombres.tra~
 	~Derats_kits/Languages/English/Ombres - hlas.tra~
-	~Derats_kits/Languages/English/Sorcelier.tra~
 	~Derats_kits/Languages/English/Projectile.tra~
 	~Derats_kits/Languages/English/Theurge.tra~
 	~Derats_kits/Languages/English/Ombremage.tra~
 	~Derats_kits/Languages/English/Anatomiste.tra~
-	~Derats_kits/Languages/English/Pierre.tra~
 	~Derats_kits/Languages/English/Garagos.tra~
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -985,43 +978,6 @@ COMPILE ~Derats_kits/Flammes/Scripts~
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////   CHANTRE DE LA PIERRE   //////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////
-
-
-BEGIN @130
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
-
-COPY	~Derats_kits/Pierre/Copy~						~override~
-
-ACTION_IF GAME_IS ~TOB BGT BGEE BG2EE EET~ THEN BEGIN
-ADD_KIT ~pxSTONE~
-~pxSTONE                0           0           1           0           0           1           0           0~
-~pxSTONE                0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
-~pxSTONE                0       0       0       0       9       0~
-~pxSTONE                0       0       0       0       0       0~
-~pxSTONE                0       0       0       0       17      0~
-~pxSTONE                0       0       0       0       15      0~
-~pxSTONE                1       1       1       1       1       1       1       1       1~
-~pxSTONE                0       0       0       0       0       0~
-~Derats_kits/Pierre/pxPierre.2da~
-~K_C_D~
-~0x00000001    3~
-~CL0~
-~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
-SAY @1309
-SAY @131
-SAY @132
-END
-
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
-	LAF fl#add_kit_ee	STR_VAR kit_name = pxSTONE	clsrcreq = ~0 0 0 1 0 0 0~	END
-END
-
-COMPILE	~Derats_kits/Pierre/PxPierre.baf~
-
-
-/////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////   CROISÉ DE GORAGOS   ////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 
@@ -1698,311 +1654,36 @@ COMPILE ~Derats_kits/Ombres/pxombres.baf~
 
 BEGIN @90
 
-//Repris de Idwification (crée le parchemin de Projectiles de force de Mordenkainen associé à son numéro d'IDS, quel qu'il soit)
-DEFINE_PATCH_FUNCTION CREATE_PARCH STR_VAR spell = rien BEGIN
-	WRITE_ASCIIE 0x3a "%DEST_RES%"
-	WRITE_ASCII  0x41 a #1
-	WRITE_ASCIIE 0x76 "%DEST_RES%"
-	WRITE_ASCII  0x7d a #1
-	PATCH_IF (SOURCE_SIZE > 0xda) BEGIN // only for arcane scrolls that have second header for learning
-		WRITE_ASCIIE 0xae "%DEST_RES%"
-		WRITE_ASCII  0xb5 a #1
-		WRITE_ASCIIE 0xf6 "%spell%" #8
-		WRITE_ASCIIE 0x126 "%spell%" #8
-	END ELSE BEGIN // divine scroll
-		WRITE_ASCIIE 0xbe "%spell%" #8
-	END
-END
-
 COPY	~Derats_kits/Projo/Copy~						~override~
-COPY	~Derats_kits/Warlord/Bams/pxw7boec.bam~			~override~
-COPY	~Derats_kits/Warlord/Bams/pxw7bofc.bam~			~override~
-COPY	~Derats_kits/Warlord/Bams/pxw7boic.bam~			~override~
-COPY	~Derats_kits/Warlord/Bams/pxw7boac.bam~			~override~
 
-COPY_EXISTING	~pxm0pr16.2da~				~override/pxm0pr18.2da~	REPLACE_TEXTUALLY ~16~ ~18~
-COPY_EXISTING	~pxm0pr16.2da~				~override/pxm0pr22.2da~	REPLACE_TEXTUALLY ~16~ ~22~
-COPY_EXISTING	~pxm0pr16.2da~				~override/pxm0pr26.2da~	REPLACE_TEXTUALLY ~16~ ~26~
-COPY_EXISTING	~pxm0pr16.2da~				~override/pxm0pr30.2da~	REPLACE_TEXTUALLY ~16~ ~30~
+COPY	~Derats_kits/Projo/Spells/pxmprojs.spl~			~override~	SAY NAME1 @93	SAY UNIDENTIFIED_DESC @94
+COPY	~Derats_kits/Projo/Spells/pxmprojc.spl~			~override~	SAY NAME1 @93
+COPY	~Derats_kits/Projo/Spells/pxm4proj.spl~			~override~	SAY NAME1 @95	SAY UNIDENTIFIED_DESC @96
 
-COPY	~Derats_kits/Projo/Spells/pxm1proj.spl~			~override~	SAY NAME1 @93	SAY UNIDENTIFIED_DESC @94
-COPY	~Derats_kits/Projo/Spells/pxm0pro.spl~			~override~	SAY NAME1 @93
-
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0fe16.spl~	SAY NAME1 #32213
-WRITE_ASCII 0x76 ~pxw7bofc~ #8	WRITE_BYTE 0xa4 8	WRITE_BYTE 0xd4 8
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0fr16.spl~	SAY NAME1 #32214
-WRITE_ASCII 0x76 ~pxw7boic~ #8	WRITE_BYTE 0xa4 2	WRITE_BYTE 0xd4 2
-
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0el18.spl~
-				~pxm0fe16.spl~				~override/pxm0fe18.spl~
-				~pxm0fr16.spl~				~override/pxm0fr18.spl~
-				~pxm0ac16.spl~				~override/pxm0ac18.spl~
-				~pxm0fo16.spl~				~override/pxm0fo18.spl~	WRITE_SHORT 0x98 75
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0el22.spl~
-				~pxm0fe16.spl~				~override/pxm0fe22.spl~
-				~pxm0fr16.spl~				~override/pxm0fr22.spl~
-				~pxm0ac16.spl~				~override/pxm0ac22.spl~
-				~pxm0fo16.spl~				~override/pxm0fo22.spl~	WRITE_SHORT 0x98 76
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0el26.spl~
-				~pxm0fe16.spl~				~override/pxm0fe26.spl~
-				~pxm0fr16.spl~				~override/pxm0fr26.spl~
-				~pxm0ac16.spl~				~override/pxm0ac26.spl~
-				~pxm0fo16.spl~				~override/pxm0fo26.spl~	WRITE_SHORT 0x98 77
-COPY_EXISTING	~pxm0el16.spl~				~override/pxm0el30.spl~
-				~pxm0fe16.spl~				~override/pxm0fe30.spl~
-				~pxm0fr16.spl~				~override/pxm0fr30.spl~
-				~pxm0ac16.spl~				~override/pxm0ac30.spl~
-				~pxm0fo16.spl~				~override/pxm0fo30.spl~	WRITE_SHORT 0x98 78
-
-COPY_EXISTING	~pxm1elec.spl~				~override/pxm1feu.spl~	SAY NAME1 #32213
-	READ_LONG 0x64 abilities_off
-	READ_SHORT 0x68 num_abilities
-		FOR (i = 0; i < num_abilities; i += 1) BEGIN // for each ability
-		WRITE_ASCII (abilities_off + 0x28*i + 0x04) pxw7bofc // set B icon
-	END
-WRITE_BYTE 0x1e4 8	WRITE_BYTE 0x214 8	WRITE_BYTE 0x244 8	WRITE_BYTE 0x274 8	WRITE_BYTE 0x2a4 8	WRITE_BYTE 0x2d4 8	WRITE_BYTE 0x304 8	WRITE_BYTE 0x334 8	WRITE_BYTE 0x364 8	WRITE_BYTE 0x394 8	WRITE_BYTE 0x3c4 8	WRITE_BYTE 0x3f4 8	WRITE_BYTE 0x424 8	WRITE_BYTE 0x454 8
-COPY_EXISTING	~pxm1elec.spl~				~override/pxm1froi.spl~	SAY NAME1 #32214
-	READ_LONG 0x64 abilities_off
-	READ_SHORT 0x68 num_abilities
-		FOR (i = 0; i < num_abilities; i += 1) BEGIN // for each ability
-		WRITE_ASCII (abilities_off + 0x28*i + 0x04) pxw7boic // set B icon
-	END
-WRITE_BYTE 0x1e4 2	WRITE_BYTE 0x214 2	WRITE_BYTE 0x244 2	WRITE_BYTE 0x274 2	WRITE_BYTE 0x2a4 2	WRITE_BYTE 0x2d4 2	WRITE_BYTE 0x304 2	WRITE_BYTE 0x334 2	WRITE_BYTE 0x364 2	WRITE_BYTE 0x394 2	WRITE_BYTE 0x3c4 2	WRITE_BYTE 0x3f4 2	WRITE_BYTE 0x424 2	WRITE_BYTE 0x454 2
+COPY_EXISTING	~inareasm.pro~				~override/pxm4proj.pro~	WRITE_LONG 0x204 50	WRITE_LONG 0x206 50
+ADD_PROJECTILE ~override/pxm4proj.pro~
+COPY_EXISTING	~inareasm.pro~				~override/pxm4pro2.pro~	WRITE_LONG 0x204 58	WRITE_LONG 0x206 58
+ADD_PROJECTILE ~override/pxm4pro2.pro~
+COPY	~Derats_kits/Projo/Spells/pxm4proa.spl~			~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4proj END
+COPY	~Derats_kits/Projo/Spells/pxm4prob.spl~			~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4pro2 END
 
 ACTION_IF GAME_IS ~TOB BGT BG2EE~ THEN BEGIN
 	STRING_SET 3015 @909
 	STRING_SET 12786 @91
 	STRING_SET 9569 @92
-	COPY_EXISTING ~shop08.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl1y~ #1 #1 #1 ~IDENTIFIED~ #3 //Ajout du parchemin de PFM dans certains magasins
-	COPY_EXISTING ~scrolls.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl1u~ #1 #1 #1 ~IDENTIFIED~ #3
-	COPY_EXISTING ~ppstor01.sto~						~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl6g~ #1 #1 #1 ~IDENTIFIED~ #2
-	COPY_EXISTING ~25spell.sto~							~override~
-				 ~25spell2.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl1y~ #1 #1 #1 ~IDENTIFIED~ #2
-	COPY_EXISTING ~AR0705.are~							~override~
-	PATCH_IF SOURCE_SIZE > 0x28f BEGIN
-		LAUNCH_PATCH_FUNCTION ADD_AREA_ITEM	INT_VAR container_to_add_to = 6	STR_VAR item_to_add = scrlpxm	END //Ajout du parchemin de PFM dans un contenant, quelque part
-	END
-END
-
-ACTION_IF GAME_IS ~TOB BGT BGEE BG2EE EET~ THEN BEGIN
-	COPY_EXISTING	~inareasm.pro~				~override/pxm4proj.pro~	WRITE_LONG 0x204 50	WRITE_LONG 0x206 50
-	ADD_PROJECTILE ~override/pxm4proj.pro~
-	COPY_EXISTING	~inareasm.pro~				~override/pxm4pro2.pro~	WRITE_LONG 0x204 58	WRITE_LONG 0x206 58
-	ADD_PROJECTILE ~override/pxm4pro2.pro~
-	COPY	~Derats_kits/Projo/Spells/spwi467a.spl~		~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4proj END	
-	COPY	~Derats_kits/Projo/Spells/pxm4proj.spl~		~override~	SAY NAME1 @97	SAY UNIDENTIFIED_DESC @98
-	COPY	~Derats_kits/Projo/Spells/pxm4proa.spl~		~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4pro2 END	WRITE_SHORT 0x98 ~%pxm4proj%~	WRITE_SHORT 0xc0 ~%pxm4proj%~	WRITE_SHORT 0xe8 ~%pxm4proj%~
-		WRITE_SHORT 0x110 ~%pxm4proj%~	WRITE_SHORT 0x138 ~%pxm4proj%~	WRITE_SHORT 0x160 ~%pxm4proj%~
-	COPY_EXISTING	~amcall.vvc~			~override/pxm4prov.vvc~	WRITE_ASCII 0x8 ~MFMISSX~ #8
-	
-	//Ajout du sort "Projectiles de force de Mordenkainen" (PFM)au jeu
-	ADD_SPELL ~Derats_kits/Projo/Spells/spwi467.spl~ 2 4 WIZARD_MORDENKAINENS_FORCE_MISSILES SAY 0x08 @95 SAY 0x50 @96	SPRINT temp467 "%DEST_RES%"
-	//Creation du parchemin de PFM
-	ACTION_IF ((IDS_OF_SYMBOL (~spell~ ~WIZARD_MORDENKAINENS_FORCE_MISSILES~)) > 0) THEN BEGIN OUTER_SPRINT WIZARD_MORDENKAINENS_FORCE_MISSILES_RES "%temp467%"
-		COPY ~Derats_kits/Projo/scrlpxm.itm~	~override/scrlpxm.itm~ SAY 0x0c @95 SAY 0x54 @96	LPF CREATE_PARCH STR_VAR spell = EVAL "%temp467%" END
-		WRITE_BYTE 0x2d (THIS | BIT1) // ajoute l'unusable enchanteur
-		WRITE_BYTE  0x7e 1 // cible : une créature
-		WRITE_SHORT 0x80 50 // portée
-	END
-	 //Ajout de la gestion du sort PFM par le sort "Bouclier"
-	COPY_EXISTING	~spwi114.spl~						~override~	LPF ADD_SPELL_EFFECT INT_VAR opcode = 206 target = 1 duration = 300 power = 1 resist_dispel = 3 STR_VAR resource = EVAL "%temp467%" END
-	COPY	~override/pxmprook.spl~						~override~
-			~override/pxmbouc.spl~						~override~	LPF ALTER_EFFECT STR_VAR match_resource = spwi430 resource = EVAL "%temp467%" END
-	//Changement du 2DA suivant numéro de sort
-	COPY_EXISTING	~Clabma07.2da~						~override~	REPLACE_TEXTUALLY ~cdia430~ ~%temp467%~
-END
-
-ACTION_IF GAME_IS ~BGT BGEE~ THEN BEGIN
-	COPY_EXISTING ~ulgoth.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl1y~ #1 #1 #1 ~IDENTIFIED~ #1
-	COPY_EXISTING ~sto0703.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl5i~ #1 #1 #1 ~IDENTIFIED~ #2
-END
-
-ACTION_IF GAME_IS ~BG2EE~ THEN BEGIN
-	COPY_EXISTING ~ohbmhsm.sto~							~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl6n~ #1 #1 #1 ~IDENTIFIED~ #6
 END
 
 ACTION_IF GAME_IS ~BGEE~ THEN BEGIN
 	STRING_SET 3015 @909
 	STRING_SET 12786 @91
 	STRING_SET 24295 @92
-	COPY_EXISTING ~bpding01.sto~						~override~	ADD_STORE_ITEM ~scrlpxm~ AFTER  ~scrl6r~ #1 #1 #1 ~IDENTIFIED~ #3
 END
 
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
-	COPY_EXISTING	~Clabma07.2da~						~override~	REPLACE_TEXTUALLY ~SPWI467~ ~CDDIA430~
-	COPY_EXISTING	~inareasm.pro~			~override/pxm4proi.pro~	WRITE_LONG 0x204 58	WRITE_LONG 0x206 58
-	ADD_PROJECTILE ~override/pxm4proi.pro~
-	COPY	~Derats_kits/Projo/IWDEE/pxm4proi.spl~		~override~	SAY NAME1 @97	SAY UNIDENTIFIED_DESC @98
-	COPY	~Derats_kits/Projo/IWDEE/pxm4pria.spl~		~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4proi END	WRITE_SHORT 0x98 215	WRITE_SHORT 0xc0 215	WRITE_SHORT 0xe8 215
-	WRITE_SHORT 0x110 215	WRITE_SHORT 0x138 215	WRITE_SHORT 0x160 215
-	COPY_EXISTING ~pxmprook.spl~						~override~	WRITE_ASCII 0xae ~spwi430~ #8	WRITE_ASCII 0xde ~pxm4proi~ #8
 	STRING_SET 37207 @909
 	STRING_SET 37209 @91
 	STRING_SET 37208 @921
 END
-
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
-	COPY_EXISTING	~pxm1feu.spl~						~override~	SAY NAME1 @73181
-	COPY_EXISTING	~pxm1acid.spl~						~override~	SAY NAME1 @73184
-END
-
-/////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////   SORCELIER   ///////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////
-
-
-BEGIN @110
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
-
-COPY	~Derats_kits/Sorcelier/Copy~					~override~
-		~Derats_kits/Warlord/Spells/Copy/pxwhp1.spl~	~override~
-		~Derats_kits/Warlord/Hits/pxcoldh.bam~			~override~
-		~Derats_kits/Warlord/Hits/pxfireh.bam~			~override~
-
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
-	COPY	~Derats_kits/Sorcelier/EE patch/PxSorceb.2da~	~override~
-END
-
-COPY_EXISTING	~PxSorceb.2da~				~override/PxSorced.2da~	REPLACE_TEXTUALLY ~pxsbato~ ~pxsdagu~	REPLACE_TEXTUALLY ~pxsbaseb~ ~pxsbased~
-
-COPY_EXISTING	~dawndam.eff~				~override/pxsbouR.eff~	WRITE_BYTE 0x38 1	WRITE_BYTE 0x3c 8
-COPY_EXISTING	~pxsbouR.eff~				~override/pxsbouB.eff~	WRITE_BYTE 0x22 2
-
-COPY	~Derats_kits/Sorcelier/Items/pxstapai.itm~		~override~	SAY NAME2 @1005	SAY DESC @1006
-
-COPY_EXISTING	~pxsbato.spl~				~override/pxsdagu.spl~	WRITE_BYTE 0xf2 96	WRITE_BYTE 0x122 96	WRITE_BYTE 0x152 96
-COPY_EXISTING	~pxs1main.spl~				~override/pxs2main.spl~	WRITE_BYTE 0xa2 111
-COPY_EXISTING	~pxs1main.spl~				~override/pxs2arme.spl~	WRITE_BYTE 0xa2 114
-COPY_EXISTING	~pxsbased.spl~				~override/pxsbaseb.spl~	WRITE_ASCII 0x16e ~sorcelb~ #8	WRITE_BYTE 0x102 102
-COPY_EXISTING	~pxsarmok.spl~				~override/pxsfraok.spl~	WRITE_ASCII 0xae ~SPWI111~ #8	WRITE_ASCII 0xde ~pxsfrap~ #8
-COPY_EXISTING	~pxsarmok.spl~				~override/pxsforok.spl~	WRITE_ASCII 0xae ~SPWI214~ #8	WRITE_ASCII 0xde ~pxsforce~ #8
-COPY_EXISTING	~pxsarmok.spl~				~override/pxsborok.spl~	WRITE_ASCII 0xae ~SPWI418~ #8	WRITE_ASCII 0xde ~pxsbour~ #8
-COPY_EXISTING	~pxsarmok.spl~				~override/pxsbobok.spl~	WRITE_ASCII 0xae ~SPWI403~ #8	WRITE_ASCII 0xde ~pxsboub~ #8
-COPY_EXISTING	~pxsmai1.spl~				~override/pxsmai15.spl~	WRITE_BYTE 0x9e 7
-COPY_EXISTING	~pxsmai1.spl~				~override/pxsmai2.spl~	WRITE_BYTE 0x9e 2
-COPY_EXISTING	~pxsmai1.spl~				~override/pxsmai3.spl~	WRITE_BYTE 0x9e 3
-COPY_EXISTING	~pxsmaita.spl~				~override/pxsmaitc.spl~	WRITE_ASCII 0xae ~PXSMAIT5~ #8
-COPY	~Derats_kits/Sorcelier/Spells/pxsarmu.spl~		~override~	SAY UNIDENTIFIED_DESC @1114
-COPY	~Derats_kits/Sorcelier/Spells/pxsfrap.spl~		~override~	SAY NAME1 @1115	SAY UNIDENTIFIED_DESC @1116
-COPY	~Derats_kits/Sorcelier/Spells/pxsforce.spl~		~override~	SAY UNIDENTIFIED_DESC @1118
-COPY	~Derats_kits/Sorcelier/Spells/pxsbour.spl~		~override~	SAY NAME1 @1119	SAY UNIDENTIFIED_DESC @1120
-COPY	~Derats_kits/Sorcelier/Spells/pxsboub.spl~		~override~	SAY NAME1 @1121	SAY UNIDENTIFIED_DESC @1122
-
-COPY_EXISTING	~amcall.vvc~				~override/pxfirehv.vvc~	WRITE_ASCII 0x8 ~pxfireh~ #8
-COPY_EXISTING	~amcall.vvc~				~override/pxcoldhv.vvc~	WRITE_ASCII 0x8 ~pxcoldh~ #8
-COPY_EXISTING	~lufm0.2da~					~override/lupxs.2da~	REPLACE_TEXTUALLY ~32        ~ ~1         ~
-
-COMPILE	~Derats_kits/Sorcelier/Scripts~
-
-ACTION_IF GAME_IS ~BGT BGEE~ THEN BEGIN
-	COPY	~Derats_kits/Sorcelier/Items/pxsogi.itm~		~override~	SAY NAME2 @1003	SAY DESC @1004
-	COPY_EXISTING ~highhedg.sto~							~override~	ADD_STORE_ITEM ~pxsogi~ AFTER  ~clck16~ #1 #1 #1 ~IDENTIFIED~ #1
-END
-
-ACTION_IF GAME_IS ~BGT BG2 TOB BG2EE EET~ THEN BEGIN
-	COPY_EXISTING ~ribald3.sto~								~override~	ADD_STORE_ITEM ~pxstapai~ #1 #1 #1 ~IDENTIFIED~ #1
-END
-
-ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
-	COPY_EXISTING ~hobart.sto~								~override~	ADD_STORE_ITEM ~pxstapai~	AFTER  ~braceip~ #1 #1 #1 ~IDENTIFIED~ #1
-END
-
-ACTION_IF GAME_IS ~TOB BG2EE EET~ THEN BEGIN
-	COPY	~Derats_kits/Sorcelier/Items/pxsogi.itm~		~override~	SAY NAME2 @1003	SAY DESC @1004
-	SILENT
-	EXTEND_TOP "AR0201.bcs" "Derats_kits/Codes/pxsitem.baf"
-	VERBOSE
-END
-
-ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN
-	COPY	~Derats_kits/Sorcelier/EE patch/K_S_H.2da~	~override~
-	COPY_EXISTING	~K_S_H.2da~				~override/K_S_E.2da~
-					~K_S_H.2da~				~override/K_S_HE.2da~
-	ADD_KIT ~pxSORCELIERB~
-	~pxSORCELIERB           0           0           1           0           0           0           0           0~
-	~pxSORCELIERB           0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 2 0 0 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
-	~pxSORCELIERB           15      15      0       9       0       9~
-	~pxSORCELIERB           0       0       0       0       0       0~
-	~pxSORCELIERB           0       0       0       17      0       16~
-	~pxSORCELIERB           0       0       0       15      0       0~
-	~pxSORCELIERB           1       1       1       1       1       1       1       1       1~
-	~pxSORCELIERB           0       0       0       0       0       0~
-	~override/pxSorceb.2da~
-	~K_S_H	K_S_E	K_S_HE~
-	~0x00000001    19~
-	~PXS~
-	~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 STAF07 STAF13 STAF20~
-	SAY @1109
-	SAY @111
-	SAY @112
-
-	ADD_KIT ~pxSORCELIERD~
-	~pxSORCELIERD           1           0           0           0           0           0           0           0~
-	~pxSORCELIERD           0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
-	~pxSORCELIERD           15      0       15      9       0       9~
-	~pxSORCELIERD           0       0       0       0       0       0~
-	~pxSORCELIERD           0       0       0       17      0       16~
-	~pxSORCELIERD           0       0       0       15      0       0~
-	~pxSORCELIERD           1       1       1       1       1       1       1       1       1~
-	~pxSORCELIERD           0       0       0       0       0       0~
-	~override/pxSorced.2da~
-	~K_S_H	K_S_E	K_S_HE~
-	~0x00000001    19~
-	~PXS~
-	~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 DAGG03 DAGG13~
-	SAY @1109
-	SAY @111
-	SAY @113
-END
-
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
-	ADD_KIT ~pxSORCELIERB~
-	~pxSORCELIERB           0           0           1           0           0           0           0           0~
-	~pxSORCELIERB           0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 2 0 0 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
-	~pxSORCELIERB           15      15      0       9       0       9~
-	~pxSORCELIERB           0       0       0       0       0       0~
-	~pxSORCELIERB           0       0       0       17      0       16~
-	~pxSORCELIERB           0       0       0       15      0       0~
-	~pxSORCELIERB           1       1       1       1       1       1       1       1       1~
-	~pxSORCELIERB           0       0       0       0       0       0~
-	~override/pxSorceb.2da~
-	~K_S_H	K_S_E	K_S_HE~
-	~0x00000001    19~
-	~PXS~
-	~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 STAF07 STAF13 STAF20~
-	SAY @11091
-	SAY @111
-	SAY @1129
-	LAF fl#add_kit_ee	STR_VAR kit_name = pxSORCELIERB	hpclass = ~hprog~	clswpbon = ~1 0 2~	END
-
-	ADD_KIT ~pxSORCELIERD~
-	~pxSORCELIERD           1           0           0           0           0           0           0           0~
-	~pxSORCELIERD           0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
-	~pxSORCELIERD           15      0       15      9       0       9~
-	~pxSORCELIERD           0       0       0       0       0       0~
-	~pxSORCELIERD           0       0       0       17      0       16~
-	~pxSORCELIERD           0       0       0       15      0       0~
-	~pxSORCELIERD           1       1       1       1       1       1       1       1       1~
-	~pxSORCELIERD           0       0       0       0       0       0~
-	~override/pxSorced.2da~
-	~K_S_H	K_S_E	K_S_HE~
-	~0x00000001    19~
-	~PXS~
-	~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 DAGG03 DAGG13~
-	SAY @11092
-	SAY @111
-	SAY @1139
-	LAF fl#add_kit_ee	STR_VAR kit_name = pxSORCELIERD	hpclass = ~hprog~	clswpbon = ~1 0 2~	END
-END
-
-SILENT
-COMPILE	~Derats_kits/Codes/pxProfil.baf~
-COPY_EXISTING	~pxProfil.bcs~					~scripts/pxProfil.bs~
-APPEND	~SCRPDESC.2DA~	~pxProfil    pxProfi1    pxProfi2~
-COPY_EXISTING ~SCRPDESC.2DA~							~override~	REPLACE ~pxProfi1~ @10000	REPLACE ~pxProfi2~ @10001
-PRETTY_PRINT_2DA
-BUT_ONLY_IF_IT_CHANGES
-VERBOSE
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -2134,7 +1815,6 @@ COPY	~Derats_kits/Warlord/Bams~						~override~
 		~Derats_kits/Warlord/VVCs~						~override~
 		~Derats_kits/Warlord/Wavs~						~override~
 		~Derats_kits/Warlord/Lumens/Copy~				~override~
-		~Derats_kits/Sorcelier/Copy/pxssavm.spl~		~override~
 		~Derats_kits/Flammes/Bams/pxfxinca.bam~			~override~
 		~Derats_kits/Flammes/Bams/pxf5plas.bam~			~override~
 		~Derats_kits/Flammes/Bams/pxf7inci.bam~			~override~
@@ -2366,76 +2046,6 @@ OUTER_FOR ( i=6 ; i<19 ; i +=2) BEGIN
 	COPY_EXISTING	~pxwhit6.spl~			~override/pxwhit%i%.spl~	WRITE_BYTE 0x9e i
 END
 
-COPY_EXISTING	~pxwba22.spl~				~override/pxwba24.spl~	WRITE_BYTE 0xdc 50	WRITE_BYTE 0x10d 0
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba35.spl~	WRITE_BYTE 0x10d 50
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba43.spl~	WRITE_ASCII 0xae ~pxwlvl4~ #8	WRITE_ASCII 0xde ~pxwlvl4~ #8	WRITE_ASCII 0x10e ~pxwlvl4~ #8
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba53.spl~
-				~pxwba16.spl~				~override/pxwba510.spl~
-				~pxwba29.spl~				~override/pxwba511.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN					// Pour chaque effet du sort (une seule habilité)
-	WRITE_ASCII (effects_off + 0x30*i + 0x014) ~pxwlvl5~ #8	// Ecrire "pxwlvl5" en tant que ressource
-END
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba63.spl~
-				~pxwba26.spl~				~override/pxwba66.spl~
-				~pxwba16.spl~				~override/pxwba69.spl~
-				~pxwba412.spl~				~override/pxwba613.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN
-	WRITE_ASCII (effects_off + 0x30*i + 0x014) ~pxwlvl6~ #8
-END
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba73.spl~
-				~pxwba26.spl~				~override/pxwba76.spl~
-				~pxwba16.spl~				~override/pxwba79.spl~
-				~pxwba29.spl~				~override/pxwba711.spl~
-				~pxwba412.spl~				~override/pxwba713.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN
-	WRITE_ASCII (effects_off + 0x30*i + 0x014) ~pxwlvl7~ #8
-END
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba83.spl~
-				~pxwba26.spl~				~override/pxwba86.spl~
-				~pxwba58.spl~				~override/pxwba88.spl~
-				~pxwba311.spl~				~override/pxwba811.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN
-	WRITE_ASCII (effects_off + 0x30*i + 0x014) ~pxwlvl8~ #8
-END
-COPY_EXISTING	~pxwba33.spl~				~override/pxwba93.spl~
-				~pxwba37.spl~				~override/pxwba96.spl~
-				~pxwba410.spl~				~override/pxwba99.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN
-	WRITE_ASCII (effects_off + 0x30*i + 0x014) ~pxwlvl9~ #8
-END
-
-COPY_EXISTING	~pxwlvl6.spl~				~override/pxwlvl7.spl~	WRITE_ASCII 0xae ~pxw7barr~ #8	WRITE_ASCII 0xde ~pxw7bouc~ #8	WRITE_ASCII 0x10e ~pxw7diss~ #8	WRITE_ASCII 0x13e ~pxw7cour~ #8	WRITE_ASCII 0x16e ~pxw7deso~ #8
-WRITE_ASCII 0x19e ~pxw7deva~ #8	WRITE_ASCII 0x1ce ~pxw7ener~ #8	WRITE_ASCII 0x1fe ~pxw7exec~ #8	WRITE_ASCII 0x22e ~pxw7glob~ #8	WRITE_ASCII 0x25e ~pxw7guer~ #8	WRITE_ASCII 0x28e ~pxw7magi~ #8	WRITE_ASCII 0x2be ~pxw7temp~ #8
-WRITE_ASCII 0x2ee ~pxw7poin~ #8
-COPY_EXISTING	~pxwlvl3.spl~				~override/pxwlvl8.spl~	WRITE_ASCII 0xae ~pxw8arme~ #8	WRITE_ASCII 0xde ~pxw8choc~ #8	WRITE_ASCII 0x10e ~pxw8copi~ #8	WRITE_ASCII 0x13e ~pxw8corp~ #8	WRITE_ASCII 0x16e ~pxw8cour~ #8
-WRITE_ASCII 0x19e ~pxw8couv~ #8	WRITE_ASCII 0x1ce ~pxw8deso~ #8	WRITE_ASCII 0x1fe ~pxw8expe~ #8	WRITE_ASCII 0x22e ~pxw8libe~ #8	WRITE_ASCII 0x25e ~pxw8nuee~ #8	WRITE_ASCII 0x28e ~pxw8roch~ #8
-COPY_EXISTING	~pxwlvl2.spl~				~override/pxwlvl9.spl~	WRITE_ASCII 0xae ~pxw9lame~ #8	WRITE_ASCII 0xde ~pxw9bouc~ #8	WRITE_ASCII 0x10e ~pxw9camo~ #8	WRITE_ASCII 0x13e ~pxw9cont~ #8	WRITE_ASCII 0x16e ~pxw9invu~ #8
-WRITE_ASCII 0x19e ~pxw9nuag~ #8	WRITE_ASCII 0x1ce ~pxw9sech~ #8	WRITE_ASCII 0x1fe ~pxw9tran~ #8	WRITE_ASCII 0x22e ~pxw9vapo~ #8
-COPY_EXISTING	~pxwlvl1.spl~				~override/pxwtout1.spl~
-				~pxwlvl2.spl~				~override/pxwtout2.spl~
-				~pxwlvl3.spl~				~override/pxwtout3.spl~
-				~pxwlvl4.spl~				~override/pxwtout4.spl~
-				~pxwlvl5.spl~				~override/pxwtout5.spl~
-				~pxwlvl6.spl~				~override/pxwtout6.spl~
-				~pxwlvl7.spl~				~override/pxwtout7.spl~
-				~pxwlvl8.spl~				~override/pxwtout8.spl~
-				~pxwlvl9.spl~				~override/pxwtout9.spl~
-READ_LONG 0x6a effects_off
-READ_SHORT 0x90 num_effects
-FOR (i = 0; i < num_effects; i += 1) BEGIN			// Pour chaque effet du sort (une seule habilité)
-	WRITE_BYTE (effects_off + 0x30*i + 0x013) 0		// Fixer le % minimum à 0
-	WRITE_BYTE (effects_off + 0x30*i + 0x012) 100	// Fixer le % maximum à 100
-END
 COPY_EXISTING	~pxw2pugg.spl~				~override/pxw6cogg.spl~	WRITE_ASCII 0xae ~pxw6copi~ #8
 COPY_EXISTING	~pxw2pugg.spl~				~override/pxw8ligg.spl~	WRITE_ASCII 0xae ~pxw8libe~ #8
 COPY_EXISTING	~pxw2pugg.spl~				~override/pxw8cogg.spl~	WRITE_ASCII 0xae ~pxw8corp~ #8
@@ -3983,11 +3593,8 @@ SAY @809
 SAY @81
 SAY @82
 
-COPY	~Derats_kits/Chantelameur/Spells~				~override~
-COPY	~Derats_kits/Chantelameur/pxcbase.spl~			~override~	SAY 0x1be @81
-
-COMPILE	~Derats_kits/Chantelameur/pxcchant.baf~
-
+COPY	~Derats_kits/Chantelameur/Copy~					~override~
+COPY	~Derats_kits/Chantelameur/pxcbase2.spl~			~override~	SAY 0x18e @81
 COPY_EXISTING ~weapprof.2da~  ~override~	SET_2DA_ENTRY ~11~ 12 1 ~5~	SET_2DA_ENTRY ~12~ 12 1 ~5~	SET_2DA_ENTRY ~16~ 12 1 ~5~	SET_2DA_ENTRY ~17~ 12 1 ~5~
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
@@ -4005,16 +3612,16 @@ ACTION_IF GAME_IS ~BGEE~ THEN BEGIN
 	EXTEND_TOP "AR4501.bcs" "Derats_kits/Codes/pxcitem.baf"
 END
 
+ACTION_IF GAME_IS ~EET~ THEN BEGIN
+	COPY	~Derats_kits/Chantelameur/pxcarmor.itm~		~override~	SAY NAME2 @1007	SAY DESC @1008
+	EXTEND_TOP "BG4501.bcs" "Derats_kits/Codes/pxcitem.baf"
+END
+
 ACTION_IF GAME_IS ~iWDEE~ THEN BEGIN
 	COPY	~Derats_kits/Chantelameur/pxcarmor.itm~		~override~	SAY NAME2 @1007	SAY DESC @1008
 	EXTEND_TOP "AR4001.bcs" "Derats_kits/Codes/pxcitew.baf"
 END
 VERBOSE
-
-BEGIN @89 // BG2esque kit, non rp
-  REQUIRE_FILE ~override/pxccast0.spl~ @80
-	COPY	~Derats_kits/chantelameur/Option/PxChant.2da~	~override~
-	COPY	~Derats_kits/Chantelameur/Option/pxcbase2.spl~	~override~	SAY 0x18e @81
 
 /////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////   EXPLORATEUR THEURGIQUE   /////////////////////////////
