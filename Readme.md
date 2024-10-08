@@ -14,7 +14,27 @@
 
 Un pack de kits incluant :
 
-- Un profil de guerrier (demi-orque) : le Porteur de haine.
+[u]Porteur de haine (Guerrier demi-orque)[/u] :
+
+Avantages :
+
++1 aux dégâts.
+
+"Intimidation" tous les 4 niveaux. ("Charme personne" avec un pénalité au jds qui augmente avec le niveau)
+
+Au niveau 7 et  tous les 5 niveaux "Hurlement de rage". ("Horreur" avec un pénalité au jds qui augmente avec le niveau)
+
+ Au niveau 12 et tous les 6 niveaux "Poing de rage". (Dégâts maximums, + 1 APR, chance d'étourdir sur jds raté, 2 rounds)
+ 
+Immunisé aux charmes.
+ 
+Inconvénients :
+
+Chaotique neutre, neutre mauvais ou chaotique mauvais.
+
+Xp fixé à 90%.
+
+-3 en intelligence, charisme et sagesse
   
 - Un profil de rôdeur : le Chasseur de vermines.
   
