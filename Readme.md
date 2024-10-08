@@ -14,7 +14,7 @@
 
 Un pack de kits incluant :
 
-- Un profil de gurrier (demi-orque) : le porteur de haine.
+- Un profil de guerrier (demi-orque) : le porteur de haine.
   
 - Un profil de rôdeur : le Chasseur de vermines.
   
