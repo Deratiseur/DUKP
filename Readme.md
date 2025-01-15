@@ -7,8 +7,9 @@
 
 **Autor** : **Deratiseur**
 
-[Link to original Mod Forum](https://www.baldursgateworld.fr/viewforum.php?f=579)
+[Lien vers le forum français et les descriptions complètes](https://www.baldursgateworld.fr/viewforum.php?f=579)  
 
+[Link to the beamdog forum and full descriptions](https://forums.beamdog.com/discussion/60725/mod-the-deratiseur-unused-kits-pack-versions-v18-1-in-french-and-english/p1)
 
 ## Description:
 -------------
