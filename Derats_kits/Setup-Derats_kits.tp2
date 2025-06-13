@@ -1,7 +1,7 @@
 BACKUP ~Derats_kits/backup~
 AUTHOR ~Deratiseur[at]gmail.com
 		Forum : http://www.baldursgateworld.fr/lacouronne/derats-unused-kits-pack/~
-VERSION ~v18.1~
+VERSION ~v18.5~
 
 ALWAYS
 
@@ -25,6 +25,7 @@ ALWAYS
 		ACTION_DEFINE_ARRAY px_reload BEGIN
 		"Setup"
 		"Vermine"
+		"Belluaire"
 		"Haine"
 		"Essaim"
 		"Essaim - lvl 1"
@@ -87,6 +88,7 @@ LANGUAGE ~Francais~
 	~French~
 	~Derats_kits/Languages/French/Setup.tra~
 	~Derats_kits/Languages/French/Vermine.tra~
+	~Derats_kits/Languages/French/Belluaire.tra~
 	~Derats_kits/Languages/French/Haine.tra~
 	~Derats_kits/Languages/French/Flammes.tra~
 	~Derats_kits/Languages/French/Flammes - lvl 1.tra~
@@ -123,10 +125,11 @@ LANGUAGE ~Francais~
 	~Derats_kits/Languages/French/Anatomiste.tra~
 	~Derats_kits/Languages/French/Garagos.tra~
 
-LANGUAGE ~English (8 olds by Nightfarer, 3 news by deratiseur)~
+LANGUAGE ~English (8 olds by Nightfarer (Google trad), 5 news by Deratiseur)~
 	~English~
 	~Derats_kits/Languages/English/Setup.tra~
 	~Derats_kits/Languages/English/Vermine.tra~
+	~Derats_kits/Languages/French/Belluaire.tra~
 	~Derats_kits/Languages/English/Haine.tra~
 	~Derats_kits/Languages/English/Flammes.tra~
 	~Derats_kits/Languages/English/Flammes - lvl 1.tra~
@@ -164,12 +167,73 @@ LANGUAGE ~English (8 olds by Nightfarer, 3 news by deratiseur)~
 	~Derats_kits/Languages/English/Garagos.tra~
 
 /////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////   PORTEUR DE HAINE   ///////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+BEGIN @30	DESIGNATED 30	LABEL Px_DUKP_Haine
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009 // Ce composant ne fonctionne qu'avec l'extension Throne of Bhaal ou une version Enhanced.
+
+// Note : j'ai inclue sur les instructions de ce kit des aides que vous pouvez copier-coller lorsque vous programmez votre propre kit afin de vous aider.
+ADD_KIT ~pxHAINE~
+//AIDE WCLASWEAP   SMALL_SWORD LARGE_SWORD     BLUNT     MISSILE       BOW        SPIKED       AXE        SPEAR
+~pxHAINE                1           1           1           1           1           1           1           1~ // Types d'armes autorisés - CLASWEAP
+//AIDE WEAPPROF                                 T   S           F   Q             S S
+//AIDE WEAPPROF         L S                     W   C           L   U             W I
+//AIDE WEAPPROF         A M             B L S   O   I   W       A   A             O N
+//AIDE WEAPPROF         R A             A O H   H   M   A       I   R C   S       R G
+//AIDE WEAPPROF         G L           M S N O   A   I   R     H L   T R L H     2 D L 2                 E E E E E E E E E E E  //se lit de haut en bas
+//AIDE WEAPPROF         E L       S   I T G R   N K T D H     A M   E O O O     H A E W E E E E E E E E X X X X X X X X X X X
+//AIDE WEAPPROF         S S   S B P   S A S T   D A A A A   S L O   R S N R   S A N W E X X X X X X X X T T T T T T T T T T T
+//AIDE WEAPPROF         W W   P L I   S R W S   E T R G M C P B R M S S G T D L N D E A T T T T T T T T R R R R R R R R R R R
+//AIDE WEAPPROF         O O B E U K A I D O W A D A W G M L E E N A T B B B A I D S A P R R R R R R R R A A A A A A A A A A A
+//AIDE WEAPPROF         R R O A N E X L S R O X S N A E E U A R I C A O O O R N E H P O A A A A A A A A 1 1 1 1 1 1 1 1 1 1 2
+//AIDE WEAPPROF         D D W R T D E E W D R E W A K R R B R D N E F W W W T G D I O N 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
+~pxHAINE                5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~ // Compétences autorisées - WEAPPROF.2da
+//AIDE ABCxxxxx        STR     DEX     CON     INT     WIS     CHR
+~pxHAINE                9       0       0       0       0       0~ // Scores de caractéristiques minimaux nécessaires - ABCLASRQ.2da
+~pxHAINE                0       0       0      -1      -1      -1~ // Modificateurs des scores de caractéristiques - ABCLSMOD.2da
+~pxHAINE                17      0       0       0       0       0~ // Caractéristiques minimales pour se jumeler VERS le kit - ABDCDSRQ.2da
+~pxHAINE                15      0       0       0       0       0~ // Caractéristiques minimales pour se jumeler DEPUIS le kit - ABDCSCRQ.2da
+ //AIDE ALIGNMNT       L_G     L_N     L_E     N_G     N_N     N_E     C_G     C_N     C_E
+~pxHAINE                0       0       0       0       0       1       0       1       1~ // Alignements autorisés - ALIGNMNT.2da
+ //AIDE DUALCLAS     FIGHTER  CLERIC   MAGE   THIEF   DRUID   RANGER
+~pxHAINE                0       1       1       1       1       0~ //Possibilités de jumelage - DUALCLAS.2da
+~Derats_kits/Haine/pxHaine.2da~ // Habilités gagnées par niveau - 2da personnel
+~K_F_HO~ //Races et classes acceptants le kit - KITTABLE.2da   -> K = Kit, obligatoire F = Fighter, HO = Half_Orc
+~0x00000001 2~ // Autorisation d'objets - KITLIST.2da
+~Fi0~ // Habiletés de Haut niveau - LUABBR.2da
+~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~ //Équipement au début de TOB - 25STWEAP.2da
+SAY @309 // Nom du kit tout en minuscules
+SAY @31 // Description du kit
+SAY @32 // Nom du kit en minuscules avec majuscule au début (Casse de phrase)
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+ //AIDE clrcreq		 										H E HE D HA G HO -> Human / Elf / Half Elf / Dwarf / Halfelin / Gnome / Half Orque
+	LAF fl#add_kit_ee STR_VAR kit_name = pxHAINE clsrcreq = ~0 0 0 0 0 0 1~ END
+END
+
+COPY	~Derats_kits/Haine/Bams~						~override~
+		~Derats_kits/Haine/Effs~						~override~
+		~Derats_kits/Haine/Spells/pxhbase.spl~			~override~
+		~Derats_kits/Warlord/Bams/pxw5hur0.bam~			~override~
+		~Derats_kits/Warlord/Bams/pxw5hur1.bam~			~override~
+
+COPY	~Derats_kits/Haine/Spells/pxhinti.spl~			~override~	SAY NAME1 @33
+COPY	~Derats_kits/Haine/Spells/pxhhurl.spl~			~override~	SAY NAME1 @34
+COPY	~Derats_kits/Haine/Spells/pxhpoin.spl~			~override~	SAY NAME1 @35
+
+COPY_EXISTING	~spstones.vvc~				~override/pxw5huv1.vvc~	WRITE_ASCII 0x8 ~pxw5hur0~ #8	WRITE_BYTE 0x34 24	WRITE_BYTE 0x18 (THIS|2)	WRITE_BYTE 0x20 (THIS | 64)
+COPY_EXISTING	~pxw5huv1.vvc~				~override/pxw5huv2.vvc~	WRITE_ASCII 0x8 ~pxw5hur1~ #8
+
+
+/////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////   CHASSEUR DE VERMINE   //////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @10
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @10	DESIGNATED 10	LABEL Px_DUKP_Vermine
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxVERMINE~
 ~pxVERMINE              1           1           1           1           1           1           1           1~
@@ -269,64 +333,17 @@ COMPILE ~Derats_kits/Vermine/Scripts~
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////   PORTEUR DE HAINE   ///////////////////////////////
+///////////////////////////   MODIFICATION DU BELLUAIRE   ///////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @30
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009 // Ce composant ne fonctionne qu'avec l'extension Throne of Bhaal ou une version Enhanced.
+BEGIN @110	DESIGNATED 110	LABEL Px_DUKP_Belluaire
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
-// Note : j'ai inclue sur les instructions de ce kit des aides que vous pouvez copier-coller lorsque vous programmez votre propre kit afin de vous aider.
-ADD_KIT ~pxHAINE~
-//AIDE WCLASWEAP   SMALL_SWORD LARGE_SWORD     BLUNT     MISSILE       BOW        SPIKED       AXE        SPEAR
-~pxHAINE                1           1           1           1           1           1           1           1~ // Types d'armes autorisés - CLASWEAP
-//AIDE WEAPPROF                                 T   S           F   Q             S S
-//AIDE WEAPPROF         L S                     W   C           L   U             W I
-//AIDE WEAPPROF         A M             B L S   O   I   W       A   A             O N
-//AIDE WEAPPROF         R A             A O H   H   M   A       I   R C   S       R G
-//AIDE WEAPPROF         G L           M S N O   A   I   R     H L   T R L H     2 D L 2                 E E E E E E E E E E E  //se lit de haut en bas
-//AIDE WEAPPROF         E L       S   I T G R   N K T D H     A M   E O O O     H A E W E E E E E E E E X X X X X X X X X X X
-//AIDE WEAPPROF         S S   S B P   S A S T   D A A A A   S L O   R S N R   S A N W E X X X X X X X X T T T T T T T T T T T
-//AIDE WEAPPROF         W W   P L I   S R W S   E T R G M C P B R M S S G T D L N D E A T T T T T T T T R R R R R R R R R R R
-//AIDE WEAPPROF         O O B E U K A I D O W A D A W G M L E E N A T B B B A I D S A P R R R R R R R R A A A A A A A A A A A
-//AIDE WEAPPROF         R R O A N E X L S R O X S N A E E U A R I C A O O O R N E H P O A A A A A A A A 1 1 1 1 1 1 1 1 1 1 2
-//AIDE WEAPPROF         D D W R T D E E W D R E W A K R R B R D N E F W W W T G D I O N 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
-~pxHAINE                5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~ // Compétences autorisées - WEAPPROF.2da
-//AIDE ABCxxxxx        STR     DEX     CON     INT     WIS     CHR
-~pxHAINE                9       0       0       0       0       0~ // Scores de caractéristiques minimaux nécessaires - ABCLASRQ.2da
-~pxHAINE                0       0       0      -1      -1      -1~ // Modificateurs des scores de caractéristiques - ABCLSMOD.2da
-~pxHAINE                17      0       0       0       0       0~ // Caractéristiques minimales pour se jumeler VERS le kit - ABDCDSRQ.2da
-~pxHAINE                15      0       0       0       0       0~ // Caractéristiques minimales pour se jumeler DEPUIS le kit - ABDCSCRQ.2da
- //AIDE ALIGNMNT       L_G     L_N     L_E     N_G     N_N     N_E     C_G     C_N     C_E
-~pxHAINE                0       0       0       0       0       1       0       1       1~ // Alignements autorisés - ALIGNMNT.2da
- //AIDE DUALCLAS     FIGHTER  CLERIC   MAGE   THIEF   DRUID   RANGER
-~pxHAINE                0       1       1       1       1       0~ //Possibilités de jumelage - DUALCLAS.2da
-~Derats_kits/Haine/pxHaine.2da~ // Habilités gagnées par niveau - 2da personnel
-~K_F_HO~ //Races et classes acceptants le kit - KITTABLE.2da   -> K = Kit, obligatoire F = Fighter, HO = Half_Orc
-~0x00000001 2~ // Autorisation d'objets - KITLIST.2da
-~Fi0~ // Habiletés de Haut niveau - LUABBR.2da
-~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~ //Équipement au début de TOB - 25STWEAP.2da
-SAY @309 // Nom du kit tout en minuscules
-SAY @31 // Description du kit
-SAY @32 // Nom du kit en minuscules avec majuscule au début (Casse de phrase)
+COPY	~Derats_kits/Belluaire/CLABRN04.2DA~			~override~
+COPY	~Derats_kits/Belluaire/Copy~					~override~
+STRING_SET 25212 @114
 
-ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
- //AIDE clrcreq		 										H E HE D HA G HO -> Human / Elf / Half Elf / Dwarf / Halfelin / Gnome / Half Orque
-	LAF fl#add_kit_ee STR_VAR kit_name = pxHAINE clsrcreq = ~0 0 0 0 0 0 1~ END
-END
-
-COPY	~Derats_kits/Haine/Bams~						~override~
-		~Derats_kits/Haine/Effs~						~override~
-		~Derats_kits/Haine/Spells/pxhbase.spl~			~override~
-		~Derats_kits/Warlord/Bams/pxw5hur0.bam~			~override~
-		~Derats_kits/Warlord/Bams/pxw5hur1.bam~			~override~
-
-COPY	~Derats_kits/Haine/Spells/pxhinti.spl~			~override~	SAY NAME1 @33
-COPY	~Derats_kits/Haine/Spells/pxhhurl.spl~			~override~	SAY NAME1 @34
-COPY	~Derats_kits/Haine/Spells/pxhpoin.spl~			~override~	SAY NAME1 @35
-
-COPY_EXISTING	~spstones.vvc~				~override/pxw5huv1.vvc~	WRITE_ASCII 0x8 ~pxw5hur0~ #8	WRITE_BYTE 0x34 24	WRITE_BYTE 0x18 (THIS|2)	WRITE_BYTE 0x20 (THIS | 64)
-COPY_EXISTING	~pxw5huv1.vvc~				~override/pxw5huv2.vvc~	WRITE_ASCII 0x8 ~pxw5hur1~ #8
 
 
 /////////////////////////////////////////////////////////////////////////////////////
@@ -334,8 +351,8 @@ COPY_EXISTING	~pxw5huv1.vvc~				~override/pxw5huv2.vvc~	WRITE_ASCII 0x8 ~pxw5hur
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @20
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @20	DESIGNATED 20	LABEL Px_DUKP_Flammes
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Flammes/BGEE_patch/LUPXF.2da~		~Derats_kits/Flammes/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -982,8 +999,8 @@ COMPILE ~Derats_kits/Flammes/Scripts~
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @140
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @140	DESIGNATED 140	LABEL Px_DUKP_Goragos
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~TOB BGT BGEE BG2EE EET~ THEN BEGIN
 ADD_KIT ~pxGORAGOS~
@@ -1018,8 +1035,8 @@ COPY	~Derats_kits/Ravage/pxgorar.spl~				~override~	SAY NAME1 @7421
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @120
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @120	DESIGNATED 120	LABEL Px_DUKP_Ombres
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Ombres/BGEE_patch/LUPXO.2da~		~Derats_kits/Ombres/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -1175,8 +1192,8 @@ COMPILE ~Derats_kits/Ombres/pxombres.baf~
 ///////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @40
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @40	DESIGNATED 40	LABEL Px_DUKP_Ombremage
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Ombremage/BGEE_patch/LUPXG.2da~		~Derats_kits/Ombremage/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -1648,11 +1665,11 @@ COMPILE ~Derats_kits/Ombres/pxombres.baf~
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////   SAVANT ARTILLEUR   ////////////////////////////////
+////////////////////////////////   SAVANT ARTILLEUR   ///////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @90
+BEGIN @90	DESIGNATED 90	LABEL Px_DUKP_Artilleur
 
 COPY	~Derats_kits/Projo/Copy~						~override~
 
@@ -1667,22 +1684,53 @@ ADD_PROJECTILE ~override/pxm4pro2.pro~
 COPY	~Derats_kits/Projo/Spells/pxm4proa.spl~			~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4proj END
 COPY	~Derats_kits/Projo/Spells/pxm4prob.spl~			~override~	LPF SPELL_PROJO INT_VAR projectile = pxm4pro2 END
 
-ACTION_IF GAME_IS ~TOB BGT BG2EE~ THEN BEGIN
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN
+	COPY	~Derats_kits/Projo/pxartill.2da~	~override/Clabma07.2da~
 	STRING_SET 3015 @909
 	STRING_SET 12786 @91
 	STRING_SET 9569 @92
 END
 
-ACTION_IF GAME_IS ~BGEE~ THEN BEGIN
-	STRING_SET 3015 @909
-	STRING_SET 12786 @91
-	STRING_SET 24295 @92
+ACTION_IF GAME_IS ~BGEE EET BG2EE~ THEN BEGIN
+ADD_KIT ~PXARTILLEUR~
+~PXARTILLEUR           1           0           1           1           0           0           0           0~
+~PXARTILLEUR           0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~PXARTILLEUR           0       0       16      9       0       0~
+~PXARTILLEUR           0       0       0       0       0       0~
+~PXARTILLEUR           0       0       16      17      0       0~
+~PXARTILLEUR           0       0       0       15      0       0~
+~PXARTILLEUR           1       1       1       1       1       1       1       1       1~
+~PXARTILLEUR           1       1       0       1       0       0~
+~Derats_kits/Projo/pxartill.2da~
+~K_M_H	K_M_D	K_M_G	K_M_E	K_M_HE	K_M_HL	K_M_HO~
+~0x00000000    1~
+~Ma0~
+~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 SLNG05 DAGG05,40 STAF20~
+SAY @909
+SAY @91
+SAY @92
+LAF fl#add_kit_ee	STR_VAR kit_name = PXARTILLEUR	END
 END
 
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
-	STRING_SET 37207 @909
-	STRING_SET 37209 @91
-	STRING_SET 37208 @921
+ADD_KIT ~PXARTILLEUR~
+~PXARTILLEUR           1           0           1           1           0           0           0           0~
+~PXARTILLEUR           0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+~PXARTILLEUR           0       0       16      9       0       0~
+~PXARTILLEUR           0       0       0       0       0       0~
+~PXARTILLEUR           0       0       16      17      0       0~
+~PXARTILLEUR           0       0       0       15      0       0~
+~PXARTILLEUR           1       1       1       1       1       1       1       1       1~
+~PXARTILLEUR           1       1       0       1       0       0~
+~Derats_kits/Projo/pxartill.2da~
+~K_M_H	K_M_D	K_M_G	K_M_E	K_M_HE	K_M_HL	K_M_HO~
+~0x00000000    1~
+~Ma0~
+~* * * BAG29 RING06 RING40 * BOOT01 AMUL21 BRAC15 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 SLNG05 DAGG05,40 STAF20~
+SAY @909
+SAY @91
+SAY @921
+LAF fl#add_kit_ee	STR_VAR kit_name = PXARTILLEUR	END
 END
 
 
@@ -1691,8 +1739,8 @@ END
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @70
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @70	DESIGNATED 70	LABEL Px_DUKP_Warlord
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Warlord/BGEE_patch/LUPXW.2da~		~Derats_kits/Warlord/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -3572,8 +3620,8 @@ END
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @80
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @80	DESIGNATED 80	LABEL Px_DUKP_Bladesinger
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxCHANTELAMEUR~
 ~pxCHANTELAMEUR         0           1           0           0           0           0           0           0~
@@ -3628,8 +3676,8 @@ VERBOSE
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @60
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @60	DESIGNATED 60	LABEL Px_DUKP_Theurgique
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxTHEURGE~
 ~pxTHEURGE              0           0           1           1           0           1           0           0~
@@ -3675,8 +3723,8 @@ END
 /////////////////////////////////////////////////////////////////////////////////////
 
 
-BEGIN @150
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
+BEGIN @150	DESIGNATED 150	LABEL Px_DUKP_Anatomiste
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxANATOMISTE~
 ~pxANATOMISTE           0           0           1           1           0           1           0           0~
