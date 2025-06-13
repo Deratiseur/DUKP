@@ -8,9 +8,9 @@
 @60 = ~Profil de multi-classes Clerc/Entropiste (humain) : Explorateur theurgique~
 @70 = ~Profil de jumelage Guerrier -> Mage : Seigneur de guerre~
 @80 = ~Profil de multi-classes Guerrier/Mage (elfe) : Chantelameur~
-@90 = ~Profil de mage (remplace l'invocateur) : Savant Artilleur~
-@100 = ~Profil de multi-classes Guerrier/Mage/Voleur : Touche-a-tout~
-@110 = ~Profil de sorcier : Sorcelier~
+@90 = ~Profil de mage (oBG2 : remplace l'invocateur) : Savant Artilleur~
+@100 = ~Profil de mage (oBG2 : remplace l'enchanteur) : Voleur de sorts~
+@110 = ~Modification de profil de rodeur : amelioration du Belluaire~
 @120 = ~Profil de voleur : Arpenteur d'ombres~
 @130 = ~~
 @140 = ~Profil de clerc : Croise de Garagos~
@@ -47,37 +47,6 @@ Uniquement utilisable par :
 Pyromancien
 Prêcheur des flammes.~
 
-//Objets pour le sorcelier
-@1003 = ~Grande robe d'Ogi-Luc~
-@1004 = ~Cette robe fut confectionnée dans un tissu résistant, puis teinte en bleu nuit, couleur préférée de son propriétaire, l'archimage Ogi-Luc. Né en Sembie, Ogi-Luc était un homme puissant et aussi fort par le corps que par l'esprit. Mais cela ne lui suffisait pas ; il désirait avoir une force colossale. Quand il enfilait sa robe, même les plus fiers guerriers s'écartaient et les vantards se taisaient aussitôt. Mais l'orgueil d'Ogi-Luc ne lui fut d'aucun secours contre Nesk Whaltim, un Magicien Rouge qui le tua et s'empara de sa robe. Plus tard, le vêtement fut dérobé puis vendu par un voleur audacieux.
-
-CARACTÉRISTIQUES :
-
-CA : 4
-Spécial : confère 18/99 en Force et +2 en Constitution
-Poids : 5
-Uniquement utilisable par les :
-  Mages (monoclassés)~
-
-@1005 = ~Robe de combat de Sarat-tapaï~
-@1006 = ~Sarat-tapaï du Cormyr était né aussi fort de corps que d'esprit. Très jeune, il fût choisi pour intégrer les écoles des arts obscurs, mais cela n’était pas son désir profond. Il était assidu à apprendre les arts et devint un mage de guerre extrêmement puissant, mais cela ne le contentait pas. En fait, il ne désirait que de se mêler aux combattants et de régler ses affaires à coups de bâton.
-Il travaillât de longues années à la conception de la robe qui lui donnerait sa légitimité.
-La robe est tissée de fins fils d'iridium et puissamment enchantée. Elle donne à son porteur tous les attributs du sort "Transformation de Tenser", sans pour autant l’empêcher de lancer des sorts. Seul Sarat-tapaï pouvait la porter de son vivant, les fils se resserrant et bouchant col et embouchures si tout autre personne tentait de l'enfiler.
-Aujourd'hui, plus personne ne peut porter cette robe, le système de verrouillage encore actif opérant encore pour n’importe quel mage tentant de porter la robe. Mais il se raconte qu'un mage résolument tourné vers le combat comme l'avait été Sarat-tapaï pourrait dompter l'objet. Cela reste à prouver.
-
-PARAMETRES :
-
-Capacités d'équipement :
-Classe d'armure : fixée à 1
-Taco au corps à corps : +10
-Dégâts au corps à corps : +2
-Points de vie : +40
-Spécial : octroie une attaque supplémentaire par round
-
-Poids : 5
-Uniquement utilisable par les :
-  Sorceliers avec au moins 17 en force et dextérité.~
-
 //Objet pour le Chantelameur
 @1007 = ~Jaseran elfique de chantelameur +2.~
 @1008 = ~Cette magnifique armure est composée de milliers de petites plaques de métal finement ciselées et parfaitement imbriquées. Elle brille de mille feux, chacune des plaques renvoyant tel un miroir la lumière environnante. Souple et légère, elle pourrait convenir à n'importe quel guerrier, si elle n’était pas intelligente.
@@ -108,18 +77,6 @@ Sagesse +1.
 
 Utilisable seulement par :
 Explorateur théurgique.~
-
-
-@10000 = ~SCRIPT SPECIALISEUR DU DUKP ~
-@10001 = ~
-Ce script permet à un personnage sorcier répondant aux requis (pensez à lire le lisez_moi) d'obtenir la spécialisation de Sorcelier ou Touche-à-tout.
-Associez ce script à un personnage sorcier et laissez vous guider par les textes à l'écran~
-@10002 = ~Le Script Spécialiseur du DUKP ne peut rien pour moi : j'ai déjà une spécialisation. Pensez à m'affecter un autre script.~
-@10003 = ~Le Script Spécialiseur du DUKP ne peut rien pour moi : je ne suis ni sorcier ni guerrier/mage/voleur. Pensez à m'affecter un autre script.~
-@10004 = ~Je n'ai plus besoin du Script Spécialiseur du DUKP. Pensez à m'affecter un autre script.~
-@10006 = ~La spécialisation de Sorcelier n'est pas installée.~
-
-
 
 //Textes relatifs au maître de l'essaim
 @5477 = ~Scarabée de cuivre~
