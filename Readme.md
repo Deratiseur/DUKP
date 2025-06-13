@@ -38,6 +38,8 @@ Un pack de kits incluant :
   
 - Un profil de multiclassé clerc/entropiste (humain): l'Explorateur théurgique (sélection sous la classe de clerc)
 
+- Une amélioration de kit : Amélioration du Belluaire.
+
 ------------
 
 A pack of kits including : 
@@ -63,3 +65,5 @@ A pack of kits including :
 - A multi-class fighter/mage (elf) kit: The Bladesinger. (Selection on fighter class)
   
 - A multi-class cleric/wild mage (human) kit: The Theurgical Explorer. (Selection on cleric class)
+
+- A kit improvement: the Beast master upgrade.
