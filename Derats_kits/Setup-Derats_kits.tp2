@@ -172,11 +172,11 @@ LANGUAGE ~English (8 olds by Nightfarer (Google trad), 5 news by Deratiseur)~
 
 
 BEGIN @30	DESIGNATED 30	LABEL Px_DUKP_Haine
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009 // Ce composant ne fonctionne qu'avec l'extension Throne of Bhaal ou une version Enhanced.
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009 // Ce composant ne fonctionne qu'avec l'extension Throne of Bhaal ou une version Enhanced.
 
 // Note : j'ai inclue sur les instructions de ce kit des aides que vous pouvez copier-coller lorsque vous programmez votre propre kit afin de vous aider.
-ADD_KIT ~pxHAINE~
-//AIDE WCLASWEAP   SMALL_SWORD LARGE_SWORD     BLUNT     MISSILE       BOW        SPIKED       AXE        SPEAR
+ADD_KIT ~pxHAINE~  
+//AIDE CLASWEAP    SMALL_SWORD LARGE_SWORD     BLUNT     MISSILE       BOW        SPIKED       AXE        SPEAR
 ~pxHAINE                1           1           1           1           1           1           1           1~ // Types d'armes autorisés - CLASWEAP
 //AIDE WEAPPROF                                 T   S           F   Q             S S
 //AIDE WEAPPROF         L S                     W   C           L   U             W I
@@ -233,7 +233,7 @@ COPY_EXISTING	~pxw5huv1.vvc~				~override/pxw5huv2.vvc~	WRITE_ASCII 0x8 ~pxw5hur
 
 
 BEGIN @10	DESIGNATED 10	LABEL Px_DUKP_Vermine
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxVERMINE~
 ~pxVERMINE              1           1           1           1           1           1           1           1~
@@ -338,7 +338,7 @@ COMPILE ~Derats_kits/Vermine/Scripts~
 
 
 BEGIN @110	DESIGNATED 110	LABEL Px_DUKP_Belluaire
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 COPY	~Derats_kits/Belluaire/CLABRN04.2DA~			~override~
 COPY	~Derats_kits/Belluaire/Copy~					~override~
@@ -352,7 +352,7 @@ STRING_SET 25212 @114
 
 
 BEGIN @20	DESIGNATED 20	LABEL Px_DUKP_Flammes
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Flammes/BGEE_patch/LUPXF.2da~		~Derats_kits/Flammes/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -1000,7 +1000,7 @@ COMPILE ~Derats_kits/Flammes/Scripts~
 
 
 BEGIN @140	DESIGNATED 140	LABEL Px_DUKP_Goragos
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~TOB BGT BGEE BG2EE EET~ THEN BEGIN
 ADD_KIT ~pxGORAGOS~
@@ -1036,7 +1036,7 @@ COPY	~Derats_kits/Ravage/pxgorar.spl~				~override~	SAY NAME1 @7421
 
 
 BEGIN @120	DESIGNATED 120	LABEL Px_DUKP_Ombres
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Ombres/BGEE_patch/LUPXO.2da~		~Derats_kits/Ombres/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -1193,7 +1193,7 @@ COMPILE ~Derats_kits/Ombres/pxombres.baf~
 
 
 BEGIN @40	DESIGNATED 40	LABEL Px_DUKP_Ombremage
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Ombremage/BGEE_patch/LUPXG.2da~		~Derats_kits/Ombremage/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -1670,6 +1670,7 @@ COMPILE ~Derats_kits/Ombres/pxombres.baf~
 
 
 BEGIN @90	DESIGNATED 90	LABEL Px_DUKP_Artilleur
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 COPY	~Derats_kits/Projo/Copy~						~override~
 
@@ -1740,7 +1741,7 @@ END
 
 
 BEGIN @70	DESIGNATED 70	LABEL Px_DUKP_Warlord
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
 	COPY	~Derats_kits/Warlord/BGEE_patch/LUPXW.2da~		~Derats_kits/Warlord/Spells/Copy~ //SCS and Lefreut's enhanced UI compatibility patch
@@ -3621,7 +3622,7 @@ END
 
 
 BEGIN @80	DESIGNATED 80	LABEL Px_DUKP_Bladesinger
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxCHANTELAMEUR~
 ~pxCHANTELAMEUR         0           1           0           0           0           0           0           0~
@@ -3677,7 +3678,7 @@ VERBOSE
 
 
 BEGIN @60	DESIGNATED 60	LABEL Px_DUKP_Theurgique
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxTHEURGE~
 ~pxTHEURGE              0           0           1           1           0           1           0           0~
@@ -3724,7 +3725,7 @@ END
 
 
 BEGIN @150	DESIGNATED 150	LABEL Px_DUKP_Anatomiste
-REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE SoD BG2EE IWDEE EET~ @0009
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE IWDEE EET~ @0009
 
 ADD_KIT ~pxANATOMISTE~
 ~pxANATOMISTE           0           0           1           1           0           1           0           0~
