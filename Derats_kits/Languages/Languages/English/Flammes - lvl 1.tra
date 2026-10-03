@@ -1,0 +1,107 @@
+@212 = ~Remove Fear (Abjuration) 
+Level: 1
+Sphere: charm
+Range: 10 meters
+Duration: 1 hour
+Casting Time: 1
+Area of Effect: radius 9 meters
+Saving Throw: special
+
+The priest instills courage in the spell recipients, raising their morale to its maximum. Their morale gradually returns to normal as the duration elapses.
+The preacher, having lost all healing skills, casts a version of Remove Fear that cannot remove fear from creatures already affected by it.~
+@2121 = ~Remove Fear (Abjuration)
+Level: 1
+Sphere: charm
+Range: visual range of the caster
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: radius 9 meters
+Saving Throw: none
+
+The priest instills courage in the spell's recipients, raising their morale to its maximum. Their morale gradually returns to normal as the duration elapses. The preacher, having lost all healing skills, casts a version of Remove Fear that cannot remove fear from creatures already affected by it.~ //Texte de IWDEE
+
+@213 = ~Flame Dart~
+@214 = ~Flame Dart (Evocation)
+Level: 1
+Sphere: elemental (fire)
+Range: 10 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: one creature
+Saving Throw: half
+
+When the preacher of flames casts this spell, a fiery dart shoots from his hands toward the target. On impact, it deals 1D3 points of fire damage and has a 50% chance to explode, dealing an additional 1D4 points of damage for every 2 caster levels (max 10D4). If the target makes a successful save vs. spell it takes only half the damage from the explosion.~
+@2141 = ~Flame Dart (Evocation)
+Level: 1
+Sphere: elemental (fire)
+Range: 10 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: one creature
+Saving Throw: half
+
+When the preacher of flames casts this spell, a fiery dart shoots from his hands toward the target. On impact, it deals 1D4 points of fire damage and has a 50% chance to explode, dealing an additional 12D4 points of damage (13D4 at level 30 and 14D4 at level 40). If the target makes a successful save vs. spell it takes only half the damage from the explosion.~
+@2142 = ~Flame Dart (Evocation)
+Level: 1
+Sphere: elemental (fire)
+Range: 10 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: one creature
+Saving Throw: half
+
+When the preacher of flames casts this spell, a fiery dart shoots from his hands toward the target. On impact, it deals 1D3 points of fire damage and has a 50% chance to explode, dealing an additional 10D4 points of damage. If the target makes a successful save vs. spell at a -2 penalty (an additional -1 for every 5 levels of the caster beyond level 20) it takes only half the damage from the explosion.~
+
+@215 = ~Scorcher~
+@216 = ~Scorcher (Evocation)
+Level: 1
+Sphere: elemental (fire)
+Range: 20 m
+Duration: 2 rounds
+Casting Time: 1
+Area of Effect: 0.5 by 20 meters
+Saving Throw: none
+
+Upon casting this spell a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 2-16 points of damage. There is no saving throw against this spell. Other creatures who cross the path of the flame jet will also take damage as long as they stand in the flame. The flame jet stays for some time and still inflicts 2-16 points of damage the following round before dying out.~
+@2161 = ~Scorcher (Evocation)
+Level: 1
+Sphere: elemental (fire)
+Range: 20 m
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 0.5 by 20 meters
+Saving Throw: none
+
+Upon casting this spell a jet of flame appears at the caster's fingertips and bursts out toward one target of the caster's choice. That target will be hit by this flame for 2-20 points of damage (2-22 at level 30 and 2-24 at level 40). There is no saving throw against this spell. Other creatures who cross the path of the flame jet will also take the same damage as long as they stand in the flame. The flame jet stays for some time and still inflicts the same damage the following round before dying out.~
+
+@218 = ~Burning Hands (Alteration)
+Level: 1
+Sphere: elemental (fire)
+Range: 2 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 60-degree arc
+Saving Throw: half
+
+When the preacher of flames casts this spell, a jet of searing flame shoots from his fingertips. He must press his thumbs together and spread his fingers to project a fan of flame. The flames extend 1.5 meters in a horizontal arc of about 60 degrees in front of the preacher. Any creature in the area of the flames suffers 1d4 points of fire damage, plus 2 points for each level of the spellcaster, to a maximum of 1d4 + 20 points of fire damage. A successful save vs. spell halves the damage.~
+@2181 = ~Burning Hands (Alteration)
+Level: 1
+Sphere: elemental (fire)
+Range: 2 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 60-degree arc
+Saving Throw: half
+
+When the preacher of flames casts this spell, a jet of searing flame shoots from his fingertips. He must press his thumbs together and spread his fingers to project a fan of flame. The flames extend 1.5 meters in a horizontal arc of about 60 degrees in front of the preacher. Any creature in the area of the flames suffers 1d4 +24 points of fire damage (1D4 +26 at level 30 and 1D4 +28 at level 40). A successful save vs. spell halves the damage.~
+@2182 = ~Burning Hands (Alteration)
+Level: 1
+Sphere: elemental (fire)
+Range: 2 meters
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 60-degree arc
+Saving Throw: half
+
+When the preacher of flames casts this spell, a jet of searing flame shoots from his fingertips. He must press his thumbs together and spread his fingers to project a fan of flame. The flames extend 1.5 meters in a horizontal arc of about 60 degrees in front of the preacher. Any creature in the area of the flames suffers 1d4 +20 points of fire damage. A successful save vs. spell at -2 (an additional -1 for every 5 caster levels beyond level 20) halves the damage.~
+

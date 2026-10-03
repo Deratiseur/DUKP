@@ -1,0 +1,88 @@
+@2101 = ~Way of the Pyromaniac~
+@2102 = ~Way of the Pyromaniac:
+
+A preacher who sees fire as a weapon of mass destruction becomes a true pyromaniac. His spells reflect his sadistic delight in burning things, imposing a -2 penalty to saving throws (additional -1 every 5 levels beyond level 20, for a total of -8 at level 50) against them.
+This mindset strengthens his bond to the evil planes. He gains a new spell, while others change to inflict greater suffering.
+If his alignment is (lawful) neutral when he chooses this path, it becomes (neutral) evil.
+
+Rejecting the neutrality of the Plane of Fire has a price: the preacher can no longer summon its most powerful inhabitants and loses his strongest creature-summoning spells. His bond to the infernal planes also prevents him from using Protection from Evil spells.~
+
+@2105 = ~Recall of the Fire Army~
+@2106 = ~Requirement: Way of the Pyromaniac
+
+Recall of the Fire Army:
+
+This dark ritual retrieves the souls of warriors who died by fire and welcomed its final caress.
+The ritual takes 2 full rounds and summons 1d10 souls from the infernal planes as undead servants. These warriors are at one with fire, reveling in its touch and spreading it in battle. Each ritual has a 10% chance of bringing back a powerful pyromancer.
+The souls return to the Abyss if their undead bodies are destroyed or after 8 hours on the Prime Material Plane.~
+@21061 = ~Burned Dead~
+@21062 = ~Charred Warrior~
+@21063 = ~Scorched Barbarian~
+@21064 = ~Pyromancer~
+@210641 = ~Chain Contingency - Abi-Dalzim's Horrid Wilting + double Incendiary Cloud~
+@210642 = ~Suffer the bite of fire!~
+@210643 = ~Spell Sequencer - Improved Invisibility + Stoneskin + Fire Shield (Red)~
+@210644 = ~Spell Trigger - triple Sunfire~
+@210645 = ~Contingency - Stoneskin~
+@210646 = ~Minor Sequencer - double Burning Hands~
+
+@2107 = ~Heat Overflow~
+@2108 = ~Requirement: the Way of the Pyromaniac
+
+Heat Overflow (Necromancy)
+Level: quest
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: 5 seconds
+Casting Time: 7
+Area of Effect: one creature
+Saving Throw: special
+
+This spell raises the target's internal heat to an unbearable level while coating it in glowing dust. The creature suffers 2d6 points of fire damage, then 5d6, then 10d6. It must then save vs. death at -3 or explode. If it survives, it cools rapidly but suffers a further 3d6 points of damage before the spell ends.
+Fire creatures are immune to this spell.~
+@21081 = ~Heat Overflow (Necromancy)
+Level: quest
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: 1 round
+Casting Time: 7
+Area of Effect: one creature
+Saving Throw: special
+
+This spell raises the target's internal heat to an unbearable level while coating it in glowing dust. The creature suffers 2d6 points of fire damage, then 5d6, then 10d6. It must then save vs. death at -3 or explode. If it survives, it cools rapidly but suffers a further 3d6 points of damage before the spell ends.
+Fire creatures are immune to this spell.~
+
+@2109 = ~Fire Elemental Transformation~
+@21010 = ~Requirement: Way of the Pyromaniac
+
+Fire Elemental Transformation:
+
+Although the preacher can no longer summon the most powerful elementals, his understanding of their nature allows him to become one himself, spreading fire and terror.
+This powerful transformation turns him into a fire elemental with 24 Hit Dice, AC -5 and THAC0 0. Its attacks deal 1d8 points of physical damage and 2d8 points of fire damage. Returning to human form restores 3d10 hit points.~
+
+@21011 = ~Resounding Spontaneous Combustion~ 
+@21012 = ~Requirement: Heat Overflow
+
+Resounding Spontaneous Combustion (Necromancy)
+Level: quest
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: negates
+
+If the target fails its save vs. death, this horrific spell releases all of its internal heat, killing it instantly and causing it to explode. The resulting fireball deals 10d8 points of fire damage within a 10-meter radius; a successful save vs. spell halves the damage. Every creature caught in the fireball is also subjected to the original spell and must save vs. death or explode into another fireball.
+A creature may be struck by several fireballs and forced to make several saves as the chain reaction continues. Explosions at the edge of the affected area can spread the destruction far beyond the original blast.~
+@210121 = ~Resounding Spontaneous Combustion (Necromancy)
+Level: quest
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: negates
+
+If the target fails its save vs. death, this horrific spell releases all of its internal heat, killing it instantly and causing it to explode. The resulting fireball deals 10d8 points of fire damage within a 10-meter radius; a successful save vs. spell halves the damage. Every creature caught in the fireball is also subjected to the original spell and must save vs. death or explode into another fireball.
+A creature may be struck by several fireballs and forced to make several saves as the chain reaction continues. Explosions at the edge of the affected area can spread the destruction far beyond the original blast.~
+

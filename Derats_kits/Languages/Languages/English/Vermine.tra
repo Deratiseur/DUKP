@@ -1,0 +1,46 @@
+@1099 = ~vermin hunter~
+@11 = ~Vermin Hunter~
+@12 = ~VERMIN HUNTER: Even the best-protected human cities are never entirely safe from pests such as rats and molds. In woodland settlements built among the trees, giant spiders, beetles, and other insects may nest nearby and disturb the peace.
+Vermin hunters are trained to drive out and exterminate these creatures. Years of practice give them a natural resistance to toxins and the ability to treat poisoning in others. They can also move freely through webs, entanglements, and other obstacles that restrict movement.
+Among elves, these rangers serve their community; among humans, they are usually hired and paid as civic guards.
+
+Advantages:
+- +3 to hit and damage against ankhegs, otyughs, slimes, and giant vermin.
+- At level 4, gains freedom of movement: immunity to webs, entanglement, immobilization, and slowing effects.
+- At level 8, becomes immune to poison.
+- At level 10, becomes immune to unnatural diseases.
+- At level 4 and every 4 levels thereafter, may use Slow Poison once per day.
+- At level 7 and every 5 levels thereafter, may neutralize toxins once per day.
+- At level 12 and every 6 levels thereafter, may use Vermin Summoning once per day.
+- At level 15 and every 8 levels thereafter, may use Giant Vermin Summoning once per day.
+
+Disadvantages:
+- May not wear armor heavier than studded leather.
+- May not learn proficiencies in two-handed weapons other than bows and quarterstaves.
+
+Note: To dual-class into a cleric, a human vermin hunter needs at least 15 Strength, 15 Dexterity, and 17 Wisdom.
+
+VERMIN SUMMONING:
+An experienced vermin hunter instinctively knows where pests lurk nearby and can use his ranger skills to tame them. Each use calls up to 4 creatures that join him for 2 minutes.
+
+GIANT VERMIN SUMMONING:
+After years of fighting vermin, the hunter can train and summon even the most feared creatures. Up to 3 creatures answer his call and join him for 2 minutes.~
+
+@13 = ~Vermin Summoning~
+@14 = ~Giant Vermin Summoning~
+@15 = ~Death Watch Beetle~
+@16 = ~Neo-Otyugh~
+@17 = ~Brown Pudding~
+@18 = ~Putrid Stink Bug~
+@19 = ~Boring Beetle~
+@1010 = ~Trapdoor Spider~
+@1011 = ~Boasilisk~
+@1012 = ~Giant Snake~
+@1013 = ~Otyugh~
+@1014 = ~Web Tangle~
+@1015 = ~Snake Gaze~
+@1016 = ~Deadly Vibration~
+@1017 = ~Fetid Fragrance~
+@1018 = ~Toxic Scent~
+@1019 = ~Hunting Spider~
+

@@ -1,0 +1,120 @@
+@271 = ~Fire Trap~
+@272 = ~Fire Trap (Invocation/Evocation)
+Level: 7
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: special
+Casting Time: 1 round
+Area of Effect: radius 10 m
+Saving Throw: half
+
+This spell places a fire trap at the chosen location. An orb of fire appears, visible only to the preacher; neither detection nor divination can reveal it to anyone else. The orb remains until a creature unwisely approaches, then explodes into a fireball dealing 1D6 points of damage per experience level of the spellcaster (maximum 20D6) (a successful save vs. spell halves the damage).~
+@2721 = ~Fire Trap (Invocation/Evocation)
+Level: 7
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: special
+Casting Time: 1 round
+Area of Effect: radius 10 m
+Saving Throw: half
+
+This spell places a fire trap at the chosen location. An orb of fire appears, visible only to the preacher; neither detection nor divination can reveal it to anyone else. The orb remains until a creature unwisely approaches, then explodes into a fireball dealing 24D6 (26D6 at level 30 and 28D6 at level 40) (a successful save vs. spell halves the damage).~
+@2728 = ~Deadly Fire Trap~
+@2729 = ~Deadly Fire Trap (Invocation/Evocation)
+Level: 7
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: special
+Casting Time: 1 round
+Area of Effect: radius 10 m
+Saving Throw: half
+
+This spell places a fire trap at the chosen location. An orb of fire appears, visible only to the preacher; neither detection nor divination can reveal it to anyone else. The orb remains until a creature unwisely approaches, then explodes into a fireball dealing 20D6 points of damage and sets the targets ablaze, with effects similar to the level 4 spell Ignition. The victims who successfully make a save vs. spell at a -2 penalty (additional -1 every 5 levels of the caster beyond level 20) halve the received damage and those who succeed the same saving throw at +2 (same progressive penalty) avoid catching fire.~
+
+@273 = ~Fire Storm~
+@274 = ~Fire Storm (Evocation)
+Level: 7
+Sphere: elemental (fire)
+Range: 30 meters
+Duration: 4 rounds
+Casting Time: 1 round
+Area of Effect: radius 7 m
+Saving Throw: none
+
+When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame and then pelted with fiery balls of lava. Creatures within the area of fire receive 2d8 points of damage plus 1 per level of the priest (or 2D8 +1/level). This assault will last for four rounds and will continue to do damage to the creature during that time unless he moves out of the area of effect. There is no saving throw versus this spell.~
+@2741 = ~Fire Storm (Evocation)
+Level: 7
+Sphere: elemental (fire)
+Range: 30 meters
+Duration: 4 rounds
+Casting Time: 1 round
+Area of Effect: radius 7 m
+Saving Throw: none
+
+When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame and then pelted with fiery balls of lava. Creatures within the area of fire receive 2d10 +24 points of damage (2d10 +27 at level 30 and 3d6 +30 at level 40). This assault will last for four rounds and will continue to do damage to the creature during that time unless he moves out of the area of effect. There is no saving throw versus this spell.~
+
+@275 = ~Plague of Fireflies~
+@276 = ~Plague of Fireflies (Conjuration/Summoning)
+Level: 7
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: 4 rounds
+Casting Time: 7
+Area of Effect: visible enemies
+Saving Throw: special
+
+When this spell is cast by the preacher of flames, a horde of fireflies gathers and swarms. This swarm will jump first to the target, then to the nearest allies of the target, until six creatures have been affected. Spellcasting within the swarm is impossible (100% failure rate). Creatures caught in the swarm, regardless of Armor Class, suffer 1d6 burning stings per round, each dealing 1 point of fire damage. Invisibility is no protection. Moreover, if they fail a saving throw each round they can flare up and suffer 1d6 additional points of damage.
+Due to the suffocating nature of the swarm, each victim must save vs. spell each round or run away in fear.~
+
+@277 = ~Incineration~
+@278 = ~Incineration (Evocation, Necromancy)
+Level: 7
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: 1 round / level
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: half
+
+This spell wraps the target in a vertical column of fire. As the flames consume it, the victim suffers 2D6 points of damage per round, halved on a successful save vs. spell.
+A successful dispel ends the flames; otherwise, they continue to burn the target for the spell's full duration. The magically sustained fire is difficult to extinguish. Neither a shower nor a strong gust can put it out; immersion in a body of water at least as large as a lake can do so.
+Incineration has no effect on fire creatures.~
+@2781 = ~Incineration (Evocation, Necromancy)
+Level: 7
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: half
+
+This spell wraps the target in a vertical column of fire. As the flames consume it, the victim suffers 2D6 +1 point of damage (2D8 at level 30, 2D8 +1 at level 40) per round, halved on a successful save vs. spell.
+A successful dispel ends the flames; otherwise, they continue to burn the target for the spell's full duration. The magically sustained fire is difficult to extinguish. Neither a shower nor a strong gust can put it out; immersion in a body of water at least as large as a lake can do so.
+Incineration has no effect on fire creatures.~
+@279 = ~Immolation~
+@2710 = ~Immolation (Evocation, Necromancy)
+Level: 7
+Sphere: necromancy, elemental (fire)
+Range: visual range of the caster
+Duration: 2 turns
+Casting Time: 9
+Area of Effect: special
+Saving Throw: none
+
+This spell wraps the target in a vertical column of inextinguishable fire. As the flames consume it, the victim suffers 2D6 points of damage per round, no saving throw. Fire is so intense that creatures within a 3-meter radius of the victim also suffer 2D6 points of damage per round, but may save for half damage.
+A successful dispel ends the flames; otherwise, they continue to burn the target for the spell's full duration. Neither strong winds nor immersion in water can extinguish these flames, which are fueled by the preacher's fierce determination to incinerate his victim.
+Immolation has no effect on fire creatures.~
+
+@2711 = ~Conjure Fire Pseudo-elemental~
+@2712 = ~Conjure Fire Pseudo-elemental (Conjuration/Summoning)
+Level: 7
+Sphere: summoning, elemental (fire)
+Range: visual range of the caster
+Duration: 1 turn / level
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+This spell opens a portal to Phlegethos, a layer of Baator, to summon a fire pseudo-elemental subject to the will of the spellcaster. There is a 60% chance that a 12-HD pseudo-elemental appears, a 35% chance that a pseudo-elemental with 16 Hit Dice answers the call, and a 5% chance that a pseudo-elemental with 24 Hit Dice arrives to clear the battlefield. It is not necessary to know the language of the summoned creature because the pseudo-elemental is controlled telepathically. Priests, unlike wizards, do not need to engage in a contest of wills to take control of the summoned pseudo-elemental. It remains under the control of the caster until the duration of the spell expires.~
+@27121 = ~Fire Pseudo-elemental~
+

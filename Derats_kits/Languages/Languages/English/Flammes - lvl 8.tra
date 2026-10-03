@@ -1,0 +1,71 @@
+@283 = ~Infernal Orbs~
+@284 = ~Infernal Orbs (Conjuration)
+Level: quest
+Sphere: elemental (fire)
+Range: 0
+Duration: 4 turns
+Casting Time: 6
+Area of Effect: caster
+Saving Throw: none
+
+This spell creates large fire orbs in the hand of the preacher, which he can throw at a target at a rate of 5 per round. Only one orb is created at once, and is replaced as soon as it is thrown, up to a total of 15.
+Every orb is treated as a +5 projectile, thrown with a +5 bonus to attack rolls and inflicting 1D6 +5 crushing damage. Moreover it burns the victim and inflicts 6d6 points of fire damage, halved if the latter makes a successful save vs. spell.~
+@2841 = ~Infernal Orb~
+@2842 = ~This Fire Orb has been created by the spell Infernal Orbs.~
+
+@285 = ~Incendiary Cloud~
+@286 = ~Incendiary Cloud (Evocation)
+Level: quest
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: 1 turn
+Casting Time: 7
+Area of Effect: 12-meter-radius cloud
+Saving Throw: half
+
+This spell creates a billowing cloud of roaring flame. Any creature in the area must leave the cloud immediately, or suffer 20D4 points of fire damage each round while in the area of effect. A successful save vs. spell halves the damage. The preacher of flames can move freely in the cloud without suffering the effects.~
+
+@287 = ~Deadly Flame Shield~
+@288 = ~Deadly Flame Shield (Evocation, Alteration)
+Level: quest
+Range: 0
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: caster
+Saving Throw: none
+
+This spell wraps the preacher in a maelstrom of raging flames. The shield grants complete protection from fire and a +2 concealment bonus to AC.
+The flames forming the shield are very unstable, and anyone who touches the preacher suffers a random backlash determined by a d100 roll:
+1 to 15: Burning: 4D4 points of damage, save for half damage.
+16 to 30: Burning: 6D6 points of damage, save for half damage.
+31 to 45: Burning: 8D8 points of damage, save for half damage.
+46 to 60: Burning: 10D10 points of damage, save for half damage.
+61 to 75: Burning: 12D12 points of damage, save for half damage.
+76 to 78: Maelstrom explosion (5-meter radius, 4D6 points of damage, save for half damage)
+79 to 81: Maelstrom explosion (8 meters radius, 6D8 points of damage, save for half damage)
+82 to 84: Maelstrom explosion (10 meters radius, 8D10 points of damage, save for half damage)
+85 to 87: Incineration (as the level 7 spell, 5 rounds, saving throw to negate)
+88 to 90: Incineration (as the level 7 spell, 5 rounds, saving throw at -3 to negate)
+91 to 93: Incineration (as the level 7 spell, 10 rounds, saving throw to negate)
+94 to 96: Incineration (as the level 7 spell, 10 rounds, saving throw at -3 to negate)
+97 and 98: Pulverization (death if failed save vs. death, 12D6 points of damage if successful, second save for half damage)
+99 and 100: Pulverization (death if failed save vs. death at -3, 20D10 points of damage if successful, second save at -3 for half damage)
+
+Note: Except for the first save against pulverization, all saves are made vs. spell. All damage is fire damage. Incineration effects caused by the shield do not stack.~
+@2889 = ~Turned into Dust~
+
+@289 = ~Fissure~
+@2810 = ~Fissure (Invocation)
+Level: quest
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: special
+
+This spell creates a channel of magma from the center of Abeir-Toril to the target.
+When the magma reaches the ground beneath the target, a fissure opens and swallows it. It suffers 10D10 points of fire damage and must make a successful save vs. breath weapon to climb quickly out of the chasm. If it fails, it must make a second save at -2. Failure means it is crushed to death as the fissure closes. Success means it is only partially crushed: it suffers 10D10 crushing damage and is severely impaired: movement speed is reduced by 50% and it suffers a -3 penalty to attack rolls and Armor Class.
+The spell targets magma beneath the ground rather than the victim directly, so magic resistance offers no protection.~
+@28101 = ~Crushed by the Fissure~
+

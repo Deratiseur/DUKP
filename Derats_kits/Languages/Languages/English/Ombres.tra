@@ -1,0 +1,46 @@
+@1209 = ~shadow walker~
+@121 = ~Shadow Walker~
+@122 = ~SHADOW WALKER: The order of shadow walkers is an ancient organization whose members share a special affinity with shadow. Rumor has it that its greatest masters are living shadows shaped by magic. Whatever the truth, this bond gives the order a valuable advantage.
+Only the masters may appoint new recruits. An initiate who accepts their offer is assigned a mentor to teach him shadow techniques and the magic associated with them. Every full member can use shadows to his advantage and wield simple spells. True shadow magic, however, is practiced only by the oldest masters.
+Shadow Walkers are not ordinary thieves. Dedicated to good, they swear to use their extraordinary abilities to avenge victims. Acting as vigilantes, they hunt down criminals who have escaped conventional justice.
+
+Advantages:
+- May study all magical scrolls from the schools of Abjuration, Alteration, Illusion, and Divination, then use shadow magic to cast those spells as magical abilities, up to 4 times per day per spell level. Gains access to a higher spell level every 4 levels, up to spell level 4.
+- Gains +1 to saving throws vs. wands and spells.
+- Can see in the dark as though using infravision.
+- At levels 3, 5, and 7, gains one daily use of Aura of Shadows.
+- At levels 8, 10, and 12, gains one daily use of Mantle of Shadows.
+- At levels 13, 15, and 17, gains one daily use of Shape of Shadow.
+
+Disadvantages:
+- Only humans, elves, and half-elves may be chosen.
+- Must be of good alignment.
+- Magical study leaves little time for martial training: his THAC0 closely follows that of a mage (-1 every 6 levels from level 5), and he only uses light weapons.
+- Gains only 20 points to distribute among thief skills at each level.
+
+AURA OF SHADOWS:
+A partly magical aura surrounds the shadow walker, granting +25% to Hide in Shadows for 1 round per level.
+
+MANTLE OF SHADOWS:
+The shadow walker becomes partly translucent, gaining a +1 concealment bonus to AC and saving throws, and +50% to Hide in Shadows. Remaining motionless for at least 1 round makes him invisible. He can repeat this throughout the effect's duration of 1 round per level.
+
+SHAPE OF SHADOW:
+The shadow walker becomes a living shadow. He is almost invisible and gains +4 to AC and saving throws. He may attack or cast spells without becoming visible, although creatures may occasionally glimpse him as a movement in the shadows. Detect Invisibility cannot reveal him, while True Seeing reveals him only intermittently. Only magical weapons can harm him.
+His weapons become ethereal and pass harmlessly through targets, so he cannot use them. Instead, his touch deals 1D4+1 damage and drains 1 point of Strength for 2 turns if the victim fails a saving throw vs. death at -3.
+He may remain in this form for 1 round per level or return to normal at will.~
+
+@123 = ~Aura of Shadows~
+@1231 = ~Hidden~
+@124 = ~Mantle of Shadows~
+@125 = ~Shape of Shadow~
+@126 = ~Undo Shape of Shadow~
+@127 = ~Level 1 Spells~
+@128 = ~Level 2 Spells~
+@129 = ~Level 3 Spells~
+@1210 = ~Level 4 Spells~
+@1211 = ~Shadow Touch~
+@1212 = ~Level 5 Spells~
+
+//Spell not included in BGEE
+@12300 = ~Wizard Eye~
+

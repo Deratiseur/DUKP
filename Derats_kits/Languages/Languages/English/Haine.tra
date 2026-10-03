@@ -1,0 +1,161 @@
+@309 = ~hatred carrier~
+@31 = ~Hatred Carrier~
+@32 = ~HATRED CARRIER: On the Sword Coast, near the Ten Towns, old wars against combined armies of orcs and goblins have left the inhabitants with a deep hatred of those peoples. Half-orcs born to human women raped by orcs are usually killed at birth. Some mothers, however, cannot bring themselves to abandon their children, whatever their ancestry. These children are raised in secret, for the townsfolk would show no mercy even to a child with orc blood.
+Hidden in dark cellars or foul attics, always afraid of discovery and death, they know only a mother who teaches them that the world hates them. Hatred carriers grow up around a single thought: the world hates me, and I hate it in return. They become ruthless brutes who know only strength, resentment, and anger.
+Their half-orc heritage gives them exceptional physical strength, but their unstable minds severely hamper their ability to reason or learn. They know only "brutal" abilities and show no finesse.
+
+Advantages:
+- Gains one daily use of Intimidation every 4 levels. This works like Charm Person, but lasts longer and imposes harsher saving throw penalties. It grows stronger with level. The victim is always hostile when the effect ends.
+- At level 7 and every 5 levels thereafter, gains one daily use of Roar of Rage. Like Horror, it forces nearby creatures to save or flee in fear for 45 seconds. Its power grows with level.
+- At level 12 and every 6 levels thereafter, gains one daily use of Fist of Fury. For 2 rounds, gains an additional attack and deals maximum damage with every attack. Each hit also has a chance to stun the victim.
+- Indomitable: Immune to charm.
+- Brutal: +1 to damage.
+
+Disadvantages:
+- Must be chaotic neutral, neutral evil, or chaotic evil.
+- Receives 10% less experience because of his limited ability to learn.
+- Begins with -1 to Intelligence, Charisma, and Wisdom because of his lack of education.~
+
+@33 = ~Intimidation~
+@34 = ~Roar of Rage~
+@35 = ~Fist of Fury~
+
+@36 = ~champion of Xvim~
+@37 = ~Champion of Xvim~
+@38 = ~CHAMPION OF XVIM: On the Sword Coast, near the Ten Towns, old wars against combined armies of orcs and goblins have left the inhabitants with a deep hatred of those peoples. Half-orcs born to human women raped by orcs are usually killed at birth. Some mothers, however, cannot bring themselves to abandon their children, whatever their ancestry. These children are raised in secret, for the townsfolk would show no mercy even to a child with orc blood.
+Hidden in dark cellars or foul attics, always afraid of discovery and death, they know only a mother who teaches them that the world hates them. Hatred carriers grow up around a single thought: the world hates me, and I hate it in return. They become ruthless brutes who know only strength, resentment, and anger.
+As these outcasts roam the Realms, the most aggressive and cruel may attract the attention of Iyachtu Xvim, the New Darkness. A hatred carrier who accepts the god's offer gains many powers, but also a demanding master.
+Fortunately for the people of the Realms, hatred carriers are rare, and the circumstances that turn one into a champion of Xvim are rarer still.
+
+Advantages:
+- Retains his hatred carrier abilities and gains new powers as a black knight:
+  * May turn undead as a cleric 2 levels lower.
+  * May use a harmful version of Lay on Hands once per day, dealing 2 damage per level.
+  * May cast a limited selection of divine spells.
+  * Gains +1 to saving throws.
+  * Is immune to fear and morale failure.
+
+Disadvantages:
+- Reputation must not exceed 12. If it does, Xvim withdraws all his divine powers, leaving him the ordinary fighter he once was.
+- Must not become neutral, or he loses his powers in the same way. If he becomes good, Xvim will likely make him pay for his betrayal.~
+
+@39 = ~Remove Fear (Abjuration)
+Level: 1
+Sphere: charm
+Range: 10 meters
+Duration: 1 hour
+Casting Time: 1
+Area of Effect: radius 9 meters
+Saving Throw: special
+
+The paladin instills courage in the spell recipients, raising their morale to its maximum. Their morale gradually returns to normal as the duration elapses. The paladin of Xvim, having no healing abilities, casts a version of Remove Fear that cannot dispel fear in a creature that is already afraid.~
+
+@310 = ~Unholy Bless~
+@311 = ~Unholy Bless (Conjuration/Summoning)
+Level: 1
+Sphere: all
+Range: 30 meters
+Duration: 6 rounds
+Casting Time: 1 round
+Area of Effect: 15-meter cube
+Saving Throw: none
+
+The paladin of Xvim raises the morale of friendly evil creatures and grants them a +1 bonus to saving throws against fear and to attack rolls. At the instant the spell is completed, it affects all creatures in a 15-meter cube centered on the point selected by the caster (thus, affected creatures leaving the area are still subject to the spell's effect; those entering the area after the casting is completed are not). This spell affects only evil allies, and has no impact on good or neutral allies.~
+
+@312 = ~Protection from Good~
+@313 = ~Protection from Good (Abjuration)
+Level: 1
+Sphere: general
+Range: touch
+Duration: 3 rounds / level
+Casting Time: 1
+Area of Effect: creature touched
+Saving Throw: none
+
+When this spell is cast, it creates a magical barrier around the recipient at a distance of 30 cm. The barrier moves with the recipient and has two major effects: First, all attacks made by good or enchanted creatures against the protected creature receive a penalty of -2 to each attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
+
+@314 = ~Detect Good~
+@315 = ~Detect Good (Divination)
+Level: 1
+Sphere: divination
+Range: 30 meters
+Duration: instantaneous
+Casting Time: 2
+Area of Effect: visual range of the caster
+Saving Throw: none
+
+This spell discovers emanations of good from any creature. Any good creature within the range of the spell will glow blue briefly.~
+
+@316 = ~Cause Light Wounds~
+@317 = ~Cause Light Wounds (Necromancy)
+Level: 1
+Sphere: healing
+Range: touch
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: one creature
+Saving Throw: half
+
+After casting this spell, the paladin deals 8 points of damage to the first creature he touches, or 4 points if it succeeds on its saving throw. Undead, constructs, and extraplanar creatures are unaffected.~
+
+@318 = ~Dreadful Chant~
+@319 = ~Dreadful Chant (Conjuration/Summoning)
+Level: 2
+Sphere: combat
+Range: 0
+Duration: 1 turn
+Casting Time: 1 round
+Area of Effect: radius 9 meters
+Saving Throw: none
+
+By means of the dreadful chant spell, the paladin of Xvim brings a curse upon his enemies. When the dreadful chant spell is completed, all attack and damage rolls and saving throws made by those in the area of effect who are enemies to the paladin of Xvim suffer -2 penalties (-1 in case of successful save vs. spell). Multiple chants are not cumulative.~
+
+@320 = ~Mace of Xvim~
+@321 = ~Mace of Xvim (Evocation)
+Level: 2
+Sphere: combat
+Range: 0
+Duration: 5 rounds
+Casting Time: 5
+Area of Effect: special
+Saving Throw: none
+
+A gleaming mace appears in the paladin's hand. It grants +3 to attack rolls and deals 1D12 damage per hit. Objects struck must save against crushing blows or be destroyed. An object that succeeds is immune to this effect on subsequent hits.
+The mace vanishes when the paladin stops holding it. No one else can wield it.~
+
+@322 = ~Cause Moderate Wounds~
+@323 = ~Cause Moderate Wounds (Necromancy)
+Level: 2
+Sphere: healing
+Range: touch
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: one creature
+Saving Throw: half
+
+When casting this spell and laying his hand upon a creature, the paladin of Xvim deals 11 points of damage (save vs. spell to halve). Undead, constructs, and extraplanar creatures are unaffected.~
+
+@324 = ~Cause Medium Wounds~
+@325 = ~Cause Medium Wounds (Necromancy)
+Level: 3
+Sphere: healing
+Range: touch
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: one creature
+Saving Throw: half
+
+When laying his hand upon a creature, the paladin of Xvim deals 14 points of damage (save vs. spell to halve the damage). Undead, constructs, and extraplanar creatures are unaffected.~
+
+@326 = ~Protection from Good 3-meter radius~
+@327 = ~Protection from Good 3-meter radius (Abjuration)
+Level: 4
+Sphere: protection
+Range: touch
+Duration: 1 turn / level
+Casting Time: 7
+Area of Effect: radius 3 m
+Saving Throw: none
+
+When this spell is cast, all creatures within a 3-meter radius from the paladin of Xvim are affected individually by "Protection from Good". It creates a magical barrier around the recipients at a distance of 30 cm. The barrier moves with the recipient and has two major effects: First, all attacks made by good creatures receive a penalty of -2 to each attack roll, and second, any saving throws caused by such attacks are made by the protected creature with a +2 bonus.~
+
