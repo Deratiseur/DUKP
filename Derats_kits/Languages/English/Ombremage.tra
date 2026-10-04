@@ -1,58 +1,58 @@
 @409 = ~shadowmage~
 @41 = ~Shadowmage~
-@42 = ~SHADOWMAGE : Sometimes, the incursion of creatures from other planes on Toril leaves more or less discrete traces. The gnome community is not exempt from these interplanetary encounters, and several generations later, certain deep-seated marks may resurface in an incongruous manner.
-For example, when a gnome thief training to blend into the shadows gets the bizarre impression that he is truly one with them, he may become frightened or see it as an opportunity to overcome his condition.
-The shadowmage is one of his thieves who has discovered a particular ancestry with the shadow. Taking advantage of this unexpected boon and his special affinity for illusions, he learns to manipulate the dark energy of the half-plane to shape it into magical spell-like powers.
+@42 = ~SHADOWMAGE: Visitors from other planes sometimes leave subtle traces on Toril. Gnomes are no strangers to such encounters, and their descendants may bear unexpected signs of that heritage generations later.
+A gnome thief learning to blend into the shadows may begin to feel that he is truly becoming part of them. He may fear this sensation, or see it as a chance to transcend his nature.
+A shadowmage is such a thief, with a newly discovered ancestry linked to shadow. Drawing on this unexpected gift and his natural affinity for illusions, he learns to shape the dark energy of the demiplane into powers resembling spells.
 
 Advantages:
-- He can cast spells from the register of shadow and illusion as a wizard. He can cast up to 4 spells per spell level per day and develops a higher spell level every 3 thief levels.
-- He learns to be truly at one with the shadows and gains a 2% bonus to hide in shadows and a 3% bonus to stealth each level.
-- His mastery of shadow manipulation gradually increases and so does the amount of shadow he infuses into his illusions. He then casts spells using shadow matter as lower levels than mages.
+- Casts shadow and illusion spells like a sorcerer, up to 4 spells per spell level each day. Gains access to a higher spell level every 3 thief levels.
+- Gains +2% to Hide in Shadows and +3% to Move Silently each level.
+- As his mastery grows, he infuses more shadow into his illusions and can cast spells using shadow matter at lower spell levels than a mage.
 
 Disadvantages:
-- He can only cast spells of the shadow and illusion register.
-- He cannot use any item reserved for wizards.
-- Modelling the energy of the shadow half-plane is dangerous, especially for a beginner. 10% chance minus 1% per level (no chance at level 11) each time he casts a spell that he loses an energy level or a point of constitution. He recovers lost constitution after a night's sleep but a lost experience level can only be recovered with a dedicated spell.
-- He spends a lot of time developing his powers and does not fully evolve in his thief class: only 15 points per level to distribute on abilities and 20% less xp.~
+- Can only cast shadow and illusion spells.
+- Cannot use items restricted to mages.
+- Shaping the demiplane's energy is dangerous. Each spell has a 10% chance, minus 1% per level, of draining an experience level or a point of Constitution. The risk disappears at level 11. Lost Constitution returns after a night's sleep; lost experience levels require an appropriate restorative spell.
+- Developing his powers slows his training as a thief: gains only 15 points to distribute among thief skills each level and receives 20% less experience.~
 
 @43 = ~Camouflage~
-@44 = ~Shadow missile~
-@441 = ~Pain~
+@44 = ~Shadow Missile~
+@4419 = ~Pain~
 @45 = ~Shadow Dust~
 @46 = ~Shadow Cloak~
-@47 = ~Shadow monsters~
-@48 = ~Half Shadow Monster~
+@47 = ~Shadow Monsters~
+@48 = ~Demishadow Monster~
 @49 = ~Shadow Magic~
 @410 = ~Enervation~
 @411 = ~Phantasmal Killer~
 @412 = ~Darkness Armor~
 @413 = ~Shades~
-@414 = ~Half Shadow Magic~
-@415 = ~Shadow animation~
+@414 = ~Demishadow Magic~
+@415 = ~Animate Shadows~
 @416 = ~Mislead~
-@417 = ~Shadow transport~
-@418 = ~Shades of magic~
+@417 = ~Shadow Walk~
+@418 = ~Shades of Magic~
 @419 = ~Affliction~
-@420 = ~Image projection~
-@421 = ~Shadow infusion~
-@422 = ~Major visibility over 3m~
-@423 = ~Shadow images~
+@420 = ~Project Image~
+@421 = ~Shadow Infusion~
+@422 = ~Improved Invisibility, 3 m Radius~
+@423 = ~Shadow Images~
 @424 = ~Weird~
-@425 = ~Supreme invisibility~
+@425 = ~Supreme Invisibility~
 @426 = ~Shadow Charge~
-@441 = ~One step into the shadow~
-@442 = ~One step into the shadow:
+@441 = ~One Step into Shadow~
+@442 = ~One Step into Shadow:
 
-The shadowmage constantly keeps one foot in the shadow plane and becomes slightly blurred:
+The shadowmage constantly keeps one foot in the Plane of Shadow and becomes slightly blurred:
 +1 to Armor Class, +10% to Stealth.~
 
 @443 = ~Shadow Infusion~
 @444 = ~Shadow Infusion:
 
-Prerequisite: One Step into the Shadow.
+Prerequisite: One Step into Shadow.
 
-Shadowmage gradually infuses shadow into his vital essence:
-+5 to maximum hit points, +10% to cold resistance, +2 to saving throw against death~
+The shadowmage gradually infuses shadow into his vital essence:
++5 to maximum hit points, +10% to cold resistance, +2 to saving throws vs. death.~
 
 @445 = ~Shadowy Transition~
 @446 = ~Shadowy Transition:
@@ -63,20 +63,20 @@ Shadow now flows through most of the shadowmage's vital fluids:
 +5% to magic resistance, +20% to cold resistance, +2 to saving throws against death and spells. The shadow infusion spell no longer affects him.~
 @4461 = ~This spell no longer affects you: the shadow already runs through much of your vital fluids~
 
-@447 = ~Not really a gnome anymore~
-@448 = ~No longer a gnome anymore:
+@447 = ~No Longer Truly a Gnome~
+@448 = ~No Longer Truly a Gnome:
 
 Prerequisite: Shadowy Transition
 
-The shadowmage enters into osmosis with the shadow that runs through his body. He has almost no primary:
+The shadowmage merges with the shadows coursing through his body. Little of his Prime nature remains:
 +5 to maximum hit points, immunity to poisons and diseases, immunity to level drain, +30% to cold resistance.~
 
 @449 = ~Shadow~
 @450 = ~Shadow:
 
-Prerequisite: Not really a gnome anymore.
+Prerequisite: No Longer Truly a Gnome.
 
-Shadowmage has transcended his mortal status and become a shadow (not considered undead):
+The shadowmage has transcended his mortal status and become a shadow (not considered undead):
 Immunity to cold, immunity to non-magical weapons, immunity to death magic, Chill Touch (3 rounds) at will.~
 
 @451 = ~Shade~
@@ -84,5 +84,5 @@ Immunity to cold, immunity to non-magical weapons, immunity to death magic, Chil
 
 Prerequisite: Shadow
 
-By constantly keeping a portion of its essence in the shadow plane, the shadowmage detaches itself from the primary plane:
-+10% to magic resistance, immunity to hold and charms, non-detection, stealth +30.~
+By keeping part of his essence in the Plane of Shadow, the shadowmage distances himself from the Prime Material Plane:
++10% to magic resistance, immunity to hold and charms, Non-Detection, +30 to Stealth.~
