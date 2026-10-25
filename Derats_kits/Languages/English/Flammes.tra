@@ -1,68 +1,69 @@
 @209 = ~preacher of flames~
 @21 = ~Preacher of Flames~
-@22 = ~PREACHER OF FLAMES: Fire has often been admired among humanoids. Pyromancers light it for the simple pleasure of seeing it consuming all things. Mages (notably of Thay) admire it for its destructive power. Tacticians use it to scare, repel, corner the enemies.
-Sometimes it also happens that clerics fall in admiration for this force of nature. Some less reasonable than others may even find that power worthy of veneration. Rejecting their worshipped gods of the origins, they are deprived of their skill to cast spells of divine origin. Among these fallen priests, the most fanatics towards fire and destruction it can cause are sometimes marked by dark powers, mostly of demonic origin. These fanatic clerics then want to have back the skill to cast spells, though corrupted by the power of fire and having no more restoration abilities. The dark powers that thus boost the power into these deprived clerics make them a tool of pure and simple destruction, although they don't necessarily get in touch with them to explain...
+@22 = ~PREACHER OF FLAMES: Fire has long inspired admiration among humanoids. Pyromaniacs kindle it for the sheer pleasure of watching it consume everything. Wizards value its destructive power. Tacticians use it to frighten, repel and corner their enemies.
+Some clerics also become fascinated by this force of nature, and the less prudent may even deem it worthy of worship. By rejecting their original deity, they lose their ability to cast divine spells. Among these fallen priests, those most fanatically devoted to fire and destruction sometimes attract the attention of dark powers, usually demonic in origin. These powers restore their spellcasting, but corrupt it with fire and strip it of all restorative abilities. They turn the fallen clerics into instruments of devastation, without necessarily revealing their intentions.
 
 Advantages:
-- He gains additional spells, all based upon fire:
-     Level 1: Agannazar's Scorcher, Burning Hands, Flame Dart.
-     Level 2: Boiling Rain Storm, Explosion, Fire Seeds, Lava Bomb, Lower Fire Resistance.
-     Level 3: Burning Weapon, FireBall, Fire Shield (Red), Flame Arrow, Lava burst, Melf's Minute Meteors.
-     Level 4: Blazing, Conjure Lesser Fire Elemental, Fire Breath, Fire Form, Lower Fire Resistance II.
-     Level 5: Ardent Mantle, Call Fire Servant, Fire Mark, Mass Protection From Fire, Pulverisation.
-     Level 6: Aura of Eath, Conjure Fire Elemental, Detonate, Elemental FireBall, Exploding Mephits.
-     Level 7: Fire Trap, Incineration.
-- He gains 10% fire resistance at level 1, then 3% for each following level.
-- At level 10 and all the following 3 levels, he can use "Burning Palm" once a day.
-- At level 13 and 20, he can charm a Fire Elemental once a day.
+- Gains additional fire spells:
+     Level 1: Flame Dart, Scorcher, Burning Hands.
+     Level 2: Magma Bomb, Explosion, Rain of Fire, Lower Fire Resistance, Fire Seeds.
+     Level 3: Blazing Weapon, Fire Shield (Red), Fireball, Flame Arrow, Melf's Minute Meteors.
+     Level 4: Conjure Lesser Fire Elemental, Ignition, Fire Form, Lower Fire Resistance II, Fire Breath.
+     Level 5: Call Fire Servant, Ardent Mantle, Fire Mark, Mass Protection from Fire, Pulverization.
+     Level 6: Heat Aura, Elemental Fireball, Conjure Fire Elemental, Detonation, Exploding Mephits.
+     Level 7: Incineration, Fire Trap.
+- Gains 10% fire resistance at level 1, plus 3% per subsequent level.
+- May use Burning Palm once per day at level 10, gaining another daily use every 3 levels thereafter.
+- May charm a fire elemental once per day at level 13, gaining another daily use at level 20.
 
 Disadvantages:
-- The Preacher of Flames has not access to ANY healing, recovery or restoration spell.
-- He can not reject the undead.
-- His alignment can only be neutral, or neutral evil.
-- Obsessed by fire, he will never take under consideration embarking on another career. (can not dual-class)
-- He does not receive a divine symbol at level 21, no longer having any connection with any "god" whatsoever.
+- Cannot cast ANY healing, curing or restoration spells.
+- Cannot turn undead.
+- Must be true neutral or neutral evil.
+- Cannot dual-class: his obsession with fire rules out any other career.
+- Does not receive a divine symbol at level 25, having severed all ties to the gods.
 
 BURNING PALM:
-Once the spell is cast, the preacher has two turns to touch his enemy, burning him for 1D6 fire damage points for two levels of the preacher. If the preacher fails to touch the enemy, the spell is lost.
+After activating this ability, the preacher has two rounds to touch an opponent. A successful touch deals 1d6 points of fire damage per two preacher levels. If he fails to hit within that time, the spell is lost.
 
 CHARM FIRE ELEMENTAL:
-The preacher may attempt to control any elemental of fire by casual contact. The target is entitled to a saving throw with a -1 bonus for every 5 turns of the preacher to stand, otherwise it falls under the control of the pyromancer for 5 turns.~
+The preacher can attempt to control any fire elemental by touching it. The target may save with a -1 penalty per 5 preacher levels to resist. If it fails, it serves the preacher for 5 turns.~
 
-@203 = ~Burning palm~
-@204 = ~Burning palm:
+@203 = ~Burning Palm~
+@204 = ~Burning Palm:
 
-This gift allows to use Burning Palm one time more a day.~
+Grants one additional daily use of Burning Palm.~
 @205 = ~Charm Fire Elemental~
 
 // Texts not included in BGEE
-@210001 = ~Fire Breath of Infernal Hound~
+@210001 = ~Hell Hound Fire Breath~
 @210002 = ~Kamikaze Explosion~
-@220003 = ~PREACHER OF FLAMES: Fire has often been admired among humanoids. Pyromancers light it for the simple pleasure of seeing it consuming all things. Mages (notably of Thay) admire it for its destructive power. Tacticians use it to scare, repel, corner the enemies.
-Sometimes it also happens that clerics fall in admiration for this force of nature. Some less reasonable than others may even find that power worthy of veneration. Rejecting their worshipped gods of the origins, they are deprived of their skill to cast spells of divine origin. Among these fallen priests, the most fanatics towards fire and destruction it can cause are sometimes marked by dark powers, mostly of demonic origin. These fanatic clerics then want to have back the skill to cast spells, though corrupted by the power of fire and having no more restoration abilities. The dark powers that thus boost the power into these deprived clerics make them a tool of pure and simple destruction, although they don't necessarily get in touch with them to explain...
+@220003 = ~PREACHER OF FLAMES: Fire has long inspired admiration among humanoids. Pyromaniacs kindle it for the sheer pleasure of watching it consume everything. Wizards value its destructive power. Tacticians use it to frighten, repel and corner their enemies.
+Some clerics also become fascinated by this force of nature, and the less prudent may even deem it worthy of worship. By rejecting their original deity, they lose their ability to cast divine spells. Among these fallen priests, those most fanatically devoted to fire and destruction sometimes attract the attention of dark powers, usually demonic in origin. These powers restore their spellcasting, but corrupt it with fire and strip it of all restorative abilities. They turn the fallen clerics into instruments of devastation, without necessarily revealing their intentions.
 
 Advantages:
-- He gains additional spells, all based upon fire:
-     Level 1: Agannazar's Scorcher, Burning Hands, Flame Dart.
-     Level 2: Boiling Rain Storm, Explosion, Fire Seeds, Lava Bomb, Lower Fire Resistance, Produce Fire.
-     Level 3: Burning Weapon, FireBall, Fire Shield (Red), Flame Arrow, Lava burst, Melf's Minute Meteors.
-     Level 4: Blazing, Conjure Lesser Fire Elemental, Fire Breath, Fire Form, Lower Fire Resistance II.
-     Level 5: Ardent Mantle, Fire Servant, Fire Mark, Mass Protection From Fire, Pulverisation.
-     Level 6: Aura of Eath, Conjure Fire Elemental, Detonate, Elemental FireBall, Exploding Mephits.
-     Level 7: Fire Trap, Incineration.
-- He gains 10% fire resistance at level 1, then 3% for each following level.
-- At level 10 and all the following 3 levels, he can use "Burning Palm" once a day.
-- At level 13 and 20, he can charm a Fire Elemental once a day.
+- Gains additional fire spells:
+     Level 1: Flame Dart, Scorcher, Burning Hands.
+     Level 2: Magma Bomb, Explosion, Produce Fire, Rain of Fire, Lower Fire Resistance, Fire Seeds.
+     Level 3: Blazing Weapon, Fire Shield (Red), Fireball, Flame Arrow, Melf's Minute Meteors.
+     Level 4: Conjure Lesser Fire Elemental, Ignition, Fire Form, Lower Fire Resistance II, Fire Breath.
+     Level 5: Call Fire Servant, Ardent Mantle, Fire Mark, Mass Protection from Fire, Pulverization.
+     Level 6: Heat Aura, Elemental Fireball, Conjure Fire Elemental, Detonation, Exploding Mephits.
+     Level 7: Incineration, Fire Trap.
+- Gains 10% fire resistance at level 1, plus 3% per subsequent level.
+- May use Burning Palm once per day at level 10, gaining another daily use every 3 levels thereafter.
+- May charm a fire elemental once per day at level 13, gaining another daily use at level 20.
 
 Disadvantages:
-- The Preacher of Flames hasn't access to ANY healing, recovery or restoration spell.
-- He can not reject the undead.
-- His alignment can only be neutral, or neutral evil.
-- Obsessed by fire, he will never take under consideration embarking on another career. (can not dual-class)
-- He does not receive a divine symbol at level 21, no longer having any connection with any "god" whatsoever.
+- Cannot cast ANY healing, curing or restoration spells.
+- Cannot turn undead.
+- Must be true neutral or neutral evil.
+- Cannot dual-class: his obsession with fire rules out any other career.
+- Does not receive a divine symbol at level 25, having severed all ties to the gods.
 
 BURNING PALM:
-Once the spell is cast, the preacher has two turns to touch his enemy, burning him for 1D6 fire damage points for two levels of the preacher. If the preacher fails to touch the enemy, the spell is lost.
+After activating this ability, the preacher has two rounds to touch an opponent. A successful touch deals 1d6 points of fire damage per two preacher levels. If he fails to hit within that time, the spell is lost.
 
 CHARM FIRE ELEMENTAL:
-The preacher may attempt to control any elemental of fire by casual contact. The target is entitled to a saving throw with a -1 bonus for every 5 turns of the preacher to stand, otherwise it falls under the control of the pyromancer for 5 turns.~
+The preacher can attempt to control any fire elemental by touching it. The target may save with a -1 penalty per 5 preacher levels to resist. If it fails, it serves the preacher for 5 turns.~
+

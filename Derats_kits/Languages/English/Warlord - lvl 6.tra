@@ -2,14 +2,14 @@
 @762 = ~Entropic Weapon (Evocation)
 Level: 6
 Range: 0
-Duration: 3 rounds/2 levels
+Duration: 3 rounds / 2 levels
 Casting Time: 6
 Area of Effect: special
 Saving Throw: none
 
-This spell brings up into the hands of the warlord a bubble of wild magic, that he shapes into a weapon he masters. The weapon can not leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to hitting. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts a magical flow, and any summoned creature struck is immediately sent back (a saving throw vs. spells allows to withstand being sent back, -3 bonus to demons and -6 to any other creature). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that makes automatically fail any spell cast in the following round.
+This spell conjures in the warlord's hands a bubble of wild magic that he shapes into a weapon he knows how to use. The weapon cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to attack rolls. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts magical energy, and any summoned creature struck is immediately sent back (a save vs. spell prevents banishment, at -3 for demons and -6 for other creatures). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that automatically causes any spell cast to fail in the following round.
 
-Note: Do not create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, then take under consideration to unequip your shield first.~
+Note: Do not create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, then remove your shield first.~
 @76291 = ~Entropic Sword~
 @76292 = ~Entropic Katana~
 @76293 = ~Entropic Axe~
@@ -24,45 +24,45 @@ Casting Time: 3
 Area of Effect: special
 Saving Throw: none
 
-This spell brings up into the hands of the warlord a bubble of wild magic, that he shapes into a weapon he masters. The weapon can not leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to hitting. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts a magical flow, and any summoned creature struck is immediately sent back (a saving throw vs. spells allows to withstand being sent back, -3 bonus to demons and -6 to any other creature). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that makes automatically fail any spell cast in the following round.
+This spell conjures in the warlord's hands a bubble of wild magic that he shapes into a weapon he knows how to use. The weapon cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to attack rolls. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts magical energy, and any summoned creature struck is immediately sent back (a save vs. spell prevents banishment, at -3 for demons and -6 for other creatures). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that automatically causes any spell cast to fail in the following round.
 
-Note: Do not create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, then take under consideration to unequip your shield first.~
+Note: Do not create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, then remove your shield first.~
 @76298 = ~Entropic Weapon (Evocation)
 Level: 6
 Range: visual range of the caster
 Duration: 3 turns
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell brings up into the hands of the recipient a bubble of wild magic, that the warlord shapes into a weapon he chose during casting. The weapon can not leave the hand of the recipient for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to hitting. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts a magical flow, and any summoned creature struck is immediately sent back (a saving throw vs. spells allows to withstand being sent back, -3 bonus to demons and -6 to any other creature). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that makes automatically fail any spell cast in the following round.
+This spell conjures in the recipient's hands a bubble of wild magic that the warlord shapes into a weapon he chose during casting. The weapon cannot leave the hand of the recipient for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to attack rolls. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts magical energy, and any summoned creature struck is immediately sent back (a save vs. spell prevents banishment, at -3 for demons and -6 for other creatures). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that automatically causes any spell cast to fail in the following round.
 
-Note: don't create a two-handed sword or a halberd if the recipient is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, take into consideration to unequip his shield first.~
+Note: don't create a two-handed sword or a halberd if the recipient is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove the shield first.~
 @762981 = ~Entropic Weapon (Evocation)
 Level: 6
 Range: visual range of the caster
 Duration: 3 turns
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell brings up into the hands of the recipient a bubble of wild magic, that the warlord shapes into a weapon he chose during casting. The weapon can not leave the hand of the recipient for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to hitting. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts a magical flow, and any summoned creature struck is immediately sent back (a saving throw vs. spells allows to withstand being sent back, -3 bonus to demons and -6 to any other creature). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that makes automatically fail any spell cast in the following round.
+This spell conjures in the recipient's hands a bubble of wild magic that the warlord shapes into a weapon he chose during casting. The weapon cannot leave the hand of the recipient for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon also disrupts everything it hits. It destabilizes the molecules of any armor (natural or not) that it hits and gives a +2 bonus to attack rolls. It causes a metabolic shock where it hits and inflicts 1D8 +3 additional damage. It also disrupts magical energy, and any summoned creature struck is immediately sent back (a save vs. spell prevents banishment, at -3 for demons and -6 for other creatures). Finally each hit of the weapon negates a magical protection of the victim (saving throw at -3 to resist), and leaves some wild magic residue that automatically causes any spell cast to fail in the following round.
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell: the same weapon will be created into their hands, but for a duration of 2 turns only.
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell: the same weapon appears in their hands for 2 turns.
 
-Note: don't create a two-handed sword of a halberd if one of the recipients is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, take into consideration to unequip his shield first.~
+Note: don't create a two-handed sword or a halberd if one of the recipients is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove the shield first.~
 
 @763 = ~Wind Armor~
 @764 = ~Wind Armor (Invocation)
 Level: 6
 Range: 0
-Duration: 5 rounds + 1 round/level
+Duration: 5 rounds + 1 round / level
 Casting Time: 7
 Area of Effect: caster
 Saving Throw: special
 
-The several attempts of the warlord to control climate have given different results, and it is by improving one of the most exceptional that he came to this result:
-when the spell is cast, all the winds in the nearby area wrap around the caster and begin to swirl, turning into a true wind armor. As long as he is protected by this armor, he is protected against gale-force winds, blows all the clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and troubles other attacks (+2 to AC). In addition, any creature approaching him must make a saving throw vs. breath or will be violently pushed back 10 meters.
+The warlord developed this spell by refining one of his more remarkable attempts to control the weather:
+when the spell is cast, all the winds in the nearby area wrap around the caster and begin to swirl, forming an armor of swirling wind. As long as he is protected by this armor, he is protected from strong winds, disperses clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and disrupts other attacks (+2 to AC). In addition, any creature approaching him must make a save vs. breath weapon or will be violently pushed back 10 meters.
 This spell can only be used outdoors.~
 @7641 = ~Wind Armor (Invocation)
 Level: 6
@@ -72,45 +72,45 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: special
 
-The several attempts of the warlord to control climate have given different results, and it is by improving one of the most exceptional that he came to this result:
-when the spell is cast, all the winds in the nearby area wrap around the caster and begin to swirl, turning into a true wind armor. As long as he is protected by this armor, he is protected against gale-force winds, blows all the clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and troubles other attacks (+2 to AC). In addition, any creature approaching him must make a saving throw vs. breath or will be violently pushed back 10 meters.
+The warlord developed this spell by refining one of his more remarkable attempts to control the weather:
+when the spell is cast, all the winds in the nearby area wrap around the caster and begin to swirl, forming an armor of swirling wind. As long as he is protected by this armor, he is protected from strong winds, disperses clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and disrupts other attacks (+2 to AC). In addition, any creature approaching him must make a save vs. breath weapon or will be violently pushed back 10 meters.
 This spell can only be used outdoors.~
 @7642 = ~Wind Armor (Invocation)
 Level: 6
 Range: visual range of the caster
 Duration: 25 rounds
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: special
 
-The several attempts of the warlord to control climate have given different results, and it is by improving one of the most exceptional that he came to this result:
-when the spell is cast, all the winds in the nearby area wrap around the recipient and begin to swirl, turning into a true wind armor. As long as he is protected by this armor, he is protected against gale-force winds, blows all the clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and troubles other attacks (+2 to AC). In addition, any creature approaching him must make a saving throw vs. breath or will be violently pushed back 10 meters.
+The warlord developed this spell by refining one of his more remarkable attempts to control the weather:
+when the spell is cast, all the winds in the nearby area wrap around the recipient and begin to swirl, forming an armor of swirling wind. As long as he is protected by this armor, he is protected from strong winds, disperses clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and disrupts other attacks (+2 to AC). In addition, any creature approaching him must make a save vs. breath weapon or will be violently pushed back 10 meters.
 This spell can only be used outdoors.~
 @76421 = ~Wind Armor (Invocation)
 Level: 6
 Range: visual range of the caster
 Duration: 25 rounds
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: special
 
-The several attempts of the warlord to control climate have given different results, and it is by improving one of the most exceptional that he came to this result:
-when the spell is cast, all the winds in the nearby area wrap around the recipient and begin to swirl, turning into a true wind armor. As long as he is protected by this armor, he is protected against gale-force winds, blows all the clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and troubles other attacks (+2 to AC). In addition, any creature approaching him must make a saving throw vs. breath or will be violently pushed back 10 meters.
+The warlord developed this spell by refining one of his more remarkable attempts to control the weather:
+when the spell is cast, all the winds in the nearby area wrap around the recipient and begin to swirl, forming an armor of swirling wind. As long as he is protected by this armor, he is protected from strong winds, disperses clouds and flames (+75% fire resistance), deflects all missiles (+10 to AC) and disrupts other attacks (+2 to AC). In addition, any creature approaching him must make a save vs. breath weapon or will be violently pushed back 10 meters.
 This spell can only be used outdoors.
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell:
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
 they will be surrounded by a less powerful vortex that gives 50% fire resistance, +7 to AC against projectiles and +1 to AC in general for 17 rounds.~
 
 @765 = ~Entropy Shield~
 @766 = ~Entropy Shield (Evocation)
 Level: 6
 Range: 0
-Duration: 3 rounds + 1 round/2 levels
+Duration: 3 rounds + 1 round / 2 levels
 Casting Time: 6
 Area of Effect: caster
 Saving Throw: none
 
-When cast, this spell surrounds the warlord with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the warlord a +2 bonus to armor class, +1 every 3 levels (max +9 at level 21) and a resistance equal to 2% per point of the improved AC to physical damages. At level 18, it also gives the warlord immunity to non magical missile-based attacks (not axes and spears well thrown).~
+When cast, this spell surrounds the warlord with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the warlord a +2 bonus to armor class, +1 every 3 levels (max +9 at level 21) and damage resistance equal to 2% per point of the AC bonus. At level 18, it also gives the warlord immunity to nonmagical missile-based attacks (though well-thrown axes and spears can still penetrate it).~
 @7661 = ~Entropy Shield (Evocation)
 Level: 6
 Range: 0
@@ -119,27 +119,27 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-When cast, this spell surrounds the warlord with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the warlord a +9 bonus to armor class and a 18% resistance to physical damages: electricity, fire, cold, and so on. It also gives the warlord immunity to non magical missile-based attacks (not axes and spears well thrown).~
+When cast, this spell surrounds the warlord with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the warlord a +9 bonus to armor class and 18% resistance to damage. It also gives the warlord immunity to nonmagical missile-based attacks (though well-thrown axes and spears can still penetrate it).~
 @7662 = ~Entropy Shield (Evocation)
 Level: 6
 Range: visual range of the caster
 Duration: 13 rounds
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-When cast, this spell surrounds the recipient with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the recipient a +9 bonus to armor class and a 18% resistance to physical damages. It also gives the recipient immunity to non magical missile-based attacks (not axes and spears well thrown).~
+When cast, this spell surrounds the recipient with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the recipient a +9 bonus to armor class and an 18% resistance to damage. It also gives the recipient immunity to nonmagical missile-based attacks (though well-thrown axes and spears can still penetrate it).~
 @76621 = ~Entropy Shield (Evocation)
 Level: 6
 Range: visual range of the caster
 Duration: 13 rounds
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-When cast, this spell surrounds the recipient with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the recipient a +9 bonus to armor class and a 18% resistance to physical damages. It also gives the recipient immunity to non magical missile-based attacks (not axes and spears well thrown).
+When cast, this spell surrounds the recipient with a defensive maelstrom of energy that blocks or deflects many attacks. This gives the recipient a +9 bonus to armor class and an 18% resistance to damage. It also gives the recipient immunity to nonmagical missile-based attacks (though well-thrown axes and spears can still penetrate it).
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell:
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
 They get a +6 bonus to AC and 12% resistance for 9 rounds.~
 
 @767 = ~Cloudkill~
@@ -148,90 +148,90 @@ Level: 6
 Range: 10 meters
 Duration: 9 rounds
 Casting Time: 6
-Area of Effect: 9-meters radius
+Area of Effect: radius 9 meters
 Saving Throw: none
 
-This spell generates a billowing cloud of ghastly yellowish green vapors in the hands of the mage that he can throw it at the desired place to make it explode in toxic vapours that floods the entire area. The vapours quickly takes consistency to be a real mushy peas which limits the visual range and movement of the creatures within the area (-3 to THAC0, -30% to movement). Holding one's breath has no effect on the lethality of the spell. All creatures must leave the cloud immediately or suffer 3d6 points of acid damage each round while in the area of effect and requires that creatures inhaling it attemp a saving throw vs. poison to avoid being poisoned. An intoxicated creature loses 2 points of strength and dexterity for a round and must make another saving throw or will be poisoned even worser: 2 points of damage per second for the current round, 1 point of damage per second the following round.~
+The mage creates a concentrated ball of acid in his hands and throws it at the chosen location. It bursts into acrid vapor that fills the area. The vapor quickly thickens, restricting vision and movement (-3 to THAC0, -30% movement speed). Each round, creatures in the cloud suffer 3d6 points of acid damage and must save vs. poison to avoid intoxication. An intoxicated creature loses 2 points of Strength and Dexterity for 1 round and must make another save or suffer severe poisoning: 2 points of damage per second during the current round and 1 point per second during the following round.~
 @7681 = ~Cloudkill (Evocation)
 Level: 6
 Range: 10 meters
 Duration: 9 rounds
 Casting Time: 3
-Area of Effect: 9-meters radius
+Area of Effect: radius 9 meters
 Saving Throw: none
 
-This spell generates a billowing cloud of ghastly yellowish green vapors in the hands of the mage that he can throw it at the desired place to make it explode in toxic vapours that floods the entire area. The vapours quickly takes consistency to be a real mushy peas which limits the visual range and movement of the creatures within the area (-3 to THAC0, -30% to movement). Holding one's breath has no effect on the lethality of the spell. All creatures must leave the cloud immediately or suffer 3d6 points of acid damage each round while in the area of effect and requires that creatures inhaling it attemp a saving throw vs. poison to avoid being poisoned. An intoxicated creature loses 2 points of strength and dexterity for a round and must make another saving throw or will be poisoned even worser: 2 points of damage per second for the current round, 1 point of damage per second the following round.~
+The mage creates a concentrated ball of acid in his hands and throws it at the chosen location. It bursts into acrid vapor that fills the area. The vapor quickly thickens, restricting vision and movement (-3 to THAC0, -30% movement speed). Each round, creatures in the cloud suffer 3d6 points of acid damage and must save vs. poison to avoid intoxication. An intoxicated creature loses 2 points of Strength and Dexterity for 1 round and must make another save or suffer severe poisoning: 2 points of damage per second during the current round and 1 point per second during the following round.~
 
 @769 = ~Physical Image~
-@7610 = ~Physical Image (Illusion/Phantasm)
+@7610 = ~Physical Image (Illusion)
 Level: 6
 Range: 0
-Duration: 1 round/level
+Duration: 1 round / level
 Casting Time: 7
-Area of Effect: the caster
+Area of Effect: caster
 Saving Throw: none
 
-This spell creates an illusory image of the mage. This replica is exactly the same as him, and may be confused with him, the spell creates a blurring and slight distortion of space allowing confusion. As a result of this, every time the mage is attacked, there is a 50% chance that the shot hits the image in his place, thus sparing him the stroke.
-What is different with the level 2 spell "Mirror Image", is that the images created by this spell do not disappear when hit. Only a dispelling, a magical divination or the expiration of the spell can make the images disappear.
+This spell creates an illusory duplicate of the mage. Blurring and spatial distortion make it difficult to distinguish the image from its creator. Each attack against the mage has a 50% chance of striking the image instead.
+Unlike the level 2 spell Mirror Image, this duplicate does not disappear when struck. Only dispelling, magical divination or the end of the spell removes it.
 With experience, the mage can create 1D2 images at level 17 and 1D2 +1 copies at level 22.
-This spell can not be held simultaneously with its level 2 model.~
-@76101 = ~Physical Image (Illusion/Phantasm)
+This spell cannot be active at the same time as Mirror Image.~
+@76101 = ~Physical Image (Illusion)
 Level: 6
 Range: 0
 Duration: 2 turns
 Casting Time: 3
-Area of Effect: the caster
+Area of Effect: caster
 Saving Throw: none
 
-This spell creates two or three illusory images of the mage. This replica are exactly the same as him, and may be confused with him, the spell creates a blurring and slight distortion of space allowing confusion. As a result of this, every time the mage is attacked, there is a 66% chance (two images) or 75% (three images) that the shot hits an image in his place, thus sparing him the stroke.
-What is different with the level 2 spell "Mirror Image", is that the images created by this spell do not disappear when hit. Only a dispelling, a magical divination or the expiration of the spell can make the images disappear.
-This spell can not be held simultaneously with its level 2 model.~
-@76102 = ~Physical Image (Illusion/Phantasm)
+This spell creates two or three illusory images of the mage. The replicas move exactly as he does. Blurring and spatial distortion make them difficult to distinguish from their creator. As a result of this, every time the mage is attacked, there is a 66% chance (two images) or 75% (three images) that the attack strikes an image instead, leaving him unharmed.
+Unlike the level 2 spell Mirror Image, these images do not disappear when struck. Only dispelling, magical divination or the end of the spell removes them.
+This spell cannot be active at the same time as Mirror Image.~
+@76102 = ~Physical Image (Illusion)
 Level: 6
 Range: visual range of the caster
 Duration: 2 turns
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell creates two or three illusory images of the recipient. This replica are exactly the same as him, and may be confused with him, the spell creates a blurring and slight distortion of space allowing confusion. As a result of this, every time the recipinent is attacked, there is a 66% chance (two images) or 75% (three images) that the shot hits an image in his place, thus sparing him the stroke.
-What is different with the level 2 spell "Mirror Image", is that the images created by this spell do not disappear when hit. Only a dispelling, a magical divination or the expiration of the spell can make the images disappear.
-The experience of warlord allows him to create an extra image at level 22.
-This spell can not be held simultaneously with its level 2 model.~
-@761021 = ~Physical Image (Illusion/Phantasm)
+This spell creates two or three illusory images of the recipient. The replicas move exactly as he does. Blurring and spatial distortion make them difficult to distinguish from their creator. As a result of this, every time the recipient is attacked, there is a 66% chance (two images) or 75% (three images) that the attack strikes an image instead, leaving him unharmed.
+Unlike the level 2 spell Mirror Image, these images do not disappear when struck. Only dispelling, magical divination or the end of the spell removes them.
+The warlord's experience allows him to create an extra image at level 22.
+This spell cannot be active at the same time as Mirror Image.~
+@761021 = ~Physical Image (Illusion)
 Level: 6
 Range: visual range of the caster
 Duration: 2 turns
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell creates two or three illusory images of the recipient. This replica are exactly the same as him, and may be confused with him, the spell creates a blurring and slight distortion of space allowing confusion. As a result of this, every time the recipinent is attacked, there is a 66% chance (two images) or 75% (three images) that the shot hits an image in his place, thus sparing him the stroke.
-What is different with the level 2 spell "Mirror Image", is that the images created by this spell do not disappear when hit. Only a dispelling, a magical divination or the expiration of the spell can make the images disappear.
-The experience of warlord allows him to create an extra image at level 22.
-This spell can not be held simultaneously with its level 2 model.
+This spell creates two or three illusory images of the recipient. The replicas move exactly as he does. Blurring and spatial distortion make them difficult to distinguish from their creator. As a result of this, every time the recipient is attacked, there is a 66% chance (two images) or 75% (three images) that the attack strikes an image instead, leaving him unharmed.
+Unlike the level 2 spell Mirror Image, these images do not disappear when struck. Only dispelling, magical divination or the end of the spell removes them.
+The warlord's experience allows him to create an extra image at level 22.
+This spell cannot be active at the same time as Mirror Image.
 
-All allies within 5 meters from the target will also benefit from softened effects of the spell: they are protected by a replica for 13 rounds.~
+All allies within 5 meters of the target also benefit from reduced effects of the spell: they are protected by a replica for 13 rounds.~
 
 @7611 = ~Giant's Strength~
 @7612 = ~Giant's Strength (Alteration)
 Level: 6
 Range: 0
-Duration: 5 round + 1 round/level
+Duration: 5 rounds + 1 round / level
 Casting Time: 6
 Area of Effect: caster
 Saving Throw: none
 
-This spell significantly increases the physical strength of the warlord, granting him the strength of a giant. The strength obtained through this spell is determined by the throw of a dice, as amended by the level of the caster, according to the following table:
+This spell significantly increases the physical strength of the warlord, granting him the strength of a giant. The strength obtained through this spell is determined by a die roll, modified by the level of the caster, according to the following table:
 
 Level 12 to 14: 1D4
 Level 15 to 17: 1D6
 Level 18+     : 1D4 +2
 
-The result of dice determines the strength granted to the wizard:
+The die result determines the strength granted to the wizard:
 1: 19 strength (Hill Giant)
 2: 20 strength (Stone Giant)
-3: 21 strength (Cold Giant)
+3: 21 strength (Frost Giant)
 4: 22 strength (Fire Giant)
 5: 23 strength (Cloud Giant)
 6: 24 strength (Storm Giant)~
@@ -243,8 +243,8 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-This spell significantly increases the physical strength of the warlord, granting him the strength of a giant. The thrown of a D4 determines the strength granted to the wizard, according to the following table:
-1: 21 strength (Cold Giant)
+This spell significantly increases the physical strength of the warlord, granting him the strength of a giant. A d4 roll determines the strength granted to the wizard, according to the following table:
+1: 21 strength (Frost Giant)
 2: 22 strength (Fire Giant)
 3: 23 strength (Cloud Giant)
 4: 24 strength (Storm Giant)~
@@ -253,11 +253,11 @@ Level: 6
 Range: visual range of the caster
 Duration: 25 rounds
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell significantly increases the physical strength of the recipient, granting him the strength of a giant. The thrown of a D4 determines the strength granted to the recipient, according to the following table:
-1: 21 strength (Cold Giant)
+This spell significantly increases the physical strength of the recipient, granting him the strength of a giant. A d4 roll determines the strength granted to the recipient, according to the following table:
+1: 21 strength (Frost Giant)
 2: 22 strength (Fire Giant)
 3: 23 strength (Cloud Giant)
 4: 24 strength (Storm Giant)~
@@ -266,18 +266,18 @@ Level: 6
 Range: visual range of the caster
 Duration: 25 rounds
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell significantly increases the physical strength of the recipient, granting him the strength of a giant. The thrown of a D4 +2 determines the strength granted to the recipient, according to the following table:
+This spell significantly increases the physical strength of the recipient, granting him the strength of a giant. A d4 roll +2 determines the strength granted to the recipient, according to the following table:
 1: 19 strength (Hill Giant)
 2: 20 strength (Stone Giant)
-3: 21 strength (Cold Giant)
+3: 21 strength (Frost Giant)
 4: 22 strength (Fire Giant)
 5: 23 strength (Cloud Giant)
 6: 24 strength (Storm Giant)
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell: they will get a strength bonus determined by a D4 for 17 rounds.~
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell: they will get a strength bonus determined by a d4 for 17 rounds.~
 
 @7613 = ~Static Discharge~
 @7614 = ~Static Discharge (Evocation)
@@ -285,72 +285,72 @@ Level: 6
 Range: 30 meters
 Duration: instantaneous
 Casting Time: 6
-Area of Effect: 1 creature
-Saving Throw: 1/2
+Area of Effect: one creature
+Saving Throw: half
 
-Based on the spell "Static Charge", this spell is an improvement that allows you to group any static electricity in the area on a single creature. The result is a dazzling lightning that strikes it, inflicting 1D6 points of damage per caster level (max 20D6). A saving throw vs. spells reduces by half the damage received.~
+Based on the spell "Static Shock", this spell is an improvement that allows you to concentrate the area's static electricity on a single creature. The result is a dazzling lightning bolt that strikes it, inflicting 1D6 points of damage per caster level (max 20D6). A save vs. spell reduces by half the damage received.~
 @76141 = ~Static Discharge (Evocation)
 Level: 6
 Range: 30 meters
 Duration: instantaneous
 Casting Time: 3
-Area of Effect: 1 creature
-Saving Throw: 1/2
+Area of Effect: one creature
+Saving Throw: half
 
-Based on the spell "Static Charge", this spell is an improvement that allows you to group any static electricity in the area on a single creature. The result is a dazzling lightning that strikes it, inflicting 20D6 points of damage. A saving throw vs. spells reduces by half the damage received.~
+Based on the spell "Static Shock", this spell is an improvement that allows you to concentrate the area's static electricity on a single creature. The result is a dazzling lightning bolt that strikes it, inflicting 20D6 points of damage. A save vs. spell reduces by half the damage received.~
 
 @7615 = ~Phantom Hit~
 @7616 = ~Phantom Hit (Evocation)
 Level: 6
 Range: 15 meters
-Duration: instantaneous/Special
+Duration: instantaneous/special
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: special
 
-Like "Ghost Hit", this spell makes appear out of nothing a sword of pure magic that inevitably hits the designated target. But the comparison stops here. The hit after the phantom hit is much more skilled and more devastating.
-The victim suffers a first initial hit inflicting 3D8 damage points. Then it will suffer one of the following random effects:
+Like "Ghost Hit", this spell conjures from nothing a sword of pure magic that inevitably hits the designated target. The similarity ends there. The blow delivered by Phantom Hit is far more precise and devastating.
+The victim suffers an initial hit inflicting 3D8 points of damage. Then it will suffer one of the following random effects:
 - 3D8 points of magic damage
-- 5D8 points of fire damage, 35% chance of major damage and burning in case of a failed saving throw vs. spells.
-- 6D8 points of cold damage, 40% chance of major damage and drezzing in case of a failed saving throw vs. spells.
-- 8D8 points of electricity damage, 50% chance of major damage and incapacitating internal trauma in case of a failed saving throw vs. spells.
-- 8D8 points of slashing damage, 50% chance of major damage and decapitation in case of a failed saving throw vs. death.
-- 10D8 points of acid damage, 60% chance of major damage and complete dissolution in case of a failed saving throw vs. death.
+- 5D8 points of fire damage, 35% chance of major damage and burning in case of a failed save vs. spell.
+- 6D8 points of cold damage, 40% chance of major damage and freezing in case of a failed save vs. spell.
+- 8D8 points of electricity damage, 50% chance of major damage and incapacitating internal trauma in case of a failed save vs. spell.
+- 8D8 points of slashing damage, 50% chance of major damage and decapitation in case of a failed save vs. death.
+- 10D8 points of acid damage, 60% chance of major damage and complete dissolution in case of a failed save vs. death.
 
-In the case of major damage, D8 are counted as D6 +2. All saving throws against this spells are made at -4.~
+In the case of major damage, D8 are counted as D6 +2. All saving throws against this spell are made at -4.~
 @76161 = ~Trauma~
 @76162 = ~Decapitated~
 @76163 = ~Dissolved~
 @76164 = ~Phantom Hit (Evocation)
 Level: 6
 Range: 15 meters
-Duration: instantaneous/Special
+Duration: instantaneous/special
 Casting Time: 3
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: special
 
-Like "Ghost Hit", this spell makes appear out of nothing a sword of pure magic that inevitably hits the designated target. But the comparison stops here. The hit after the phantom hit is much more skilled and more devastating.
-The victim suffers a first initial hit inflicting 3D8 damage points. Then it will suffer one of the following random effects:
+Like "Ghost Hit", this spell conjures from nothing a sword of pure magic that inevitably hits the designated target. The similarity ends there. The blow delivered by Phantom Hit is far more precise and devastating.
+The victim suffers an initial hit inflicting 3D8 points of damage. Then it will suffer one of the following random effects:
 - 3D8 points of magic damage
-- 5D8 points of fire damage, 35% chance of major damage and burning in case of a failed saving throw vs. spells.
-- 6D8 points of cold damage, 40% chance of major damage and drezzing in case of a failed saving throw vs. spells.
-- 8D8 points of electricity damage, 50% chance of major damage and incapacitating internal trauma in case of a failed saving throw vs. spells.
-- 8D8 points of slashing damage, 50% chance of major damage and decapitation in case of a failed saving throw vs. death.
-- 10D8 points of acid damage, 60% chance of major damage and complete dissolution in case of a failed saving throw vs. death.
+- 5D8 points of fire damage, 35% chance of major damage and burning in case of a failed save vs. spell.
+- 6D8 points of cold damage, 40% chance of major damage and freezing in case of a failed save vs. spell.
+- 8D8 points of electricity damage, 50% chance of major damage and incapacitating internal trauma in case of a failed save vs. spell.
+- 8D8 points of slashing damage, 50% chance of major damage and decapitation in case of a failed save vs. death.
+- 10D8 points of acid damage, 60% chance of major damage and complete dissolution in case of a failed save vs. death.
 
-In the case of major damage, D8 are counted as D6 +2. All saving throws against this spells are made at -4.~
+In the case of major damage, D8 are counted as D6 +2. All saving throws against this spell are made at -4.~
 
 @7617 = ~Frenzy~
 @7618 = ~Frenzy (Alteration)
 Level: 6
 Range: 0
-Duration: 1 turn + 1 round/level
+Duration: 1 turn + 1 round / level
 Casting Time: 5
 Area of Effect: caster
 Saving Throw: none
 
-This spell significantly hastes the warlord, to the point that he gets movement speed increased by 14, gets 3 attacks per round, a +4 bonus to speed factor and +2 to casting speed and armor class. Frenzy can be not cumulated with other haste spells, and does not negate a slow spell.~
-@76189 = ~You already are frantic~
+This spell greatly accelerates the warlord, increasing his movement speed by 150%, doubling his attacks per round and adding one more attack, and granting +4 to speed factor and +2 to casting speed and AC. Frenzy does not stack with other haste spells, and does not negate a slow spell.~
+@76189 = ~You are already frantic~
 @76181 = ~Frenzy (Alteration)
 Level: 6
 Range: 0
@@ -359,28 +359,28 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-This spell significantly hastes the warlord, to the point that he gets movement speed increased by 14, gets 3 attacks per round, a +4 bonus to speed factor and +2 to casting speed and armor class. Frenzy can be not cumulated with other haste spells, and does not negate a slow spell.~
+This spell greatly accelerates the warlord, increasing his movement speed by 150%, doubling his attacks per round and adding one more attack, and granting +4 to speed factor and +2 to casting speed and AC. Frenzy does not stack with other haste spells, and does not negate a slow spell.~
 @76182 = ~Frenzy (Alteration)
 Level: 6
 Range: visual range of the caster
 Duration: 3 turns
 Casting Time: 5
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell significantly hastes the recipient, to the point that he gets movement speed increased by 14, gets 3 attacks per round, a +4 bonus to speed factor and +2 to casting speed and armor class. Frenzy can be not cumulated with other haste spells, and does not negate a slow spell.~
+This spell greatly accelerates the recipient, increasing his movement speed by 150%, doubling his attacks per round and adding one more attack, and granting +4 to speed factor and +2 to casting speed and AC. Frenzy does not stack with other haste spells, and does not negate a slow spell.~
 @761821 = ~Frenzy (Alteration)
 Level: 6
 Range: visual range of the caster
 Duration: 3 turns
 Casting Time: 5
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell significantly hastes the recipient, to the point that he gets movement speed increased by 14, gets 3 attacks per round, a +4 bonus to speed factor and +2 to casting speed and armor class. Frenzy can be not cumulated with other haste spells, and does not negate a slow spell.
+This spell greatly accelerates the recipient, increasing his movement speed by 150%, doubling his attacks per round and adding one more attack, and granting +4 to speed factor and +2 to casting speed and AC. Frenzy does not stack with other haste spells, and does not negate a slow spell.
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell:
-they get +9 to movement speed, 2 attacks per round, +3 to speed factor and +1 to casting speed and armor class for 2 turns.~
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
+their movement speed doubles, and they gain 2 attacks per round, +3 to speed factor and +1 to casting speed and armor class for 2 turns.~
 
 @7619 = ~Hail~
 @7620 = ~Hail (Evocation)
@@ -388,19 +388,19 @@ Level: 6
 Range: 30 meters
 Duration: instantaneous
 Casting Time: 6
-Area of Effect: 9-meters radius
+Area of Effect: radius 9 meters
 Saving Throw: special
 
-This spell creates ice upon the targeted area, under the shape of magnifying compact blocks, which quickly fall when their weight is too important to the magic force that keeps them in the air. The blocks crush falling to the ground, diffusing cold and frozen shards in the area. THe creatures under hail will suffer 10D8 crushing damage points and 4D6 cold damage points. A saving spell vs. spells allows to suffer half cold damage points, but it is more difficult to avoid ice blocks: the saving throw to halve crushing damage is made at -4.~
+This spell forms growing blocks of ice above the chosen area. When they become too heavy for the magic holding them aloft, they crash down and scatter cold and icy shards. Creatures caught in the hail suffer 10D8 points of crushing damage and 4D6 points of cold damage. A successful save vs. spell halves the cold damage. Avoiding the ice blocks is harder: a save at -4 halves the crushing damage.~
 @76201 = ~Hail (Evocation)
 Level: 6
 Range: 30 meters
 Duration: instantaneous
 Casting Time: 3
-Area of Effect: 9-meters radius
+Area of Effect: radius 9 meters
 Saving Throw: special
 
-This spell creates ice upon the targeted area, under the shape of magnifying compact blocks, which quickly fall when their weight is too important to the magic force that keeps them in the air. The blocks crush falling to the ground, diffusing cold and frozen shards in the area. THe creatures under hail will suffer 10D8 crushing damage points and 4D6 cold damage points. A saving spell vs. spells allows to suffer half cold damage points, but it is more difficult to avoid ice blocks: the saving throw to halve crushing damage is made at -4.~
+This spell forms growing blocks of ice above the chosen area. When they become too heavy for the magic holding them aloft, they crash down and scatter cold and icy shards. Creatures caught in the hail suffer 10D8 points of crushing damage and 4D6 points of cold damage. A successful save vs. spell halves the cold damage. Avoiding the ice blocks is harder: a save at -4 halves the crushing damage.~
 
 @7621 = ~Devil Hand~
 @7622 = ~Devil Hand (Necromancy)
@@ -411,9 +411,9 @@ Casting Time: 6
 Area of Effect: caster
 Saving Throw: none
 
-Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the main hand of the warlord with a dark and evil energy from negative plane.
-Once the hand is altered, the mage can not hold a weapon anymore. Alteration lasts 3 rounds, during which if he touches a creature, he drains the energy to his own. The creature must make a successful saving throw vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and turns into a lost experience level.
-All evil energy is set to the target upon touch, so the warlord can only make a single touch.
+Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the warlord's main hand with dark energy from the Negative Energy Plane.
+Once the hand is altered, the mage cannot hold a weapon anymore. The transformation lasts 3 rounds, during which if he touches a creature, he transfers the energy to it. The creature must make a successful save vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and drains one experience level instead.
+All the negative energy passes to the target on contact, so the warlord can only make a single touch.
 The warlord recovers use of his hand after 3 rounds or a touch.~
 @76221 = ~Deadly Touch~
 @76222 = ~Devil Hand (Necromancy)
@@ -424,50 +424,50 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the main hand of the warlord with a dark and evil energy from negative plane.
-Once the hand is altered, the mage can not hold a weapon anymore. Alteration lasts 3 rounds, during which if he touches a creature, he drains the energy to his own. The creature must make a successful saving throw vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and turns into a lost experience level.
-All evil energy is set to the target upon touch, so the warlord can only make a single touch.
+Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the warlord's main hand with dark energy from the Negative Energy Plane.
+Once the hand is altered, the mage cannot hold a weapon anymore. The transformation lasts 3 rounds, during which if he touches a creature, he transfers the energy to it. The creature must make a successful save vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and drains one experience level instead.
+All the negative energy passes to the target on contact, so the warlord can only make a single touch.
 The warlord recovers use of his hand after 3 rounds or a touch.~
 @76223 = ~Devil Hand (Necromancy)
 Level: 6
 Range: visual range of the caster
 Duration: special
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the main hand of the recipient with a dark and evil energy from negative plane.
-Once the hand is altered, the recipient can not hold a weapon anymore. Alteration lasts 3 rounds, during which if he touches a creature, he drains the energy to his own. The creature must make a successful saving throw vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and turns into a lost experience level.
-All evil energy is set to the target upon touch, so the recipient can only make a single touch.
+Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the recipient's main hand with dark energy from the Negative Energy Plane.
+Once the hand is altered, the recipient cannot hold a weapon anymore. The transformation lasts 3 rounds, during which if he touches a creature, he transfers the energy to it. The creature must make a successful save vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and drains one experience level instead.
+All the negative energy passes to the target on contact, so the recipient can only make a single touch.
 The recipient recovers use of his hand after 3 rounds or a touch.~
 @762231 = ~Devil Hand (Necromancy)
 Level: 6
 Range: visual range of the caster
 Duration: special
 Casting Time: 6
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the main hand of the recipient with a dark and evil energy from negative plane.
-Once the hand is altered, the recipient can not hold a weapon anymore. Alteration lasts 3 rounds, during which if he touches a creature, he drains the energy to his own. The creature must make a successful saving throw vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and turns into a lost experience level.
-All evil energy is set to the target upon touch, so the recipient can only make a single touch.
+Devil Hand is a particularly evil spell, which aims to kill a creature with a single touch. To do so, the spell charges the recipient's main hand with dark energy from the Negative Energy Plane.
+Once the hand is altered, the recipient cannot hold a weapon anymore. The transformation lasts 3 rounds, during which if he touches a creature, he transfers the energy to it. The creature must make a successful save vs. death or will instantly die. If the saving throw is successful, the effect of the evil energy is reduced and drains one experience level instead.
+All the negative energy passes to the target on contact, so the recipient can only make a single touch.
 The recipient recovers use of his hand after 3 rounds or a touch.
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell:
-their hand is charged for 2 rounds by a lesser energy, which does not impose the automatic loss of a level: this is subjected to a second saving throw (at -5).~
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
+Their hand is charged with weaker energy for 2 rounds. Level drain is not automatic: a second saving throw at -5 prevents it.~
 
 @7623 = ~Fighter Resurgence~
 @7624 = ~Fighter Resurgence (Alteration)
 Level: 6
 Range: 0
-Duration: 1 round/level
+Duration: 1 round / level
 Casting Time: 6
 Area of Effect: caster
 Saving Throw: none
 
-This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he never lost them.
-By casting this spell, the warlord gets his level of fighter as if he had freely improved in this field. His THAC0 and saving throws become those of a fighter of his current mage level, and gets a +2 temporary life points bonus per level and a second basic attack if he has one. He also gets an innate mastery at maximum level of all weapons and fighting style he practiced during his training.
-All effectiveness of the spell lies in the alteration of knowledge of the warlord, as the spell lasts all arcane knowledge he has are hidden. He can not cast any spell.~
+This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he had never lost them.
+By casting this spell, the warlord regains the fighter abilities he would have developed through uninterrupted martial training. His THAC0 and saving throws become those of a fighter of his current mage level plus two, and he gains 2 temporary hit points per level and a second base attack if he has only one. He also gets an innate mastery at maximum level of all weapons and fighting styles he practiced during his training.
+The spell works by altering the warlord's knowledge. His arcane knowledge is suppressed for its duration, preventing him from casting spells.~
 @76241 = ~Fighter Resurgence (Alteration)
 Level: 6
 Range: 0
@@ -476,10 +476,10 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he never lost them.
-By casting this spell, the warlord gets his level of fighter as if he had freely improved in this field. His THAC0 and saving throws become those of a fighter of 20th level, and gets 40 temporary life points bonus and a second basic attack if he has one. He also gets an innate mastery at maximum level of all weapons and fighting style he practiced during his training.
-All effectiveness of the spell lies in the alteration of knowledge of the warlord, as the spell lasts all arcane knowledge he has are hidden. He can not cast any spell.~
-@762411 = ~You can not use magic under the effect of Fighter Resurgence~
+This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he had never lost them.
+By casting this spell, the warlord regains the fighter abilities he would have developed through uninterrupted martial training. His THAC0 and saving throws become those of a fighter of 20th level, and he gains 40 temporary hit points and a second base attack if he has only one. He also gets an innate mastery at maximum level of all weapons and fighting styles he practiced during his training.
+The spell works by altering the warlord's knowledge. His arcane knowledge is suppressed for its duration, preventing him from casting spells.~
+@762411 = ~You cannot use magic under the effect of Fighter Resurgence~
 @76242 = ~Fighter Resurgence (Alteration)
 Level: 6
 Range: 0
@@ -488,22 +488,22 @@ Casting Time: 6
 Area of Effect: caster
 Saving Throw: none
 
-This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he never lost them.
-By casting this spell, the warlord gets his level of fighter as if he had freely improved in this field. His THAC0 and saving throws become those of a fighter of 20th level, and gets 40 temporary life points bonus and a second basic attack if he has one. He also gets an innate mastery at maximum level of all weapons and fighting style he practiced during his training.
-All effectiveness of the spell lies in the alteration of knowledge of the warlord, as the spell lasts all arcane knowledge he has are hidden. He can not cast any spell.
+This spell gives the warlord who needs a significant improvement of his fighting skills a simple option: to revive his old skills, as if he had never lost them.
+By casting this spell, the warlord regains the fighter abilities he would have developed through uninterrupted martial training. His THAC0 and saving throws become those of a fighter of 20th level, and he gains 40 temporary hit points and a second base attack if he has only one. He also gets an innate mastery at maximum level of all weapons and fighting styles he practiced during his training.
+The spell works by altering the warlord's knowledge. His arcane knowledge is suppressed for its duration, preventing him from casting spells.
 
-This spell can only be used upon a dual class fighter mage. This spell can not be cast upon anyone except the caster.~
+This spell can only be used upon a dual-class fighter/mage. This spell cannot be cast upon anyone except the caster.~
 
 @7625 = ~Fortitude~
 @7626 = ~Fortitude (Abjuration, Alteration, Necromancy)
 Level: 6
 Range: 0
-Duration: 2 rounds/level
+Duration: 2 rounds / level
 Casting Time: 7
 Area of Effect: caster
 Saving Throw: none
 
-This spell is used to protect the warlord against all body afflictions. When he casts Fortitude, a vital fluid way far beyond normal flows through his veins. As long as this force is inside him, the warlord is immune to poison, disease, level drain and specific traits and death caused by magic. He also gets a bonus of +5 to saving throw vs. poison/death in term of resisting other effects. He regenerates 1 HP per round and gets 3 extra hit points per level, which are removed when spell expires.~
+This spell is used to protect the warlord against all bodily afflictions. When he casts Fortitude, an exceptionally potent vital force flows through his veins. As long as this force is inside him, the warlord is immune to poison, disease, level drain, ability score drain and magical death. He also gets a bonus of +5 to saving throw vs. poison/death against other effects. He regenerates 1 HP per round and gets 3 extra hit points per level, which are removed when the spell expires.~
 @76261 = ~Fortitude (Abjuration, Alteration, Necromancy)
 Level: 6
 Range: 0
@@ -512,25 +512,26 @@ Casting Time: 3
 Area of Effect: caster
 Saving Throw: none
 
-This spell is used to protect the warlord against all body afflictions. When he casts Fortitude, a vital fluid way far beyond normal flows through his veins. As long as this force is inside him, the warlord is immune to poison, disease, level drain and specific traits and death caused by magic. He also gets a bonus of +5 to saving throw vs. poison/death in term of resisting other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when spell expires.~
+This spell is used to protect the warlord against all bodily afflictions. When he casts Fortitude, an exceptionally potent vital force flows through his veins. As long as this force is inside him, the warlord is immune to poison, disease, level drain, ability score drain and magical death. He also gets a bonus of +5 to saving throw vs. poison/death against other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when the spell expires.~
 @76262 = ~Fortitude (Abjuration, Alteration, Necromancy)
 Level: 6
 Range: visual range of the caster
 Duration: 4 turns
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell is used to protect the recipient against all body afflictions. When the warlord casts Fortitude, a vital fluid way far beyond normal flows through the veins of the recipient. As long as this force is inside him, he is immune to poison, disease, level drain and specific traits and death caused by magic. He also gets a bonus of +5 to saving throw vs. poison/death in term of resisting other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when spell expires.~
+This spell is used to protect the recipient against all bodily afflictions. When the warlord casts Fortitude, an exceptionally potent vital force flows through the veins of the recipient. As long as this force is inside him, he is immune to poison, disease, level drain, ability score drain and magical death. He also gets a bonus of +5 to saving throw vs. poison/death against other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when the spell expires.~
 @762621 = ~Fortitude (Abjuration, Alteration, Necromancy)
 Level: 6
 Range: visual range of the caster
 Duration: 4 turns
 Casting Time: 7
-Area of Effect: 1 creature
+Area of Effect: one creature
 Saving Throw: none
 
-This spell is used to protect the recipient against all body afflictions. When the warlord casts Fortitude, a vital fluid way far beyond normal flows through the veins of the recipient. As long as this force is inside him, he is immune to poison, disease, level drain and specific traits and death caused by magic. He also gets a bonus of +5 to saving throw vs. poison/death in term of resisting other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when spell expires.
+This spell is used to protect the recipient against all bodily afflictions. When the warlord casts Fortitude, an exceptionally potent vital force flows through the veins of the recipient. As long as this force is inside him, he is immune to poison, disease, level drain, ability score drain and magical death. He also gets a bonus of +5 to saving throw vs. poison/death against other effects. He regenerates 1 HP per round and gets 60 extra hit points, which are removed when the spell expires.
 
-All allies within 5 meters from the recipient will also benefit from softened effects of the spell:
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
 They get the same immunities, +3 to saving throws, +40 HP and a 2 HP regeneration every 3 rounds for 26 rounds.~
+

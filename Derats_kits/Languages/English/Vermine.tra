@@ -1,45 +1,46 @@
-@1099 = ~hunter of vermin~
-@11 = ~Hunter of Vermin~
-@12 = ~HUNTER OF VERMIN: The best protected human cities insofar are never safe from the intrusion of harmful species such as rats, mold and others. In woodland cities, placed among trees, there are spiders, beetles and other giant insects that may nest in the area and disturb tranquillity.
-Vermin Hunters are trained with the aim to disledge and exterminate these harmful creatures. A long training in this field has provided them a natural resistance to toxins, as well as the ability to heal others. They are also able to move freely through the spider webs, entanglements and other forms of immobility.
-Among elves, these rangers are serving the community, while among humans, they are rather civil guards hired and paid.
+@1099 = ~vermin hunter~
+@11 = ~Vermin Hunter~
+@12 = ~VERMIN HUNTER: Even the best-protected human cities are never entirely safe from pests such as rats and molds. In woodland settlements built among the trees, giant spiders, beetles, and other insects may nest nearby and disturb the peace.
+Vermin hunters are trained to drive out and exterminate these creatures. Years of practice give them a natural resistance to toxins and the ability to treat poisoning in others. They can also move freely through webs, entanglements, and other obstacles that restrict movement.
+Among elves, these rangers serve their community; among humans, they are usually hired and paid as civic guards.
 
 Advantages:
-- +3 to hit and damage against ankhegs, otyughs, silts and giant vermin.
-- At level 4, freedom of movement: immunity against webs, entanglements, immobility and slowdowns.
-- At level 8, immunity vs. poisons.
-- At level 10, immune against non-natural diseases.
-- At level 4 and every 4 levels, can slow poison once a day.
-- At level 7 and every 5 levels, can neutralize toxins once a day.
-- At level 12 and every 6 levels, can use "Vermin Summoning" once a day.
-- At level 15 and every 8 levels, can use "Giant Vermin Summoning" once a day.
+- +3 to hit and damage against ankhegs, otyughs, slimes, and giant vermin.
+- At level 4, gains freedom of movement: immunity to webs, entanglement, immobilization, and slowing effects.
+- At level 8, becomes immune to poison.
+- At level 10, becomes immune to unnatural diseases.
+- At level 4 and every 4 levels thereafter, may use Slow Poison once per day.
+- At level 7 and every 5 levels thereafter, may neutralize toxins once per day.
+- At level 12 and every 6 levels thereafter, may use Vermin Summoning once per day.
+- At level 15 and every 8 levels thereafter, may use Giant Vermin Summoning once per day.
 
 Disadvantages:
-- Can not be burdened with any armour than studded leather armour.
-- Can not learn any proficiency in two-handed weapons, but bows and clubs.
+- May not wear armor heavier than studded leather.
+- May not learn proficiencies in two-handed weapons other than bows and quarterstaves.
 
-Note: in order to match cleric, human vermin hunter must have at least 15 strength and dexterity, and 17 wisdom.
+Note: To dual-class into a cleric, a human vermin hunter needs at least 15 Strength, 15 Dexterity, and 17 Wisdom.
 
 VERMIN SUMMONING:
-At a high level, the hunter of vermin has so much experiences of harmful creatures that he can instinctively know where they are in the area and apply his skills of ranger to tame them. At every cast of this summon, up to 4 creatures will appear and join him for 2 minutes.
+An experienced vermin hunter instinctively knows where pests lurk nearby and can use his ranger skills to tame them. Each use calls up to 4 creatures that join him for 2 minutes.
 
 GIANT VERMIN SUMMONING:
-After years of fighting the harmful creatures, the hunter of vermin is able to draw and and call to him the most feared creatures. At this skill level, he may call up to 3 creatures that will join him for 2 minutes.~
+After years of fighting vermin, the hunter can train and summon even the most feared creatures. Up to 3 creatures answer his call and join him for 2 minutes.~
 
 @13 = ~Vermin Summoning~
 @14 = ~Giant Vermin Summoning~
 @15 = ~Death Watch Beetle~
-@16 = ~New-Otyugh~
+@16 = ~Neo-Otyugh~
 @17 = ~Brown Pudding~
 @18 = ~Putrid Stink Bug~
 @19 = ~Boring Beetle~
-@1010 = ~Trap door Spider~
+@1010 = ~Trapdoor Spider~
 @1011 = ~Boasilisk~
 @1012 = ~Giant Snake~
 @1013 = ~Otyugh~
 @1014 = ~Web Tangle~
 @1015 = ~Snake Gaze~
-@1016 = ~Deadly vibration~
+@1016 = ~Deadly Vibration~
 @1017 = ~Fetid Fragrance~
 @1018 = ~Toxic Scent~
 @1019 = ~Hunting Spider~
+
