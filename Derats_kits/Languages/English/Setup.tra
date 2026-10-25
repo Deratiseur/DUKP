@@ -1,0 +1,84 @@
+@0009 = ~This component works only with the Throne of Bhaal expansion or an Enhanced Edition.~
+@10 = ~Ranger Kit: Vermin Hunter~
+@20 = ~Cleric Kit: Preacher of Flames~
+@30 = ~Fighter (half-orc) Kit: Hatred Carrier~
+@40 = ~Thief Kit (gnome): Shadowmage~
+@50 = ~Druid Kit: Master of the Swarm~
+@60 = ~Multiclass Cleric/Wild Mage Kit (human): Theurgical Explorer~
+@70 = ~Dual-Class Fighter -> Mage Kit: Warlord~
+@80 = ~Multiclass Fighter/Mage Kit (elf): Bladesinger~
+@90 = ~Mage Kit (original BG2: replaces the invoker): Savant Artilleryman~
+@100 = ~Wizard Kit (original BG2: replaces the enchanter): Spellthief~
+@110 = ~Ranger Kit Modification: Improved Beast Master~
+@120 = ~Thief Kit: Shadow Walker~
+@130 = ~~
+@140 = ~Cleric Kit: Crusader of Garagos~
+@150 = ~Multiclass Thief/Necromancer Kit: Anatomist~
+
+
+//En projet, écrit au complet mais je n'arrive pas à écrire correctement les dialogues "mauvais parle à mauvais" pour les justifier (aide acceptée):
+@00 = ~Paladin Kit: Champion of Xvim~ // (évolution du Porteur de haine) Capacités d'anti-paladins complémentaires de ses propres capacités.
+@00 = ~Cleric Kit: Fire Walker~ // (prêtre du culte de Kossuth, alternative proposée au prêcheur des flammes s'il change d’allégeance) P&P suivant le livre TSR F9516 - Religions Et Avatars.
+
+
+//En projet, bien avancés mais il manque les icônes des sorts (aide acceptée) :
+@00 = ~Mage Kit (necromancer): Master of Unlife~ //Nécromancien pro-spécialisé, de nombreux nouveaux sorts de nécromancie, gestion, invocation et création de morts-vivants, hlas allant jusqu'à un lichéat alternatif. École d'invocation interdite en plus.
+@00 = ~Mage Kit (invoker): Cryomancer~ //Élémentaliste de la glace, de nombreux nouveaux sorts de froid, conversion des sorts des autres éléments en sorts de froid, refus total de l'élément feu. Écoles de divination et illusion interdites en plus.
+@00 = ~Monk Kit: Monk of the Forgotten Order~ //Moine qui peut lancer des sorts jusqu'au niveau 6, et dont les capacités spéciales sont des défenses contre les arcanes.
+@00 = ~Fighter Kit: Pyromancer~ //Demi-génasi du feu, peut lancer des "invocations" basées sur le feu, lance à volonté de petits missiles de feu.
+@00 = ~Fighter Kit (dwarf): Death Defier~ //Réécriture du profil précédemment supprimé pour le fusionner avec le kit écrit mais jamais sorti du "tempête d'acier".
+
+
+//Objet pour le Prêcheur des flammes
+@1001 = ~Blood of Kossuth~
+@1002 = ~Kossuth, the god of fire, rarely takes physical form in the Forgotten Realms. When he does, his arrival invariably brings widespread destruction. In 801 DR, a great gathering of worshippers summoned him to defend a coastal temple threatened by a monstrous octopus. Kossuth appeared amid a terrifying blaze and fought the supernatural creature. His avatar defeated it, but the monster managed to weaken Kossuth's essence. Divine fire traveled along its body and lodged in one of its eyes, instantly transforming it into a strange black sphere lit from within by an eternal flame.
+The sphere was later set in a silver pendant. It serves as a catalyst for any worshipper seeking a share of Kossuth's power... provided they are willing to pay the price.
+
+STATISTICS:
+
+Equipped Abilities:
+Fire resistance: -30%
+Casting time reduced by 2
+Attacks ignore the target's fire resistance
+
+Only Usable By:
+Fire Elementalist
+Pyromancer
+Preacher of Flames~
+
+//Objet pour le Chantelameur
+@1007 = ~Bladesinger's Elven Chainmail +2~
+@1008 = ~This magnificent armor is composed of thousands of small metal plates finely crafted and perfectly interlocked. It sparkles, each plate reflecting the surrounding light like a mirror. Flexible and lightweight, it could be suitable for any fighter, if it were not intelligent.
+Indeed, this armor seems to have an ego that pushes it to choose its wearer, and for anyone it rejects, it closes its plates to become too narrow to be worn. In fact, it accepts only the finest elven warriors.
+ 
+STATISTICS:
+
+Special: the wearer can memorize one additional spell at spell level from 1 to 4.
+
+AC: 4
+Weight: 4
+Required Strength: 13
+Required Dexterity: 15
+Only Usable By:
+Bladesinger
+Unicorn Rider
+Wind Rider~
+
+//Objet pour l'Explorateur théurgique
+@1009 = ~Sacred Symbol of Azuth~
+@10010 = ~Only the noblest and most faithful servants of the Lord of Spells receive this kind of award. This symbol is unique, existing only to be worn by a true seeker.
+
+STATISTICS
+
+Equipped Abilities:
+Can memorize one additional level 6 spell and one additional level 7 spell in each class.
+Wisdom: +1.
+
+Only Usable By:
+Theurgical Explorer~
+
+//Textes relatifs au maître de l'essaim
+@5477 = ~Copper Beetle~
+@57382 = ~Blazing Web~
+@573112 = ~Out of Phase~
+

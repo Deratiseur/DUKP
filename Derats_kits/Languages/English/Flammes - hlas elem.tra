@@ -1,0 +1,131 @@
+@291 = ~Way of the Elementalist~
+@292 = ~Way of the Elementalist:
+
+The preacher who worships fire as a force of nature becomes a master elementalist. His bond with the Elemental Plane of Fire deepens, allowing him to add primordial fire from that plane to every fire spell he casts. Spells enhanced in this way inflict approximately 20% more damage (30% more at level 30 and 40% more at level 40) and cannot be blocked by a simple protection against evocation.
+If the preacher is evil when he chooses this path, his alignment becomes (lawful) neutral.
+
+Note: This ability does not update spells already memorized. Erase them and memorize them again to obtain the enhanced versions.
+Elemental Fireball (already made of primordial fire) and Detonation (a simple explosion) cannot be improved by this ability.~
+
+@293 = ~Elemental Prince Summoning~
+@294 = ~Requirement: the Way of the Elementalist
+
+Elemental Prince Summoning (Conjuration/Summoning)
+Level: quest
+Sphere: elemental, conjuration
+Range: 20 meters
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+A powerful Preacher of Flames with a strong bond to the Elemental Plane of Fire can summon the Elemental Prince Zaaman Rul directly. Zaaman Rul serves the preacher for 2 turns.~
+@2941 = ~Elemental Prince Summoning (Conjuration/Summoning)
+Level: quest
+Sphere: elemental, conjuration
+Range: 20 meters
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+This spell summons the Elemental Prince Zaaman Rul. He serves the preacher for 2 turns.~
+
+@295 = ~Fire Lord~
+@296 = ~Requirement: ability to summon Zaaman Rul
+
+Fire Lord
+The preacher who can command Zaaman Rul, Prince of Fire, gains the respect of many fire creatures. His growing power and reputation establish him as a Fire Lord and win him many allies.
+The Fire Lord can now charm any fire creature, including elementals, salamanders, djinn, efreet and mephits.
+He no longer needs to touch them, and they cannot resist this power. He also gains two additional daily uses.
+Several summoning spells also change to reflect his new status:
+Elemental Prince Summoning now allows him to summon the archomental Imix.
+Call Fire Servant allows him to summon a broader range of creatures from the Elemental Plane.
+Animal Summoning I, II and III now summon fire creatures, which answer his call more readily than animals.
+He also gains the ability to control swarms of fireflies.~
+@2961 = ~Control Fire Creature~
+@2962 = ~Archomental Summoning~
+@2963 = ~Archomental Summoning (Conjuration/Summoning)
+Level: quest
+Sphere: elemental, summoning
+Range: 9 meters
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+This spell summons the archomental Imix. He serves the preacher for 2 turns.~
+@29631 = ~Imix~
+
+@297 = ~Archomental Guards~
+@298 = ~Requirement: Fire Lord
+
+Archomental Guards (Conjuration/Summoning)
+Level: quest
+Sphere: elemental, conjuration
+Range: 20 meters
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+This spell summons Imix's three personal guards. All three are greater elementals with 16 Hit Dice. They serve the preacher for the duration of the spell and remain bound to him by its magic even if Imix is also summoned.~
+@2981 = ~Archomental Guards (Conjuration/Summoning)
+Level: quest
+Sphere: elemental, conjuration
+Range: 20 meters
+Duration: 2 turns
+Casting Time: 1 round
+Area of Effect: special
+Saving Throw: none
+
+This spell summons Imix's three personal guards. All three are greater elementals with 16 Hit Dice. They serve the preacher for the duration of the spell and remain bound to him by its magic even if Imix is also summoned.~
+@2982 = ~Princely Guard~
+
+@299 = ~Elemental Channeling~
+@2910 = ~Requirement: Way of the Elementalist
+
+Elemental Channeling:
+
+A Preacher of Flames with a close bond to the elemental plane can open a channel between his body and the Elemental Plane of Fire. Primordial flames fill him, transforming him into an incarnation of fire. The ecstasy of this transformation prevents him from casting spells, but grants him Herculean strength and exceptional Constitution. He is immune to normal weapons and magical weapons of +2 enchantment or less, resists physical damage, and is healed by fire. His intense heat deals 2d10 points of fire damage per round to nearby creatures. Creatures that touch him or are struck by his attacks suffer 2d10+2 points of fire damage. He burns through webs, roots and grease, passing through these obstacles unharmed.
+The transformation can last up to 8 hours before interplanar energies exhaust the channel and force it to close. Returning to human form is deeply unsettling. If he ends the transformation voluntarily, he remains dazed for a time and cannot channel again until he has had a good night's sleep.~
+@29101 = ~Return to Normal Form~
+
+@2911 = ~Elemental Explosion~
+@2912 = ~Requirement: Elemental Channeling
+
+Elemental Explosion:
+
+While channeling elemental energy, the preacher can unleash the fury of the plane upon his enemies. He draws additional energy from the plane and combines it with the power already within him, releasing a wave of fire across a 12-meter area. All creatures in the area suffer 15d8 points of fire damage. Molten residue then clings to them and continues to burn for 1d4 rounds, dealing decreasing damage:
+1st round: 10d8 points of damage
+2nd round: 6d8 points of damage
+3rd round: 3d8 points of damage
+4th round: 1d8 points of damage
+For example, a creature covered in molten residue for 2 rounds suffers the final two damage amounts: 3d8 and 1d8.
+A successful save vs. breath weapon halves the initial damage and reduces the residue's duration to 1d2 rounds.
+The preacher must save vs. polymorph at -5 to maintain his channeling. If he succeeds, he remains an incarnation of fire. Otherwise, the energy spent on the explosion breaks the channel, returning him to his original form with all the resulting drawbacks.
+
+Note: If this high-level ability is selected while the character is already channeling, it becomes available only during the next transformation.~
+
+
+@2913 = ~Elemental Transcendence~
+@2914 = ~Requirement: Elemental Channeling
+
+Elemental Transcendence:
+
+Elemental transcendence occurs during channeling, allowing the preacher to merge body and soul with fire. When the channel closes, fire continues to flow through his body, replacing his blood and transforming his flesh. His overall shape remains unchanged, but many signs reveal his new nature: his pupils take on the color of living flame, his hair turns a light red, and small tongues of flame sometimes flicker across his skin for a few seconds. His blood is now liquid fire. He ceases to be a being of the Prime Material Plane and becomes an elemental.
+He gains 127% fire resistance and -50% cold resistance, and becomes immune to poison, disease, backstabs, critical hits, sleep, stun and paralysis. Effects intended for mortal bodies no longer affect him: conventional healing does not work, and neither Raise Dead nor Resurrection can restore him to life. Death is permanent.
+He retains enough control over his body to keep his equipment from catching fire.~
+@2915 = ~Healing Through Fire~
+@2916 = ~Requirement: Elemental Transcendence
+
+Healing Through Fire (Conjuration/Summoning)
+Level: 6
+Sphere: elemental, fire
+Range: 0
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: caster
+Saving Throw: none
+
+A column of fire engulfs the preacher. Since his fire resistance exceeds 100%, the flames heal him, restoring between 80% and 100% of his base hit points.~

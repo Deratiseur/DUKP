@@ -1,0 +1,121 @@
+@261 = ~Conjure Animals~
+@262 = ~Conjure Animals (Conjuration / Summoning)
+Level: 6
+Sphere: conjuration
+Range: visual range of the caster
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: special
+Saving Throw: none
+
+This spell allows the caster to summon forth and control one or two Tshalas. These creatures answer the Fire Lord's call in place of the bears normally summoned. At the caster's request, they can cast spells such as "Remove Curse", "Heal", "Feeblemind" and "Maze" once a day, as well as "Fireball" once per turn and at will. If they do not cast spells, they furiously attack any enemy of the preacher. They can provide few other services.~
+@2621 = ~Tshala~
+@2622 = ~Can Cast Fireball Again~
+
+@264 = ~Animal Summoning III (Conjuration, Summoning)
+Level: 6
+Sphere: animal, conjuration
+Range: visual range of the caster
+Duration: 4 turns
+Casting Time: 7
+Area of Effect: special
+Saving Throw: none
+
+By means of this spell, the caster calls one or two creatures that have 16 Hit Dice or less. Fire creatures and creatures with an affinity for fire answer the Fire Lord's call in place of the animals normally summoned.
+The summoned creatures aid the caster by whatever means they possess, staying until they are slain or the spell duration expires.~
+@2641 = ~Meteoric Ooze~
+@26411 = ~The fire absorbed by the meteoric ooze allows it to divide~
+@2642 = ~Magma Troll~
+@2643 = ~Ash Snake~
+@2644 = ~Fire Giant~
+
+@265 = ~Heat Aura~
+@266 = ~Heat Aura (Evocation)
+Level: 6
+Sphere: elemental (fire)
+Range: 0
+Duration: 1 round / level
+Casting Time: 6
+Area of Effect: 10 meters radius
+Saving Throw: none
+
+This spell surrounds the preacher with an aura of fire that radiates intense heat without burning him. It protects him from all external heat and grants 25% cold resistance. The heat also spreads over a wide area around him.
+Each round, creatures less than 10 meters away suffer 1D4 points of fire damage. Those less than 6.5 meters away suffer an additional 1D6, and those less than 3 meters away suffer a further 1D8, for a total of 1D4 + 1D6 + 1D8 points of damage.~
+
+@267 = ~Detonation~
+@268 = ~Detonation (Evocation)
+Level: 6
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 3 meters radius
+Saving Throw: special
+
+A simple word and a gesture of the hand are enough to cast this spell, which creates a sudden explosion in the targeted area. The explosion is confined to a very small area in order to maximize impact, so much that in addition to dealing 1D6 +1 point of damage per level of the preacher (crushing and fire, save vs. spell to halve), the creatures hit are stunned for 1d4 rounds if they fail a save vs. breath weapon and are deafened for 1d6 rounds if they fail the same saving throw at a -2 penalty.~
+@2682 = ~Detonation (Evocation)
+Level: 6
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 1
+Area of Effect: 3 meters radius
+Saving Throw: special
+
+A simple word and a gesture of the hand are enough to cast this spell, which creates a sudden explosion in the targeted area. The explosion is confined to a very small area in order to maximize impact, so much that in addition to dealing 20D6 +20 points of damage (crushing and fire, saving throw at a -2 penalty vs. spells to halve), the creatures hit are stunned for 1d4 rounds if they fail a save vs. breath weapon at a -2 penalty and are deafened for 1d6 rounds if they fail the same saving throw at a -4 penalty.
+All saving throws vs. this spell carry an additional -1 penalty for every 5 levels of the spellcaster beyond level 20.~
+
+@269 = ~Exploding Mephits~
+@2610 = ~Exploding Mephits (Conjuration / Summoning)
+Level: 6
+Sphere: charm, conjuration, elemental (fire)
+Range: visual range of the caster
+Duration: 3 turns
+Casting Time: 8
+Area of Effect: special
+Saving Throw: none
+
+This spell works in two stages. First, it summons 1D4 +1 incendiary mephits under the sole control of the preacher. It then charges them with explosive energy. When a transformed mephit dies, it explodes into a fireball dealing 6D8 points of damage (saving throw to halve) to all nearby creatures.~
+@26101 = ~Incendiary Exploding Mephit~
+@26102 = ~Pyrokamikaze Mephits / Quasits~
+@26103 = ~Pyrokamikaze Mephits / Quasits (Conjuration / Summoning)
+Level: 6
+Sphere: charm, conjuration, elemental (fire)
+Range: visual range of the caster
+Duration: 3 turns
+Casting Time: 8
+Area of Effect: special
+Saving Throw: none
+
+This spell can be used in two ways:
+Exploding Mephits summons 1D4 +1 incendiary mephits under the sole control of the preacher. It then charges them with explosive energy. When a transformed mephit dies, it explodes into a fireball dealing 6D8 points of damage (saving throw to halve) to all nearby creatures.
+Kamikaze Quasits summons 1D4 +1 quasits under the sole control of the preacher. It then charges them with explosive energy. Each charged quasit rushes at the first enemy it sees and detonates, combining the explosive charge with its own life energy to deal 6D10 +12 points of damage (save vs. breath weapon to halve) to all creatures in the area of explosion.~
+@26104 = ~Kamikaze Quasit~
+@26105 = ~Explosion~
+@26106 = ~Kamikaze Quasits~
+
+@2611 = ~Elemental Fireball~
+@2612 = ~Elemental Fireball (Summoning)
+Level: 6
+Sphere: elemental (fire)
+Range: 30 meters
+Duration: instantaneous
+Casting Time: 6
+Area of Effect: radius 9 meters
+Saving Throw: half
+
+This spell opens a portal to the elemental plane of fire, releasing a burst of magma that explodes into a fireball dealing 1D8 points of damage per level of the preacher (maximum 15D8). The victims who make a successful save vs. spell will suffer only half damage.
+This spell is particularly effective against creatures with magic resistance. It summons a natural element rather than targeting them directly, so magic resistance offers no protection.~
+@26121 = ~Hellish Fireball~
+@26122 = ~Hellish Fireball (Summoning)
+Level: 6
+Sphere: elemental (fire)
+Range: 30 meters
+Duration: instantaneous
+Casting Time: 6
+Area of Effect: radius 9 meters
+Saving Throw: half
+
+This spell opens a portal to the plane of Gehenna, releasing a burst of magma that explodes into a fireball dealing 15D8 points of damage. The victims who make a successful save vs. spell at -2 (an additional -1 for every 5 levels of the caster beyond level 20) will suffer only half damage.
+This spell is particularly effective against creatures with magic resistance. It summons a natural element rather than targeting them directly, so magic resistance offers no protection.~
+

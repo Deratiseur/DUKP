@@ -1,0 +1,145 @@
+@231 = ~Blazing Weapon~
+@232 = ~Blazing Weapon (Evocation)
+Level: 3
+Sphere: combat, elemental (fire)
+Range: touch
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: weapon touched
+Saving Throw: none
+
+When he casts this spell, the preacher must touch a weapon. It ignites with magical fire that leaves the wielder unharmed but adds 2D4 points of fire damage when the weapon hits. This damage stacks with any fire damage the weapon already deals. The spell does not make a nonmagical weapon count as magical. The spell can also be cast on a creature, setting its natural weapons ablaze. If cast on a ranged weapon, the projectiles deal only 1D6 additional fire damage.~
+@2321 = ~Blazing Weapon (Evocation)
+Level: 3
+Sphere: combat, elemental (fire)
+Range: touch
+Duration: 3 rounds + 1 round/level
+Casting Time: 4
+Area of Effect: weapon touched
+Saving Throw: none
+
+When he casts this spell, the preacher must touch a weapon. It ignites with magical fire that leaves the wielder unharmed but adds 2D4 +1 points of fire damage (1D8 +2 at level 30, 2D4 +2 at level 40) when the weapon hits. This damage stacks with any fire damage the weapon already deals. The spell does not make a nonmagical weapon count as magical. The spell can also be cast on a creature, setting its natural weapons ablaze. If cast on a ranged weapon, the projectiles deal only 2D3 additional fire damage (1D6 +1 at level 30, 2D4 at level 40).~
+
+@233 = ~Fire Shield (Red)~
+@234 = ~Fire Shield (Red) (Evocation, Alteration)
+Level: 3
+Sphere: protection, elemental (fire)
+Range: 0
+Duration: 3 rounds + 1 round / level
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+The red fire shield protects the user from fire damage by surrounding the caster with a shield of flame. This shield not only grants the user 50% fire resistance, but also protects the caster from attacks made within a 1.5m radius around the caster. An opponent that hits the caster with any weapons or spells within this radius suffers 1d6 +2 fire damage.~
+@2341 = ~Fire Shield (Red) (Evocation, Alteration)
+Level: 3
+Sphere: protection, elemental (fire)
+Range: 0
+Duration: 23 rounds
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+The red fire shield protects the user from fire damage by surrounding the caster with a shield of flame. This shield not only grants the user 50% fire resistance, but also protects the caster from attacks made within a 1.5m radius around the caster. An opponent that hits the caster with any weapons or spells within this radius suffers 1d8 +2 fire damage (2d4 +2 at level 30 and 3d4 at level 40).~
+
+@236 = ~Fireball (Evocation)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: radius 9 meters
+Saving Throw: half
+
+A fireball is an explosive burst of flame, which detonates with a low roar and delivers damage proportional to the level of the cleric who cast it - 1d6 points of damage for each level of experience of the spellcaster (up to a maximum of 10d6). The cleric points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+@2361 = ~Fireball (Evocation)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: radius 9 meters
+Saving Throw: half
+
+A fireball is an explosive burst of flame, which detonates with a low roar and delivers 12D6 points of damage (13D6 at level 30, 14D6 at level 40). The cleric points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+@2362 = ~Fireball (Evocation)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: radius 9 meters
+Saving Throw: half
+
+A fireball is an explosive burst of flame, which detonates with a low roar and delivers 10d6 points of damage. The cleric points his finger and speaks the range (distance and height) at which the fireball is to burst. A streak flashes from the pointing digit and, unless it impacts upon a material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball (an early impact results in an early detonation). Creatures failing their saving throws at a -2 penalty (an additional -1 for every 5 levels of the caster beyond level 20) each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+
+@238 = ~Flame Arrow (Conjuration/Summoning)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: one creature
+Saving Throw: none
+
+This spell enables the caster to hurl fiery bolts at opponents within range. Each bolt inflicts 1d6 points of piercing damage, plus 4d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. spell. The caster receives one bolt for every five experience levels (two bolts at 10th level, three at 15th level, etc.). All of the bolts will streak towards the target of the spell.~
+@2381 = ~Flame Arrow (Conjuration/Summoning)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: one creature
+Saving Throw: none
+
+This spell enables the caster to hurl four fiery bolts at opponents within range. Each bolt inflicts 1d6 points of piercing damage, plus 4d6 +3 points of fire damage (4D8 at level 30, 4D8 +2 at level 40). Only half of the fire damage is inflicted if the creature struck saves vs. spell. All of the bolts will streak towards the target of the spell at the same time.~
+@2382 = ~Flame Arrow (Conjuration/Summoning)
+Level: 3
+Sphere: elemental (fire)
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 3
+Area of Effect: one creature
+Saving Throw: none
+
+This spell enables the caster to hurl four fiery bolts at opponents within range. Each bolt inflicts 1d6 points of piercing damage, plus 4d6 points of fire damage. Only half of the fire damage is inflicted if the creature struck saves vs. spell at a -2 penalty (an additional -1 for every 5 levels of the caster beyond level 20). All of the bolts will streak towards the target of the spell at the same time.~
+
+@2310 = ~Exaltation (Abjuration) //Version IWDEE
+Level: 3
+Sphere: healing
+Range: touch
+Duration: 1 turn
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: none
+
+This spell enables a priest to aid and protect any one being other than the priest. By touch, the caster protects the recipient against the effects of fear, fatigue, feeblemindedness, unconsciousness, and intoxication, as well as berserk and confused states of mind for the duration of the spell.
+The preacher, having lost all healing skills, cannot remove these effects from a creature already affected.~
+
+@2311 = ~Melf's Minute Meteors~
+@2312 = ~Melf's Minute Meteors (Evocation, Alteration)
+Level: 3
+Sphere: elemental (fire)
+Range: 0
+Duration: special
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+This spell enables the preacher of flames to cast small globes of fire (one for each experience level attained), each of which bursts into a 30-cm-diameter sphere upon impact, inflicting 1d4 +3 points of damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the preacher with a +3 bonus to the attack rolls and with no penalty for range. Each meteor also deals 3 points of fire damage.
+The preacher may discharge up to four missiles per round.~
+@23121 = ~Melf's Minute Meteors (Evocation, Alteration)
+Level: 3
+Sphere: elemental (fire)
+Range: 0
+Duration: special
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+This spell enables the preacher of flames to cast small globes of fire (one for each experience level attained), each of which bursts into a 30-cm-diameter sphere upon impact, inflicting 1d4 +3 points of damage to the creature struck. It can also ignite combustible materials (even solid planks). The meteors are treated as missiles hurled by the preacher with a +3 bonus to the attack rolls and with no penalty for range. Each meteor also deals 1D2 +2 fire damage (4 at level 30 and 1D2 +3 at level 40).
+The preacher may discharge up to four missiles per round.~
+@23122 = ~Minute Meteor~
+@23123 = ~This shining meteor was created by the spell Melf's Minute Meteors.~
+@23124 = ~This shining meteor was created by the spell Melf's Minute Meteors. It is enhanced with elemental fire.~
+

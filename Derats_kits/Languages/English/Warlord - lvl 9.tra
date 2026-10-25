@@ -1,0 +1,295 @@
+@791 = ~Void Weapon~
+@792 = ~Void Weapon (Evocation)
+Level: 9
+Range: 0
+Duration: 3 rounds / 2 levels
+Casting Time: 9
+Area of Effect: caster
+Saving Throw: none
+
+This spell creates a planar tear in the hands of the mage, which he shapes into a weapon he knows how to use. The blade cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon made of void destroys everything that comes into contact with it. It effortlessly penetrates the strongest armor, and gives a +4 bonus to hit. It atomizes the matter around what it hits, inflicting an additional 2D6+4 points of damage. Finally it can completely disintegrate the victim it affects, if it fails a save vs. death at +4.
+
+Note: don't create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove your shield first.~
+@79291 = ~Void Sword~
+@79292 = ~Void Katana~
+@79293 = ~Void Axe~
+@79294 = ~Void Hammer~
+@79295 = ~Void Flail~
+@79296 = ~Void Halberd~
+@79297 = ~Void Weapon (Evocation)
+Level: 9
+Range: 0
+Duration: 3 turns
+Casting Time: 5
+Area of Effect: one creature
+Saving Throw: none
+
+This spell creates a planar tear in the hands of the mage, which he shapes into a weapon he knows how to use. The blade cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon made of void destroys everything that comes into contact with it. It effortlessly penetrates the strongest armor, and gives a +4 bonus to hit. It atomizes the matter around what it hits, inflicting an additional 2D6+4 points of damage. Finally it can completely disintegrate the victim it affects, if it fails a save vs. death at +4.
+
+Note: don't create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove your shield first.~
+@79298 = ~Void Weapon (Evocation)
+Level: 9
+Range: visual range of the caster
+Duration: 3 turns
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: none
+
+This spell creates a planar tear in the hands of the recipient that takes the shape of a weapon that the warlord chose at the time of casting. The blade cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon made of void destroys everything that comes into contact with it. It effortlessly penetrates the strongest armor, and gives a +4 bonus to hit. It atomizes the matter around what it hits, inflicting an additional 2D6+4 points of damage. Finally it can completely disintegrate the victim it affects, if it fails a save vs. death at +4.
+
+Note: don't create a two-handed sword or a halberd if the recipient is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove his shield first.~
+@792981 = ~Void Weapon (Evocation)
+Level: 9
+Range: visual range of the caster
+Duration: 3 turns
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: none
+
+This spell creates a planar tear in the hands of the recipient that takes the shape of a weapon that the warlord chose at the time of casting. The blade cannot leave his hand for the duration of the spell, unless replaced by another weapon shaped in the same way. This weapon made of void destroys everything that comes into contact with it. It effortlessly penetrates the strongest armor, and gives a +4 bonus to hit. It atomizes the matter around what it hits, inflicting an additional 2D6+4 points of damage. Finally it can completely disintegrate the victim it affects, if it fails a save vs. death at +4.
+
+Note: don't create a two-handed sword or a halberd if you are equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove your shield first.
+
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell: the same weapon appears in their hands for 2 turns.
+
+Note: don't create a two-handed sword or a halberd if one of the recipients is equipped with a shield; this inconsistency would crash the game. If you want such a weapon, remove his shield first.~
+
+@793 = ~Shields of the Exalted~
+@794 = ~Shields of the Exalted (Abjuration)
+Level: 9
+Range: 0
+Duration: 2 rounds / level
+Casting Time: 9
+Area of Effect: caster
+Saving Throw: none
+
+This powerful protection spell combines three major protections.
+Elemental shield gives a 40% bonus to fire, cold, acid and electricity resistance.
+The physical shield grants 50% resistance to all weapon damage and a +5 bonus to AC.
+Magic shield gives a 15% bonus to magic resistance, +2 to all saving throws (+4 to saving throws vs. spell) and immunity against minor spells (levels 1 and 2).
+These 3 protections are inseparable and last until the duration of the spell expires.~
+@7941 = ~Shields of the Exalted (Abjuration)
+Level: 9
+Range: 0
+Duration: 4 turns
+Casting Time: 5
+Area of Effect: caster
+Saving Throw: none
+
+This powerful protection spell combines three major protections.
+Elemental shield gives a 40% bonus to fire, cold, acid and electricity resistance.
+The physical shield grants 50% resistance to all weapon damage and a +5 bonus to AC.
+Magic shield gives a 15% bonus to magic resistance, +2 to all saving throws (+4 to saving throws vs. spell) and immunity against minor spells (levels 1 and 2).
+These 3 protections are inseparable and last until the duration of the spell expires.~
+@7942 = ~Shields of the Exalted (Abjuration)
+Level: 9
+Range: visual range of the caster
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: none
+
+This powerful protection spell combines three major protections.
+Elemental shield gives a 40% bonus to fire, cold, acid and electricity resistance.
+The physical shield grants 50% resistance to all weapon damage and a +5 bonus to AC.
+Magic shield gives a 15% bonus to magic resistance, +2 to all saving throws (+4 to saving throws vs. spell) and immunity against minor spells (levels 1 and 2).
+These 3 protections are inseparable and last until the duration of the spell expires.~
+@79421 = ~Shields of the Exalted (Abjuration)
+Level: 9
+Range: visual range of the caster
+Duration: 4 turns
+Casting Time: 9
+Area of Effect: one creature
+Saving Throw: none
+
+This powerful protection spell combines three major protections.
+Elemental shield gives a 40% bonus to fire, cold, acid and electricity resistance.
+The physical shield grants 50% resistance to all weapon damage and a +5 bonus to AC.
+Magic shield gives a 15% bonus to magic resistance, +2 to all saving throws (+4 to saving throws vs. spell) and immunity against minor spells (levels 1 and 2).
+These 3 protections are inseparable and last until the duration of the spell expires.
+
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell: the shields that protect them will give 27% elemental resistance, 33% physical resistance, +3 to AC, 10% magic resistance, +1 to all saving throws (+2 to saving throws vs. spell) and immunity against level 1 spells, for 27 rounds.~
+
+@795 = ~Camouflage~
+@796 = ~Camouflage (Illusion)
+Level: 9
+Range: 0
+Duration: 3 rounds + 1 round / level
+Casting Time: 8
+Area of Effect: caster
+Saving Throw: none
+
+Like level 5 spell Invisibility, this spell makes the warlord undetectable by sight and gives bonuses to defense and saving throws. But the spell Camouflage additionally gives perfect concealment, hiding everything that could reveal the presence of the warlord. Thus his footsteps, his body heat, his breathing, etc., everything is artificially hidden. However, he may let his voice be heard if he wishes to speak. Camouflage also protects against detection, divination and enhanced vision.~
+@7961 = ~Camouflage (Illusion)
+Level: 9
+Range: 0
+Duration: 23 rounds
+Casting Time: 5
+Area of Effect: caster
+Saving Throw: none
+
+Like level 5 spell Invisibility, this spell makes the warlord undetectable by sight and gives bonuses to defense and saving throws. But the spell Camouflage additionally gives perfect concealment, hiding everything that could reveal the presence of the warlord. Thus his footsteps, his body heat, his breathing, etc., everything is artificially hidden. However, he may let his voice be heard if he wishes to speak. Camouflage also protects against detection, divination and enhanced vision.~
+@7962 = ~Camouflage (Illusion)
+Level: 9
+Range: visual range of the caster
+Duration: 23 rounds
+Casting Time: 8
+Area of Effect: caster
+Saving Throw: none
+
+Like level 5 spell Invisibility, this spell makes the recipient undetectable by sight and gives bonuses to defense and saving throws. But the spell Camouflage additionally gives perfect concealment, hiding everything that could reveal the presence of the recipient. Thus his footsteps, his body heat, his breathing, etc., everything is artificially hidden. However, he may let his voice be heard if he wishes to speak. Camouflage also protects against detection, divination and enhanced vision.~
+@79621 = ~Camouflage (Illusion)
+Level: 9
+Range: visual range of the caster
+Duration: 23 rounds
+Casting Time: 8
+Area of Effect: caster
+Saving Throw: none
+
+Like level 5 spell Invisibility, this spell makes the recipient undetectable by sight and gives bonuses to defense and saving throws. But the spell Camouflage additionally gives perfect concealment, hiding everything that could reveal the presence of the recipient. Thus his footsteps, his body heat, his breathing, etc., everything is artificially hidden. However, he may let his voice be heard if he wishes to speak. Camouflage also protects against detection, divination and enhanced vision.
+
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell:
+They become invisible but are imperfectly covered: +3 to saving throws and 5% chance per round to be detectable, for 15 rounds.~
+
+@797 = ~Mass Control~
+@798 = ~Mass Control (Enchantment)
+Level: 9
+Range: visual range of the caster
+Duration: 1 round / level
+Casting Time: 9
+Area of Effect: 9 m radius
+Saving Throw: negates
+
+By casting this spell, the warlord attempts to take mental control of all creatures in the targeted area. His success depends upon the saving throws of the targets: those who fail a saving throw at -6 come under his control but retain some semblance of lucidity: any violence against them by the mage or an ally breaks the spell's control and frees the creature. Those who are weak enough to fail a saving throw at -2 become puppets under his control, obeying his every command. They cannot free themselves from the grip of spell, even if orders given are opposite to their nature.
+This spell can only control intelligent humanoid creatures. Orders are given by telepathy, language and cultural differences pose no obstacle.~
+@7981 = ~Mass Control (Enchantment)
+Level: 9
+Range: visual range of the caster
+Duration: 2 turns
+Casting Time: 5
+Area of Effect: 9 m radius
+Saving Throw: negates
+
+By casting this spell, the warlord attempts to take mental control of all creatures in the targeted area. His success depends upon the saving throws of the targets: those who fail a saving throw at -6 come under his control but retain some semblance of lucidity: any violence against them by the mage or an ally breaks the spell's control and frees the creature. Those who are weak enough to fail a saving throw at -2 become puppets under his control, obeying his every command. They cannot free themselves from the grip of spell, even if orders given are opposite to their nature.
+This spell can only control intelligent humanoid creatures. Orders are given by telepathy, language and cultural differences pose no obstacle.~
+
+@799 = ~Invulnerability~
+@7910 = ~Invulnerability (Abjuration, Necromancy)
+Level: 9
+Range: caster
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: caster
+Saving Throw: none
+
+Invulnerability is the ultimate protection spell, intended to make the warlord truly immortal. During the 5 rounds of the duration of the spell, the wizard is immune to all types of damage, to all effects of death, disintegration, petrification, and generally, to anything that could put an end to his life. In addition, he automatically succeeds on all saving throws.
+Note: if the wizard is already affected by something harmful when casting the spell, the effect cannot kill him during these 5 rounds, but is not removed and resumes its harmful effects when the spell ends. The spell has such a power that it is impossible to keep it for long.~
+@79101 = ~Invulnerability (Abjuration, Necromancy)
+Level: 9
+Range: visual range of the caster
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: one creature
+Saving Throw: none
+
+As the ultimate protection spell, invulnerability aims to make the recipient truly immortal. During the 5 rounds of the duration of the spell, the recipient is immune to all types of damage, to all effects of death, disintegration, petrification, and generally, to anything that could put an end to his life. In addition, he automatically succeeds on all saving throws.
+Note: if the recipient is already affected by something harmful when casting the spell, the effect cannot kill him during these 5 rounds, but is not removed and resumes its harmful effects when the spell ends. The spell has such a power that it is impossible to keep it for long.~
+@791011 = ~Invulnerability (Abjuration, Necromancy)
+Level: 9
+Range: visual range of the caster
+Duration: 5 rounds
+Casting Time: 4
+Area of Effect: one creature
+Saving Throw: none
+
+As the ultimate protection spell, invulnerability aims to make the recipient truly immortal. During the 5 rounds of the duration of the spell, the recipient is immune to all types of damage, to all effects of death, disintegration, petrification, and generally, to anything that could put an end to his life. In addition, he automatically succeeds on all saving throws.
+Note: if the recipient is already affected by something harmful when casting the spell, the effect cannot kill him during these 5 rounds, but is not removed and resumes its harmful effects when the spell ends. The spell has such a power that it is impossible to keep it for long.
+
+All allies within 5 meters of the recipient also benefit from reduced effects of the spell: they are invulnerable for 3 rounds.~
+
+@7911 = ~Incendiary Cloud~
+@7912 = ~Incendiary Cloud (Evocation)
+Level: 9
+Range: visual range of the caster
+Duration: 1 turn
+Casting Time: 6
+Area of Effect: cloud 9-meter radius
+Saving Throw: half
+
+This spell creates a billowing cloud of roaring flame. Any creature in the area must leave the cloud immediately, or suffer 1D4 points of fire damage per level of the caster each round while in the area of effect with a save each round for half damage.~
+@79121 = ~Incendiary Cloud (Evocation)
+Level: 9
+Range: visual range of the caster
+Duration: 1 turn
+Casting Time: 5
+Area of Effect: cloud 9-meter radius
+Saving Throw: half
+
+This spell creates a billowing cloud of roaring flame. Any creature in the area must leave the cloud immediately, or suffer 20D4 points of fire damage each round while in the area of effect with a save each round for half damage.~
+
+@7913 = ~Drought~
+@7914 = ~Drought (Transmutation)
+Level: 9
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: sphere 12-meter radius
+Saving Throw: half
+
+This spell subjects the chosen area to oppressive heat, like a desert exposed to 2 years of sun without a drop of rain. All life in the area becomes severely dehydrated. All plants, livestock, animals and creatures that have less than 5HD are instantly killed. The survivors will suffer 1D8 points of damage per level of the warlord (25D8 maximum). A save vs. spell halves the damage.~
+@79141 = ~Drought (Transmutation)
+Level: 9
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: sphere 12-meter radius
+Saving Throw: half
+
+This spell subjects the chosen area to oppressive heat, like a desert exposed to 2 years of sun without a drop of rain. All life in the area becomes severely dehydrated. All plants, livestock, animals and creatures that have less than 5HD are instantly killed. The survivors will suffer 1D8 points of damage per level of the warlord (25D8 maximum). A save vs. spell halves the damage.~
+
+@7915 = ~Transformigration~
+@7916 = ~Transformigration (Transmutation)
+Level: 9
+Range: caster
+Duration: instantaneous
+Casting Time: special
+Area of Effect: caster
+Saving Throw: none
+
+The warlord discovered this useful but costly spell while seeking a way to cast magic spontaneously.
+This spell reshapes the energy stored in memorized spells into any spell the caster knows, at three times the normal energy cost.
+In fact, once casting begins, the wizard may choose any spell he knows, which is then cast when the incantation ends. The energy cost makes him forget Transformigration and two other chosen spells among the highest-level spells still memorized.
+Casting Time of this spell depends directly upon the spell that the warlord wants to cast: it matches casting time of the latter.~
+@79161 = ~Transformigration (Transmutation)
+Level: 9
+Range: caster
+Duration: instantaneous
+Casting Time: special
+Area of Effect: caster
+Saving Throw: none
+
+The warlord discovered this useful but costly spell while seeking a way to cast magic spontaneously.
+This spell reshapes the energy stored in memorized spells into any spell the caster knows, at twice the normal energy cost.
+In fact, once casting begins, the wizard may choose any spell he knows, which is then cast when the incantation ends. The energy cost makes him forget Transformigration and one other chosen spell from among the highest-level spells he still has memorized.
+Casting Time of this spell depends directly upon the spell that the warlord wants to cast: it matches casting time of the latter.~
+
+@7917 = ~Vaporization~
+@7918 = ~Vaporization (Evocation, Alteration)
+Level: 9
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 8
+Area of Effect: one creature
+Saving Throw: special
+
+This spell completely destroys the target creature. When the casting is finished, a column of raw magic surrounds the creature, tearing apart its entire being and merging it with the surrounding magic. If it fails a save vs. spell at -6 it is vaporized, transformed into magical particles that disappear along with the column. If the saving throw is successful, the resulting metabolic shock deals 10D10 points of damage.~
+@79181 = ~Vaporization (Evocation, Alteration)
+Level: 9
+Range: visual range of the caster
+Duration: instantaneous
+Casting Time: 5
+Area of Effect: one creature
+Saving Throw: special
+
+This spell completely destroys the target creature. When the casting is finished, a column of raw magic surrounds the creature, tearing apart its entire being and merging it with the surrounding magic. If it fails a save vs. spell at -6 it is vaporized, transformed into magical particles that disappear along with the column. If the saving throw is successful, the resulting metabolic shock deals 10D10 points of damage.~
+

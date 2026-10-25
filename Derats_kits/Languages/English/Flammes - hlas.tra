@@ -1,0 +1,18 @@
+@2111 = ~Fire Alchemy~
+@2112 = ~Fire Alchemy:
+
+This gift allows the Preacher of Flames to create one fire-related potion per day. Each potion requires 100 gp worth of ingredients.~
+@21121 = ~Potion of the Inner Furnace~
+@21122 = ~This potion is dangerous to drink and can even prove fatal. Its main attraction, however, is its secondary effect.
+
+STATISTICS:
+
+The drinker suffers 8d6 points of fire damage (a successful save vs. polymorph at -4 negates this damage), but gains 100% cold resistance for 4 rounds.~
+
+@2113 = ~Rage of the Preacher~
+@2114 = ~Rage of the Preacher:
+
+A Preacher of Flames who has mastered fire can turn the rage within him into intense heat. By channeling his battle frenzy, he unleashes an explosion that incinerates everything nearby.
+All creatures within 10 meters suffer 16d6 points of damage, halved on a successful save vs. spell. Creatures that fail this save must also save vs. death or suffer another 16d6 points of damage, for a total of 32d6 if both saves fail. Magic resistance offers no protection against this supernatural ability.
+Channeling this rage exhausts the preacher. He must save vs. death or fall unconscious for 1d4 rounds.~
+

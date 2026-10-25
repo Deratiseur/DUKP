@@ -1,0 +1,45 @@
+@71009 = ~exalted fighter~
+@71 = ~Exalted Fighter~
+@72 = ~EXALTED FIGHTER: Some warriors live only to fight, swear by war, and dream of nothing but victory. The most fanatical seek every possible source of power to crush their foes.
+If such a fighter discovers an innate gift for magic, he may see it as another source of strength and choose to learn how to wield it. In doing so, he becomes a warlord.
+
+Advantages:
+- No special advantages until he becomes a mage.
+- To dual-class into a mage, he needs only 17 Intelligence and 12 Wisdom; his physical ability scores do not matter.
+
+Disadvantages:
+- Considers only true weapons of war worthy of study.
+- His obsession with power prevents him from being lawful good.
+- Regards ranged combat as cowardly and refuses to use missile weapons.~
+
+@7309 = ~warlord~
+@73 = ~Warlord~
+@74 = ~WARLORD: A warlord is a fanatical fighter who sees his innate arcane gift as a way to become a merciless engine of war. While continuing his martial training, he focuses his magical discoveries on what he considers essential: becoming stronger in battle and devastating enemy ranks. Ignoring traditional magic, he develops his own repertoire of spells, all intended for combat.
+A proud warrior, he shuns "cowardly" tactics such as sheltering behind summoned creatures or fighting from a distance. He has no interest in honorable combat, however, and will inflict the worst torments on his foes, from mental ruin to utter annihilation.
+
+Advantages:
+- Because magic comes to him instinctively, he can continue his martial training, retaining some of his fighting abilities:
+  * Gains 1 additional hit point per level.
+  * Gains a +1 bonus to his saving throw vs. death every 4 levels, up to +5.
+  * Uses the cleric THAC0 progression.
+  * May cast spells in any armor once he has regained his fighter abilities.
+- Reflection during moments of respite allows him to discover new spells regularly.
+- His spell memorization capacity grows faster than that of a conventional mage.
+
+Disadvantages:
+- His magic is innate; he does not understand arcane theory and can neither use magical scrolls nor learn spells from them.
+- Time spent on martial training slows his progress as a mage (-15% experience).
+- Regards ranged combat as cowardly and refuses to use missile weapons.~
+
+@77 = ~I discovered a new spell~
+@7000 = ~I know how to strengthen myself~
+@7001 = ~I know how to create the elements~
+@7002 = ~I know how to manipulate minds~
+@7003 = ~I know how to torment bodies~
+@7004 = ~I know how to master natural forces~
+@7005 = ~I know how to cause death~
+@7006 = ~You are already under the effect of this spell~
+@7007 = ~I am now a Warlord.~
+@7008 = ~I cannot become a Warlord, I am not a mage.~
+@7009 = ~I cannot become a Warlord, I have already advanced in another class.~
+

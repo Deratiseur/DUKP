@@ -1,0 +1,40 @@
+@609 = ~theurgical explorer~
+@61 = ~Theurgical Explorer~
+@62 = ~THEURGICAL EXPLORER: A theurgical explorer is a devoted priest of Azuth who has made it his sacred mission to add as many spells as possible to the god's great encyclopedia. To do so, he embraces arcane magic and explores one of its most unusual branches: wild magic. Others in the faith have done the same, but his profound passion for magic sets him apart in his god's eyes. Only when he vows to dedicate himself entirely to exploring magic in all its forms may he be granted a complete transformation of his divine abilities to help him carry out that mission. He then ceases to be an ordinary priest and becomes a theurgical explorer.
+
+Advantages:
+- Divine dweomer protection: His spells cannot fail through miscast magic or dead magic, and armor does not prevent him from casting mage spells. He can still be interrupted, paralyzed, or silenced.
+- Divine advantage: At levels 8 and 15, gains a -1 bonus to spell casting time.
+- Special divine spell: May cast a special version of Wondrous Recall that restores two priest spells AND two mage spells.
+- Divine reward: Receives the holy symbol of Azuth at level 21.
+
+Disadvantages:
+- Shared entropy: Divine spells have a 5% chance to trigger a wild surge.
+- Alignment is restricted to those allowed to Azuth's clergy.
+
+Special: At character creation, the theurgical explorer automatically becomes a multiclass cleric/wild mage.~
+
+@63 = ~Wondrous Recall (Alteration)
+Sphere: charm, creation
+Level: 6
+Range: 0
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: caster
+Saving Throw: none
+
+This enables the mage to restore two previously cast spells of each type of magic he knows (divine and arcane spells). If no spells have been cast yet, then nothing happens. Wondrous Recall cannot restore 6th-level or greater spells.~
+
+@64 = ~Wondrous Recall (Transmutation)
+Level: 6
+Sphere: charm, creation
+Range: caster
+Duration: instantaneous
+Casting Time: 9
+Area of Effect: caster
+Saving Throw: none
+
+This enables the mage to restore two previously cast spells of each type of magic he knows (divine and arcane spells). If no spells have been cast yet, then nothing happens. Wondrous Recall cannot restore 6th-level or greater spells.~
+
+@65 = ~Divine Advantage: -1 to spell casting time.~
+@66 = ~Theurgical Explorer / Wild Mage~

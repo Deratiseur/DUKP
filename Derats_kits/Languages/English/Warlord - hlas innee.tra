@@ -1,0 +1,41 @@
+@7121 = ~Inner Search~
+@7122 = ~Inner Search
+
+Excluded by: Arcane Research
+
+After discovering his ancestry through Unleash the Beast, the warlord may choose to cultivate his inner power. He now regards his spells as something beyond arcane magic and draws on that power alone to cast them. His gestures still trace runes, but no longer need to be accompanied by long, complex formulas. His spells no longer require a verbal component.~
+
+@7123 = ~Independence from the Weave~
+@7124 = ~Independence from the Weave
+
+Requirement: Inner Search
+
+By distancing himself further from conventional arcane magic, the warlord learns to generate magical energy independently of the Weave. He is no longer affected by dead magic, wild magic or miscast magic.~
+
+@7125 = ~Simplified Manipulations~
+@7126 = ~Simplified Manipulations
+
+Requirement: Independence from the Weave
+
+Spellcasting has become second nature to the warlord. He learns to shorten the familiar gestures, greatly reducing casting times:
+Level 1 and 2 spells: 1 segment
+Level 3 and 4 spells: 2 segments
+Level 5 and 6 spells: 3 segments
+Level 7 and 8 spells: 4 segments
+Level 9 spells: 5 segments
+
+This shortened casting technique, which no longer uses verbal components, cannot benefit from other effects that reduce conventional casting times.~
+
+@7127 = ~Arcane Revolution~
+@7128 = ~Arcane Revolution
+
+Requirement: Simplified Manipulations
+
+Fully embracing his inner power, the warlord transforms the way he stores magical energy. He no longer needs to memorize spells while resting: magic exists within him. He can cast any of his spells at will, up to four spells per spell level.
+
+Effects that alter memorized spells no longer affect this inner magic. Energy in All and Transformigration therefore become unusable, as do items that increase spell memorization capacity.~
+@71286 = ~Level 6 Spells~
+@71287 = ~Level 7 Spells~
+@71288 = ~Level 8 Spells~
+@71289 = ~Level 9 Spells~
+

@@ -1,0 +1,43 @@
+@71111 = ~Arcane Research~
+@71112 = ~Arcane Research
+
+Excluded by: Inner Search
+
+The warlord pursues a deeper understanding of magic as true wizards perceive it, studying runes, mysticism and the fabled Weave.
+Learning to decipher runes allows him to read and release the power of wizard scrolls, though he still cannot learn spells from them.
+He also corrects flaws in the spells he already knows.
+From his next experience level onward, his growing mastery of the arcane allows him to develop level 10 spells. These are memorized in level 9 slots. As his memorization adapts to these demands, he gains one additional level 9 spell slot for every three level 10 spells developed.~
+@711121 = ~Improved Memorization: One Additional Level 9 Spell~
+
+@71113 = ~Arcane Development: Metamagic~
+@71114 = ~Arcane Development: Metamagic
+
+Requirement: Arcane Research
+
+Studying metamagic improves the warlord's use of magical energy. He develops a new spell, Foresight, improves Energy in All and Transformigration, and gains the ability to combine two spells once per day.
+
+Combine Spells: This ability merges two spells so they can be cast together.
+Preparing the combination takes 5 segments. The warlord then chooses two spells, which are removed from memory and replaced by a combined spell with a casting time of 1 segment.
+Any spells may be combined, provided they have the same type of target: both must affect the caster, a creature, or an area.
+The combined spell can remain ready indefinitely, stored outside the warlord's normal spell slots. Another combination cannot be prepared until it has been cast.~
+@711141 = ~Combination of Spells~
+@711142 = ~Combined Spells~
+
+@71115 = ~Arcane Improvement: Depersonalization~
+@71116 = ~Arcane Improvement: Depersonalization
+
+Requirement: Arcane Development: Metamagic
+
+The warlord's study of metamagic and refinement of his spells allow him to cast beneficial spells normally restricted to himself on another creature within visual range. The spell affects that creature as though he had cast it on himself, except for spells that alter abilities based on his dormant or innate abilities.
+
+The unusual complexity of level 10 spells prevents them from being redirected in this way.~
+
+@71117 = ~Arcane Enhancement: Aura Diffusion~
+@71118 = ~Arcane Enhancement: Aura Diffusion
+
+Requirement: Arcane Improvement: Depersonalization
+
+Building on the techniques used by his offensive spells, especially those that affect the mind, the warlord can spread beneficial spells through an aura around the original target. That target receives the full effect; all allies within 5 meters receive the same effects at two-thirds strength and duration.
+
+If the spell does not stack, a creature affected by its aura cannot also receive the main spell, and vice versa.~
+
